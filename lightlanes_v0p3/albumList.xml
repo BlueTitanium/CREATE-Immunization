@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<album name="BLASTFISH" version="0.3" build="20140319">
+	<img name="NO_OBJECT" imgPath="Assets/no-object.png" />
+	<img name="tut_target" imgPath="Assets/target_base.png" />
+	<img name="go_btn" imgPath="Assets/Go_Up.png" />
+	<img name="light" imgPath="Assets/lightbeam.png" />
+	<img name="cannon" imgPath="Assets/Green_CannonS.png" />
+	<img name="mirror" imgPath="Assets/mirror_with_base.png" />
+	<img name="connection" imgPath="Assets/Conx.png" />
+</album>

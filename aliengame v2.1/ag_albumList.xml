@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<album game="AlienGame" version="2.0" build="20140207">
+	<img name="BG_Asteroids" imgPath="Assets/bg_asteroids.jpg" />
+	<img name="BG_Desert1_Day" imgPath="Assets/bg_desert1_day.jpg" />
+	<img name="BG_Desert1_Night" imgPath="Assets/bg_desert1_night.jpg" />
+	<img name="BG_Desert2_Day" imgPath="Assets/bg_desert2_day.jpg" />
+	<img name="BG_Desert2_Night" imgPath="Assets/bg_desert2_night.jpg" />
+	<img name="BG_Loops_Day" imgPath="Assets/bg_loops_day.jpg" />
+	<img name="BG_Loops_Night" imgPath="Assets/bg_loops_night.jpg" />
+	<img name="BG_Pads_Day" imgPath="Assets/bg_pads_day.jpg" />
+	<img name="BG_Pads_Night" imgPath="Assets/bg_pads_night.jpg" />
+	<img name="ico_Asteroids" imgPath="Assets/ico_asteroids.jpg" />
+	<img name="ico_Desert1_Day" imgPath="Assets/ico_desert1_day.jpg" />
+	<img name="ico_Desert1_Night" imgPath="Assets/ico_desert1_night.jpg" />
+	<img name="ico_Desert2_Day" imgPath="Assets/ico_desert2_day.jpg" />
+	<img name="ico_Desert2_Night" imgPath="Assets/ico_desert2_night.jpg" />
+	<img name="ico_Loops_Day" imgPath="Assets/ico_loops_day.jpg" />
+	<img name="ico_Loops_Night" imgPath="Assets/ico_loops_night.jpg" />
+	<img name="ico_Pads_Day" imgPath="Assets/ico_pads_day.jpg" />
+	<img name="ico_Pads_Night" imgPath="Assets/ico_pads_night.jpg" />
+	<img name="tut_good_luck" imgPath="Assets/good_luck.jpg" />
+	<img name="tut_alien_target" imgPath="Assets/ins_01.jpg" />
+	<img name="tut_item_away" imgPath="Assets/ins_02.jpg" />
+	<img name="tut_rule_change" imgPath="Assets/ins_03.jpg" />
+	<img name="tut_radiation" imgPath="Assets/ins_rad.jpg" />
+	<img name="tut_lightning" imgPath="Assets/ins_lightning.jpg" />
+</album>

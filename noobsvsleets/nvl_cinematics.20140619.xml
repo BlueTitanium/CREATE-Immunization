@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>	
+	<Cinematics>
+		<igc id="1" igcfilename="Cinematics/TitleAnimationPage1.swf" loop="yes" removeOn="stageclick:KEYPRESS-ENTER" />
+		<igc id="2" igcfilename="Cinematics/TitleAnimation-Rewrite.swf" loop="no" removeOn="stageclick:KEYPRESS-ENTER" />
+	</Cinematics>

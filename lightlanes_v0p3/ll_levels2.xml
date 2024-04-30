@@ -1,0 +1,1397 @@
+<levels>
+  <level id="1" grid="18x13" guid="A10C2F53-4DD3-1BCA-5DA4-2ADD0E61B156" showScore="no">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="7" type="target" coord="18x1" rotate="0"/>
+    <device id="12" type="mirror" coord="2x2" rotate="0"/>
+    <device id="13" type="mirror" coord="2x1" rotate="0"/>
+    <device id="14" type="mirror" coord="1x1" rotate="-0.5"/>
+    <device id="15" type="mirror" coord="1x2" rotate="-0.5"/>
+    <device id="17" type="wall" coord="7x4" rotate="0"/>
+    <device id="18" type="wall" coord="8x5" rotate="0"/>
+    <device id="19" type="wall" coord="9x6" rotate="0"/>
+    <device id="20" type="wall" coord="10x7" rotate="0"/>
+    <device id="21" type="wall" coord="8x7" rotate="0"/>
+    <device id="22" type="wall" coord="9x8" rotate="0"/>
+    <device id="23" type="wall" coord="10x9" rotate="0"/>
+    <device id="24" type="wall" coord="11x10" rotate="0"/>
+    <device id="25" type="bounce" coord="9x7" rotate="0"/>
+  </level>
+  <level id="2" grid="18x13" guid="10E8B2E4-0BFD-CC48-737D-2AE1E708326C" showScore="no">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="5" type="target" coord="5x3" rotate="1.5"/>
+    <device id="6" type="mirror" coord="7x12" rotate="-1.5"/>
+    <device id="7" type="mirror" coord="6x12" rotate="0"/>
+    <device id="10" type="wall" coord="17x10" rotate="0"/>
+    <device id="11" type="control" coord="7x3" rotate="0.5"/>
+    <device id="12" type="wall" coord="6x3" rotate="0"/>
+    <device id="14" type="gate" coord="5x4" rotate="0.5">
+      <listen toID="11"/>
+    </device>
+    <device id="26" type="bounce" coord="3x10" rotate="0"/>
+    <device id="27" type="bounce" coord="3x11" rotate="0"/>
+    <device id="28" type="bounce" coord="3x12" rotate="0"/>
+    <device id="29" type="bounce" coord="3x13" rotate="0"/>
+    <device id="30" type="wall" coord="4x13" rotate="0"/>
+    <device id="31" type="wall" coord="5x13" rotate="0"/>
+    <device id="32" type="wall" coord="5x12" rotate="0"/>
+    <device id="33" type="wall" coord="5x11" rotate="0"/>
+    <device id="34" type="mirror" coord="6x13" rotate="-0.5"/>
+    <device id="35" type="mirror" coord="7x13" rotate="0"/>
+    <device id="37" type="bounce" coord="8x11" rotate="0"/>
+    <device id="38" type="bounce" coord="9x11" rotate="0"/>
+    <device id="39" type="bounce" coord="10x11" rotate="0"/>
+    <device id="40" type="bounce" coord="11x11" rotate="0"/>
+    <device id="41" type="wall" coord="8x9" rotate="0"/>
+    <device id="42" type="wall" coord="8x10" rotate="0"/>
+    <device id="43" type="wall" coord="9x10" rotate="0"/>
+    <device id="44" type="wall" coord="10x10" rotate="0"/>
+    <device id="45" type="wall" coord="12x11" rotate="0"/>
+    <device id="46" type="wall" coord="13x11" rotate="0"/>
+    <device id="47" type="wall" coord="13x12" rotate="0"/>
+    <device id="48" type="wall" coord="13x13" rotate="0"/>
+    <device id="49" type="bounce" coord="18x13" rotate="0"/>
+    <device id="50" type="bounce" coord="17x13" rotate="0"/>
+    <device id="51" type="bounce" coord="16x13" rotate="0"/>
+    <device id="52" type="bounce" coord="15x13" rotate="0"/>
+    <device id="53" type="wall" coord="2x13" rotate="0"/>
+    <device id="54" type="wall" coord="2x12" rotate="0"/>
+    <device id="55" type="wall" coord="2x11" rotate="0"/>
+    <device id="56" type="wall" coord="1x11" rotate="0"/>
+    <device id="57" type="wall" coord="17x12" rotate="0"/>
+    <device id="58" type="wall" coord="17x11" rotate="0"/>
+    <device id="59" type="wall" coord="18x10" rotate="0"/>
+    <device id="60" type="bounce" coord="18x9" rotate="0"/>
+    <device id="61" type="bounce" coord="18x8" rotate="0"/>
+    <device id="62" type="bounce" coord="18x7" rotate="0"/>
+    <device id="63" type="bounce" coord="18x6" rotate="0"/>
+    <device id="64" type="mirror" coord="14x12" rotate="-0.5"/>
+    <device id="65" type="mirror" coord="15x12" rotate="-1"/>
+    <device id="66" type="mirror" coord="15x11" rotate="-0.5"/>
+    <device id="67" type="mirror" coord="14x11" rotate="0"/>
+  </level>
+  <level id="3" grid="18x13" guid="D92B13DD-310C-680D-6461-DCBC4774122C" showScore="no">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="control" coord="10x6" rotate="-1"/>
+    <device id="2" type="control" coord="6x4" rotate="0.5"/>
+    <device id="5" type="table" coord="10x6" rotate="0">
+      <listen toID="2"/>
+      <spec name="child" value="1"/>
+    </device>
+    <device id="7" type="target" coord="2x11" rotate="1"/>
+    <device id="9" type="gate" coord="3x11" rotate="0">
+      <listen toID="1"/>
+    </device>
+    <device id="28" type="mirror" coord="15x10" rotate="0"/>
+    <device id="29" type="mirror" coord="13x12" rotate="-1"/>
+    <device id="43" type="wall" coord="11x6" rotate="0"/>
+    <device id="44" type="mirror" coord="15x12" rotate="0.5"/>
+    <device id="45" type="mirror" coord="14x11" rotate="0"/>
+  </level>
+  <level id="4" grid="18x13" guid="39CF6093-4272-2071-69ED-2AE71666CBF7" showScore="no">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="7" type="target" coord="18x4" rotate="0"/>
+    <device id="25" type="wall" coord="12x8" rotate="0"/>
+    <device id="26" type="wall" coord="11x9" rotate="0"/>
+    <device id="27" type="wall" coord="10x10" rotate="0"/>
+    <device id="28" type="wall" coord="13x7" rotate="0"/>
+    <device id="29" type="wall" coord="10x8" rotate="0"/>
+    <device id="30" type="mirror" coord="17x12" rotate="0"/>
+    <device id="31" type="mirror" coord="17x13" rotate="-0.5"/>
+    <device id="32" type="mirror" coord="18x13" rotate="0"/>
+    <device id="33" type="mirror" coord="18x12" rotate="-0.5"/>
+    <device id="34" type="bounce" coord="18x2" rotate="0"/>
+    <device id="35" type="bounce" coord="18x1" rotate="0"/>
+    <device id="36" type="bounce" coord="17x1" rotate="0"/>
+    <device id="37" type="bounce" coord="18x6" rotate="0"/>
+    <device id="38" type="bounce" coord="18x7" rotate="0"/>
+    <device id="39" type="bounce" coord="18x8" rotate="0"/>
+    <device id="40" type="bounce" coord="18x9" rotate="0"/>
+    <device id="41" type="bounce" coord="17x7" rotate="0"/>
+    <device id="42" type="bounce" coord="17x8" rotate="0"/>
+    <device id="43" type="bounce" coord="13x8" rotate="0"/>
+    <device id="44" type="bounce" coord="12x9" rotate="0"/>
+    <device id="45" type="bounce" coord="11x10" rotate="0"/>
+    <device id="46" type="wall" coord="9x7" rotate="0"/>
+    <device id="47" type="wall" coord="9x6" rotate="0"/>
+    <device id="48" type="wall" coord="10x5" rotate="0"/>
+    <device id="49" type="wall" coord="1x5" rotate="0"/>
+    <device id="50" type="wall" coord="2x4" rotate="0"/>
+    <device id="51" type="wall" coord="3x5" rotate="0"/>
+    <device id="52" type="wall" coord="3x3" rotate="0"/>
+    <device id="53" type="wall" coord="4x2" rotate="0"/>
+    <device id="54" type="wall" coord="5x1" rotate="0"/>
+    <device id="55" type="wall" coord="4x6" rotate="0"/>
+    <device id="56" type="wall" coord="5x7" rotate="0"/>
+    <device id="57" type="wall" coord="4x8" rotate="0"/>
+    <device id="58" type="wall" coord="3x9" rotate="0"/>
+    <device id="59" type="wall" coord="1x10" rotate="0"/>
+    <device id="60" type="wall" coord="2x11" rotate="0"/>
+    <device id="61" type="wall" coord="3x12" rotate="0"/>
+    <device id="62" type="wall" coord="4x12" rotate="0"/>
+    <device id="63" type="wall" coord="9x11" rotate="0"/>
+    <device id="64" type="mirror" coord="16x12" rotate="-0.5"/>
+    <device id="65" type="mirror" coord="16x13" rotate="0"/>
+    <device id="66" type="mirror" coord="15x12" rotate="0"/>
+    <device id="67" type="mirror" coord="15x13" rotate="-0.5"/>
+    <device id="68" type="mirror" coord="16x11" rotate="0"/>
+    <device id="69" type="mirror" coord="17x11" rotate="0"/>
+  </level>
+  <level id="5" grid="18x13" guid="6960C978-F72E-AA00-7EA6-2E8863F3B23A">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="0" type="target" coord="18x8" rotate="0"/>
+    <device id="1" type="wall" coord="4x5" rotate="0"/>
+    <device id="2" type="wall" coord="4x4" rotate="0"/>
+    <device id="3" type="wall" coord="4x3" rotate="0"/>
+    <device id="4" type="wall" coord="3x3" rotate="0"/>
+    <device id="5" type="wall" coord="3x1" rotate="0"/>
+    <device id="6" type="wall" coord="18x11" rotate="0"/>
+    <device id="7" type="wall" coord="1x7" rotate="0"/>
+    <device id="8" type="wall" coord="3x7" rotate="0"/>
+    <device id="9" type="wall" coord="2x7" rotate="0"/>
+    <device id="10" type="wall" coord="5x7" rotate="0"/>
+    <device id="11" type="wall" coord="7x2" rotate="0"/>
+    <device id="16" type="wall" coord="10x6" rotate="0"/>
+    <device id="17" type="wall" coord="13x6" rotate="0"/>
+    <device id="18" type="wall" coord="13x12" rotate="0"/>
+    <device id="19" type="wall" coord="12x12" rotate="0"/>
+    <device id="20" type="wall" coord="11x7" rotate="0"/>
+    <device id="21" type="wall" coord="6x1" rotate="0"/>
+    <device id="22" type="wall" coord="9x5" rotate="0"/>
+    <device id="23" type="wall" coord="1x2" rotate="0"/>
+    <device id="24" type="wall" coord="18x10" rotate="0"/>
+    <device id="25" type="wall" coord="5x9" rotate="0"/>
+    <device id="26" type="wall" coord="5x10" rotate="0"/>
+    <device id="27" type="wall" coord="4x6" rotate="0"/>
+    <device id="28" type="mirror" coord="2x11" rotate="0"/>
+    <device id="29" type="mirror" coord="1x12" rotate="0"/>
+    <device id="30" type="mirror" coord="1x11" rotate="-0.5"/>
+    <device id="31" type="mirror" coord="1x10" rotate="0"/>
+    <device id="32" type="mirror" coord="2x12" rotate="-0.5"/>
+    <device id="33" type="mirror" coord="2x10" rotate="-0.5"/>
+    <device id="34" type="bounce" coord="12x7" rotate="0"/>
+    <device id="35" type="bounce" coord="17x5" rotate="0"/>
+    <device id="36" type="bounce" coord="18x4" rotate="0"/>
+    <device id="37" type="bounce" coord="18x6" rotate="0"/>
+    <device id="38" type="bounce" coord="18x5" rotate="0"/>
+    <device id="39" type="bounce" coord="7x12" rotate="0"/>
+    <device id="40" type="bounce" coord="17x4" rotate="0"/>
+    <device id="41" type="mirror" coord="3x11" rotate="0"/>
+    <device id="42" type="mirror" coord="1x13" rotate="-1.5"/>
+    <device id="43" type="mirror" coord="2x13" rotate="-1"/>
+    <device id="44" type="mirror" coord="3x10" rotate="0"/>
+    <device id="45" type="bounce" coord="8x11" rotate="0"/>
+    <device id="46" type="bounce" coord="17x3" rotate="0"/>
+    <device id="47" type="bounce" coord="10x1" rotate="0"/>
+    <device id="48" type="bounce" coord="11x1" rotate="0"/>
+    <device id="49" type="bounce" coord="12x1" rotate="0"/>
+  </level>
+  <level id="6" grid="18x13" guid="CDDFDFCE-6931-1A5C-B83E-2E8E6976EB44">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="7" type="target" coord="14x12" rotate="0.5"/>
+    <device id="8" type="wall" coord="15x11" rotate="0"/>
+    <device id="9" type="wall" coord="15x10" rotate="0"/>
+    <device id="10" type="wall" coord="15x9" rotate="0"/>
+    <device id="11" type="wall" coord="13x10" rotate="0"/>
+    <device id="12" type="control" coord="5x6" rotate="-1"/>
+    <device id="14" type="gate" coord="14x9" rotate="-0.5">
+      <listen toID="12"/>
+      <spec name="initpos" value="false"/>
+    </device>
+    <device id="15" type="gate" coord="14x11" rotate="-0.5">
+      <listen toID="12"/>
+      <listen toID="17"/>
+    </device>
+    <device id="17" type="control" coord="12x6" rotate="-1"/>
+    <device id="18" type="mirror" coord="1x12" rotate="0"/>
+    <device id="19" type="mirror" coord="2x12" rotate="0"/>
+    <device id="20" type="mirror" coord="3x12" rotate="0"/>
+    <device id="21" type="mirror" coord="4x12" rotate="0"/>
+    <device id="22" type="mirror" coord="5x12" rotate="0"/>
+    <device id="23" type="mirror" coord="5x13" rotate="-0.5"/>
+    <device id="24" type="mirror" coord="4x13" rotate="-0.5"/>
+    <device id="25" type="mirror" coord="3x13" rotate="-0.5"/>
+    <device id="26" type="mirror" coord="2x13" rotate="-0.5"/>
+    <device id="27" type="mirror" coord="1x13" rotate="-0.5"/>
+  </level>
+  <level id="7" grid="18x13" guid="C74AD7B7-F64B-AC7F-4855-2EDDD33D70E1">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="3" type="mirror" coord="2x13" rotate="-0.5"/>
+    <device id="5" type="target" coord="11x11" rotate="0.5"/>
+    <device id="10" type="mirror" coord="1x13" rotate="0"/>
+    <device id="22" type="wall" coord="6x7" rotate="0"/>
+    <device id="23" type="wall" coord="7x8" rotate="0"/>
+    <device id="24" type="wall" coord="8x7" rotate="0"/>
+    <device id="25" type="wall" coord="9x8" rotate="0"/>
+    <device id="26" type="wall" coord="10x7" rotate="0"/>
+    <device id="27" type="wall" coord="10x8" rotate="0"/>
+    <device id="28" type="wall" coord="10x9" rotate="0"/>
+    <device id="29" type="wall" coord="10x10" rotate="0"/>
+    <device id="30" type="wall" coord="12x10" rotate="0"/>
+    <device id="31" type="wall" coord="12x9" rotate="0"/>
+    <device id="32" type="wall" coord="12x8" rotate="0"/>
+    <device id="33" type="wall" coord="12x7" rotate="0"/>
+    <device id="34" type="wall" coord="13x8" rotate="0"/>
+    <device id="35" type="wall" coord="14x7" rotate="0"/>
+    <device id="36" type="wall" coord="15x8" rotate="0"/>
+    <device id="37" type="wall" coord="16x7" rotate="0"/>
+    <device id="38" type="wall" coord="16x5" rotate="0"/>
+    <device id="39" type="wall" coord="15x5" rotate="0"/>
+    <device id="40" type="wall" coord="14x5" rotate="0"/>
+    <device id="41" type="wall" coord="13x5" rotate="0"/>
+    <device id="42" type="wall" coord="12x5" rotate="0"/>
+    <device id="43" type="wall" coord="11x5" rotate="0"/>
+    <device id="44" type="wall" coord="10x5" rotate="0"/>
+    <device id="45" type="wall" coord="9x5" rotate="0"/>
+    <device id="46" type="wall" coord="8x5" rotate="0"/>
+    <device id="47" type="wall" coord="7x5" rotate="0"/>
+    <device id="48" type="wall" coord="6x5" rotate="0"/>
+    <device id="49" type="wall" coord="4x5" rotate="0"/>
+    <device id="50" type="control" coord="5x6" rotate="-1"/>
+    <device id="51" type="bounce" coord="17x6" rotate="0"/>
+    <device id="52" type="table" coord="11x6" rotate="-1">
+      <listen toID="50"/>
+    </device>
+    <device id="53" type="mirror" coord="1x12" rotate="0"/>
+    <device id="54" type="mirror" coord="2x12" rotate="0"/>
+    <device id="55" type="mirror" coord="3x12" rotate="-0.5"/>
+    <device id="56" type="mirror" coord="3x13" rotate="0"/>
+    <device id="57" type="mirror" coord="4x13" rotate="0"/>
+    <device id="58" type="mirror" coord="2x11" rotate="0"/>
+    <device id="59" type="mirror" coord="1x10" rotate="-0.5"/>
+    <device id="60" type="mirror" coord="1x11" rotate="-0.5"/>
+  </level>
+  <level id="8" grid="18x13" guid="17EF5D62-A634-17C7-D50E-2E930F0612A0">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="3" type="mirror" coord="3x12" rotate="0"/>
+    <device id="4" type="mirror" coord="4x12" rotate="-0.5"/>
+    <device id="7" type="target" coord="16x2" rotate="-0.5"/>
+    <device id="11" type="mirror" coord="2x12" rotate="0"/>
+    <device id="34" type="gate" coord="16x4" rotate="-0.5">
+      <listen toID="45"/>
+      <listen toID="48"/>
+    </device>
+    <device id="35" type="gate" coord="16x6" rotate="-0.5">
+      <listen toID="46"/>
+      <listen toID="48"/>
+    </device>
+    <device id="36" type="gate" coord="16x8" rotate="-0.5">
+      <listen toID="47"/>
+      <listen toID="46"/>
+    </device>
+    <device id="37" type="wall" coord="15x5" rotate="0"/>
+    <device id="38" type="wall" coord="15x3" rotate="0"/>
+    <device id="39" type="wall" coord="15x7" rotate="0"/>
+    <device id="40" type="wall" coord="17x7" rotate="0"/>
+    <device id="41" type="wall" coord="17x5" rotate="0"/>
+    <device id="42" type="wall" coord="17x3" rotate="0"/>
+    <device id="43" type="wall" coord="15x9" rotate="0"/>
+    <device id="44" type="wall" coord="17x9" rotate="0"/>
+    <device id="45" type="control" coord="5x5" rotate="0"/>
+    <device id="46" type="control" coord="10x5" rotate="1"/>
+    <device id="47" type="control" coord="11x9" rotate="-0.5"/>
+    <device id="48" type="control" coord="8x3" rotate="1"/>
+    <device id="49" type="table" coord="16x11" rotate="-0.5">
+      <listen toID="47"/>
+    </device>
+    <device id="50" type="wall" coord="15x10" rotate="0"/>
+    <device id="51" type="wall" coord="17x10" rotate="0"/>
+    <device id="52" type="mirror" coord="3x11" rotate="-1.5"/>
+    <device id="53" type="mirror" coord="1x13" rotate="-0.5"/>
+    <device id="54" type="mirror" coord="2x13" rotate="-0.5"/>
+    <device id="55" type="mirror" coord="3x13" rotate="-0.5"/>
+    <device id="56" type="mirror" coord="4x13" rotate="-0.5"/>
+    <device id="57" type="mirror" coord="5x13" rotate="-0.5"/>
+  </level>
+  <level id="9" grid="18x13" guid="7E49545F-9DCD-253E-80A6-2E9B7F3D9ADD">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="7" type="target" coord="4x11" rotate="1"/>
+    <device id="25" type="mirror" coord="1x13" rotate="0"/>
+    <device id="34" type="mirror" coord="1x12" rotate="0"/>
+    <device id="35" type="mirror" coord="1x11" rotate="0"/>
+    <device id="36" type="mirror" coord="1x10" rotate="0"/>
+    <device id="37" type="mirror" coord="1x9" rotate="0"/>
+    <device id="38" type="mirror" coord="2x9" rotate="-0.5"/>
+    <device id="39" type="mirror" coord="2x10" rotate="-0.5"/>
+    <device id="40" type="mirror" coord="2x11" rotate="-0.5"/>
+    <device id="41" type="mirror" coord="2x12" rotate="-0.5"/>
+    <device id="42" type="mirror" coord="2x13" rotate="-0.5"/>
+    <device id="43" type="mirror" coord="1x1" rotate="-0.5"/>
+    <device id="44" type="mirror" coord="1x2" rotate="0"/>
+    <device id="45" type="mirror" coord="1x3" rotate="0"/>
+    <device id="46" type="mirror" coord="2x3" rotate="0"/>
+    <device id="47" type="mirror" coord="2x2" rotate="0"/>
+    <device id="48" type="mirror" coord="2x1" rotate="0"/>
+    <device id="49" type="wall" coord="3x13" rotate="0"/>
+    <device id="50" type="wall" coord="3x12" rotate="0"/>
+    <device id="51" type="wall" coord="3x11" rotate="0"/>
+    <device id="52" type="wall" coord="3x10" rotate="0"/>
+    <device id="53" type="wall" coord="4x10" rotate="0"/>
+    <device id="54" type="wall" coord="4x9" rotate="0"/>
+    <device id="55" type="wall" coord="5x9" rotate="0"/>
+    <device id="56" type="wall" coord="5x8" rotate="0"/>
+    <device id="57" type="wall" coord="6x8" rotate="0"/>
+    <device id="58" type="wall" coord="7x8" rotate="0"/>
+    <device id="59" type="wall" coord="8x8" rotate="0"/>
+    <device id="60" type="wall" coord="9x8" rotate="0"/>
+    <device id="61" type="wall" coord="10x8" rotate="0"/>
+    <device id="62" type="wall" coord="11x8" rotate="0"/>
+    <device id="63" type="wall" coord="12x8" rotate="0"/>
+    <device id="64" type="wall" coord="13x8" rotate="0"/>
+    <device id="65" type="wall" coord="13x9" rotate="0"/>
+    <device id="66" type="wall" coord="14x9" rotate="0"/>
+    <device id="67" type="wall" coord="14x10" rotate="0"/>
+    <device id="68" type="wall" coord="15x10" rotate="0"/>
+    <device id="69" type="wall" coord="15x11" rotate="0"/>
+    <device id="70" type="wall" coord="15x13" rotate="0"/>
+    <device id="71" type="gate" coord="15x12" rotate="1">
+      <listen toID="72"/>
+    </device>
+    <device id="72" type="control1way" coord="17x11" rotate="-1"/>
+    <device id="73" type="bounce" coord="17x9" rotate="0"/>
+    <device id="74" type="control1way" coord="17x8" rotate="-1"/>
+    <device id="75" type="bounce" coord="17x6" rotate="0"/>
+    <device id="76" type="bounce" coord="17x4" rotate="0"/>
+    <device id="77" type="bounce" coord="17x3" rotate="0"/>
+    <device id="78" type="bounce" coord="17x2" rotate="0"/>
+    <device id="79" type="wall" coord="15x1" rotate="0"/>
+    <device id="80" type="wall" coord="15x2" rotate="0"/>
+    <device id="81" type="wall" coord="14x2" rotate="0"/>
+    <device id="82" type="wall" coord="14x3" rotate="0"/>
+    <device id="83" type="wall" coord="13x3" rotate="0"/>
+    <device id="84" type="wall" coord="13x4" rotate="0"/>
+    <device id="85" type="wall" coord="12x4" rotate="0"/>
+    <device id="86" type="wall" coord="11x4" rotate="0"/>
+    <device id="87" type="wall" coord="10x4" rotate="0"/>
+    <device id="88" type="wall" coord="11x5" rotate="0"/>
+    <device id="89" type="wall" coord="11x7" rotate="0"/>
+    <device id="90" type="wall" coord="7x7" rotate="0"/>
+    <device id="91" type="wall" coord="7x5" rotate="0"/>
+    <device id="92" type="wall" coord="8x4" rotate="0"/>
+    <device id="93" type="wall" coord="7x4" rotate="0"/>
+    <device id="94" type="wall" coord="6x4" rotate="0"/>
+    <device id="95" type="wall" coord="5x4" rotate="0"/>
+    <device id="96" type="wall" coord="5x3" rotate="0"/>
+    <device id="97" type="wall" coord="4x3" rotate="0"/>
+    <device id="98" type="wall" coord="4x2" rotate="0"/>
+    <device id="99" type="wall" coord="3x2" rotate="0"/>
+    <device id="100" type="wall" coord="3x1" rotate="0"/>
+    <device id="101" type="bounce" coord="6x1" rotate="0"/>
+    <device id="102" type="bounce" coord="12x1" rotate="0"/>
+    <device id="103" type="control1way" coord="7x1" rotate="1"/>
+    <device id="104" type="control" coord="11x1" rotate="1"/>
+    <device id="105" type="gate" coord="9x3" rotate="1.5">
+      <listen toID="106"/>
+    </device>
+    <device id="106" type="control" coord="1x5" rotate="-0.5"/>
+    <device id="107" type="control" coord="3x7" rotate="0"/>
+    <device id="108" type="gate" coord="11x6" rotate="0">
+      <listen toID="107"/>
+    </device>
+    <device id="109" type="table" coord="9x6" rotate="0">
+      <listen toID="74"/>
+      <listen toID="103"/>
+      <listen toID="104"/>
+    </device>
+  </level>
+  <level id="10" grid="18x13" guid="373645F3-AD12-6793-89C4-2EB9BC2373E9">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="2" type="control" coord="4x6" rotate="0"/>
+    <device id="3" type="mirror" coord="16x13" rotate="0"/>
+    <device id="5" type="table" coord="7x6" rotate="0">
+      <listen toID="2"/>
+    </device>
+    <device id="6" type="mirror" coord="17x12" rotate="0"/>
+    <device id="7" type="target" coord="7x2" rotate="-0.5"/>
+    <device id="8" type="control" coord="7x10" rotate="-0.5"/>
+    <device id="9" type="gate" coord="7x4" rotate="-0.5">
+      <listen toID="8"/>
+    </device>
+    <device id="10" type="wall" coord="6x3" rotate="0"/>
+    <device id="11" type="mirror" coord="18x13" rotate="-0.5"/>
+    <device id="12" type="control" coord="7x8" rotate="0.5"/>
+    <device id="13" type="gate" coord="10x8" rotate="-0.5">
+      <listen toID="12"/>
+    </device>
+    <device id="14" type="wall" coord="8x3" rotate="0"/>
+    <device id="15" type="wall" coord="7x1" rotate="0"/>
+    <device id="16" type="wall" coord="9x9" rotate="0"/>
+    <device id="17" type="wall" coord="8x9" rotate="0"/>
+    <device id="18" type="wall" coord="6x11" rotate="0"/>
+    <device id="19" type="wall" coord="5x12" rotate="0"/>
+    <device id="29" type="wall" coord="4x13" rotate="0"/>
+    <device id="30" type="wall" coord="11x7" rotate="0"/>
+    <device id="31" type="wall" coord="11x6" rotate="0"/>
+    <device id="32" type="wall" coord="10x5" rotate="0"/>
+    <device id="33" type="wall" coord="9x4" rotate="0"/>
+    <device id="34" type="wall" coord="12x5" rotate="0"/>
+    <device id="37" type="wall" coord="16x3" rotate="0"/>
+    <device id="38" type="wall" coord="16x5" rotate="0"/>
+    <device id="40" type="wall" coord="18x6" rotate="0"/>
+    <device id="41" type="bounce" coord="14x4" rotate="0"/>
+    <device id="42" type="bounce" coord="17x5" rotate="0"/>
+    <device id="44" type="control" coord="13x11" rotate="1"/>
+    <device id="45" type="wifi" coord="14x13" rotate="-0.5">
+      <listen toID="44"/>
+    </device>
+    <device id="46" type="gate" coord="15x4" rotate="-1.5">
+      <listen toID="47"/>
+    </device>
+    <device id="47" type="wifi" coord="18x5" rotate="0"/>
+    <device id="49" type="bounce" coord="11x9" rotate="0"/>
+    <device id="54" type="bounce" coord="8x2" rotate="0"/>
+    <device id="58" type="gate" coord="13x4" rotate="-0.5">
+      <listen toID="59"/>
+    </device>
+    <device id="59" type="control" coord="11x2" rotate="-1"/>
+    <device id="60" type="mirror" coord="18x12" rotate="-0.5"/>
+    <device id="61" type="mirror" coord="17x1" rotate="0"/>
+    <device id="62" type="mirror" coord="18x11" rotate="-0.5"/>
+    <device id="63" type="mirror" coord="18x1" rotate="0.5"/>
+    <device id="64" type="mirror" coord="17x13" rotate="0.5"/>
+    <device id="65" type="mirror" coord="18x2" rotate="-0.5"/>
+    <device id="66" type="mirror" coord="17x2" rotate="0.5"/>
+  </level>
+  <level id="11" grid="18x13" guid="C8C94F7B-8C1E-1A28-191B-2F5FD11ECC90">
+    <cannon yPos="1" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="target" coord="15x12" rotate="0.5"/>
+    <device id="2" type="wall" coord="18x3" rotate="0"/>
+    <device id="3" type="wall" coord="17x3" rotate="0"/>
+    <device id="4" type="wall" coord="16x3" rotate="0"/>
+    <device id="5" type="wall" coord="2x6" rotate="0"/>
+    <device id="6" type="wall" coord="3x6" rotate="0"/>
+    <device id="7" type="wall" coord="4x6" rotate="0"/>
+    <device id="8" type="wall" coord="5x6" rotate="0"/>
+    <device id="9" type="wall" coord="6x6" rotate="0"/>
+    <device id="10" type="wall" coord="6x7" rotate="0"/>
+    <device id="11" type="wall" coord="6x8" rotate="0"/>
+    <device id="12" type="wall" coord="6x9" rotate="0"/>
+    <device id="16" type="wall" coord="14x8" rotate="0"/>
+    <device id="17" type="wall" coord="12x6" rotate="0"/>
+    <device id="18" type="wall" coord="12x5" rotate="0"/>
+    <device id="19" type="wall" coord="12x3" rotate="0"/>
+    <device id="20" type="wall" coord="12x4" rotate="0"/>
+    <device id="21" type="wall" coord="8x4" rotate="0"/>
+    <device id="22" type="wall" coord="8x2" rotate="0"/>
+    <device id="23" type="wall" coord="8x3" rotate="0"/>
+    <device id="24" type="control" coord="6x11" rotate="0"/>
+    <device id="25" type="table" coord="15x2" rotate="0.5">
+      <listen toID="53"/>
+    </device>
+    <device id="26" type="wall" coord="5x10" rotate="0"/>
+    <device id="27" type="wall" coord="5x12" rotate="0"/>
+    <device id="28" type="gate" coord="2x11" rotate="0">
+      <listen toID="29"/>
+    </device>
+    <device id="29" type="control" coord="9x7" rotate="-0.5"/>
+    <device id="30" type="wall" coord="14x10" rotate="0"/>
+    <device id="31" type="wall" coord="13x7" rotate="0"/>
+    <device id="33" type="wall" coord="13x11" rotate="0"/>
+    <device id="34" type="wall" coord="15x13" rotate="0"/>
+    <device id="35" type="wall" coord="14x12" rotate="0"/>
+    <device id="36" type="wall" coord="11x7" rotate="0"/>
+    <device id="37" type="table" coord="4x11" rotate="0">
+      <listen toID="24"/>
+      <spec name="child" value="38"/>
+    </device>
+    <device id="38" type="control" coord="4x11" rotate="0.5"/>
+    <device id="39" type="gate" coord="13x2" rotate="-1">
+      <listen toID="38"/>
+    </device>
+    <device id="40" type="wall" coord="14x1" rotate="0"/>
+    <device id="41" type="wall" coord="14x9" rotate="0"/>
+    <device id="42" type="wall" coord="10x8" rotate="0"/>
+    <device id="43" type="mirror" coord="17x13" rotate="-0.5"/>
+    <device id="44" type="mirror" coord="17x12" rotate="0"/>
+    <device id="45" type="mirror" coord="18x12" rotate="-0.5"/>
+    <device id="46" type="mirror" coord="18x13" rotate="0"/>
+    <device id="47" type="mirror" coord="17x11" rotate="0"/>
+    <device id="48" type="mirror" coord="18x9" rotate="0"/>
+    <device id="49" type="mirror" coord="17x10" rotate="0"/>
+    <device id="50" type="mirror" coord="18x11" rotate="-0.5"/>
+    <device id="51" type="mirror" coord="18x10" rotate="-0.5"/>
+    <device id="52" type="wall" coord="5x13" rotate="0"/>
+    <device id="53" type="wifi" coord="18x1" rotate="-0.5"/>
+    <device id="54" type="wifi" coord="2x13" rotate="0">
+      <listen toID="38"/>
+    </device>
+  </level>
+  <level id="12" grid="18x13" guid="4253E506-704B-2F10-CAAD-2ED9F095884B">
+    <cannon yPos="3" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="2" type="control" coord="18x5" rotate="-0.5"/>
+    <device id="3" type="mirror" coord="16x13" rotate="0"/>
+    <device id="4" type="table" coord="3x10" rotate="-0.5">
+      <listen toID="22"/>
+      <listen toID="73"/>
+    </device>
+    <device id="5" type="target" coord="3x6" rotate="-0.5"/>
+    <device id="6" type="control" coord="7x3" rotate="0"/>
+    <device id="7" type="wifi" coord="9x1" rotate="-0.5">
+      <listen toID="6"/>
+    </device>
+    <device id="8" type="gate" coord="3x8" rotate="-0.5">
+      <listen toID="22"/>
+    </device>
+    <device id="11" type="gate" coord="6x10" rotate="0">
+      <listen toID="23"/>
+    </device>
+    <device id="12" type="gate" coord="10x8" rotate="-0.5">
+      <listen toID="23"/>
+    </device>
+    <device id="14" type="wall" coord="4x7" rotate="0"/>
+    <device id="15" type="wall" coord="2x7" rotate="0"/>
+    <device id="16" type="wall" coord="4x9" rotate="0"/>
+    <device id="17" type="wall" coord="1x6" rotate="0"/>
+    <device id="22" type="wifi" coord="1x9" rotate="0.5"/>
+    <device id="23" type="wifi" coord="6x7" rotate="1"/>
+    <device id="26" type="wall" coord="9x7" rotate="0"/>
+    <device id="27" type="wall" coord="8x6" rotate="0"/>
+    <device id="29" type="wall" coord="7x5" rotate="0"/>
+    <device id="30" type="wall" coord="5x5" rotate="0"/>
+    <device id="31" type="wall" coord="6x4" rotate="0"/>
+    <device id="32" type="wall" coord="4x5" rotate="0"/>
+    <device id="36" type="table" coord="10x7" rotate="0.5">
+      <listen toID="2"/>
+      <spec name="child" value="46"/>
+    </device>
+    <device id="37" type="wall" coord="11x9" rotate="0"/>
+    <device id="38" type="wall" coord="12x10" rotate="0"/>
+    <device id="39" type="wall" coord="11x11" rotate="0"/>
+    <device id="41" type="wall" coord="10x11" rotate="0"/>
+    <device id="42" type="wall" coord="6x2" rotate="0"/>
+    <device id="43" type="wall" coord="5x1" rotate="0"/>
+    <device id="44" type="wall" coord="2x11" rotate="0"/>
+    <device id="45" type="wall" coord="1x12" rotate="0"/>
+    <device id="46" type="gate" coord="10x7" rotate="0">
+      <listen toID="47"/>
+    </device>
+    <device id="47" type="control" coord="12x2" rotate="1"/>
+    <device id="48" type="mirror" coord="17x12" rotate="0"/>
+    <device id="49" type="mirror" coord="18x11" rotate="0"/>
+    <device id="51" type="mirror" coord="18x12" rotate="1"/>
+    <device id="53" type="mirror" coord="15x13" rotate="0.5"/>
+    <device id="54" type="mirror" coord="17x13" rotate="0"/>
+    <device id="55" type="mirror" coord="18x13" rotate="0"/>
+    <device id="56" type="wall" coord="12x12" rotate="0"/>
+    <device id="57" type="wall" coord="13x13" rotate="0"/>
+    <device id="58" type="wall" coord="9x11" rotate="0"/>
+    <device id="59" type="wall" coord="8x12" rotate="0"/>
+    <device id="60" type="wall" coord="7x13" rotate="0"/>
+    <device id="61" type="bounce" coord="18x1" rotate="0"/>
+    <device id="62" type="bounce" coord="1x13" rotate="0"/>
+    <device id="63" type="bounce" coord="1x1" rotate="0"/>
+    <device id="67" type="wall" coord="15x3" rotate="0"/>
+    <device id="68" type="wall" coord="16x4" rotate="0"/>
+    <device id="69" type="bounce" coord="13x11" rotate="0"/>
+    <device id="70" type="mirror" coord="18x10" rotate="0"/>
+    <device id="71" type="mirror" coord="17x11" rotate="-0.5"/>
+    <device id="72" type="mirror" coord="16x12" rotate="0"/>
+    <device id="73" type="control1way" coord="3x12" rotate="-0.5"/>
+    <device id="74" type="mirror" coord="18x9" rotate="0"/>
+    <device id="75" type="mirror" coord="14x13" rotate="-0.5"/>
+  </level>
+  <level id="13" grid="18x13" guid="58AD5BCD-C457-B451-0C00-2F7178E8AD17">
+    <cannon yPos="8" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="target" coord="6x10" rotate="1.5"/>
+    <device id="46" type="bounce" coord="8x12" rotate="0"/>
+    <device id="47" type="bounce" coord="4x12" rotate="0"/>
+    <device id="48" type="bounce" coord="7x9" rotate="0"/>
+    <device id="50" type="bounce" coord="5x9" rotate="0"/>
+    <device id="51" type="table" coord="10x5" rotate="0.5">
+      <listen toID="54"/>
+    </device>
+    <device id="52" type="table" coord="12x9" rotate="0">
+      <listen toID="54"/>
+    </device>
+    <device id="54" type="control1way" coord="15x2" rotate="-0.5"/>
+    <device id="55" type="bounce" coord="1x2" rotate="0"/>
+    <device id="56" type="wall" coord="2x2" rotate="0"/>
+    <device id="58" type="wall" coord="18x13" rotate="0"/>
+    <device id="59" type="wall" coord="11x7" rotate="0"/>
+    <device id="60" type="bounce" coord="4x10" rotate="0"/>
+    <device id="61" type="bounce" coord="8x10" rotate="0"/>
+    <device id="62" type="gate" coord="3x11" rotate="0">
+      <listen toID="76"/>
+    </device>
+    <device id="63" type="gate" coord="9x11" rotate="0">
+      <listen toID="70"/>
+    </device>
+    <device id="67" type="bounce" coord="7x13" rotate="0"/>
+    <device id="68" type="bounce" coord="5x13" rotate="0"/>
+    <device id="70" type="control" coord="4x5" rotate="0.5"/>
+    <device id="71" type="mirror" coord="6x13" rotate="0"/>
+    <device id="72" type="mirror" coord="8x9" rotate="0.5"/>
+    <device id="73" type="mirror" coord="7x12" rotate="-1"/>
+    <device id="74" type="mirror" coord="6x11" rotate="0"/>
+    <device id="75" type="mirror" coord="7x11" rotate="0"/>
+    <device id="76" type="control" coord="17x3" rotate="-0.5"/>
+    <device id="77" type="wall" coord="16x11" rotate="0"/>
+    <device id="78" type="bounce" coord="17x12" rotate="0"/>
+    <device id="79" type="wall" coord="1x3" rotate="0"/>
+    <device id="80" type="mirror" coord="5x10" rotate="0"/>
+    <device id="81" type="wall" coord="16x2" rotate="0"/>
+    <device id="82" type="mirror" coord="6x12" rotate="0"/>
+    <device id="83" type="mirror" coord="4x9" rotate="0"/>
+    <device id="84" type="mirror" coord="5x11" rotate="0.5"/>
+    <device id="85" type="mirror" coord="5x12" rotate="0"/>
+    <device id="86" type="mirror" coord="8x11" rotate="0"/>
+    <device id="87" type="mirror" coord="4x11" rotate="0"/>
+    <device id="88" type="mirror" coord="7x10" rotate="-0.5"/>
+  </level>
+  <level id="14" grid="18x13" guid="5C9C2964-FDD7-AE1B-B39E-2ECAAF579ABA">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="8" type="target" coord="1x13" rotate="-1"/>
+    <device id="12" type="gate" coord="2x12" rotate="-0.5">
+      <listen toID="51"/>
+      <listen toID="36"/>
+      <listen toID="19"/>
+      <spec name="initpos" value="false"/>
+    </device>
+    <device id="13" type="gate" coord="2x11" rotate="-0.5">
+      <listen toID="52"/>
+      <listen toID="38"/>
+      <listen toID="39"/>
+      <listen toID="30"/>
+    </device>
+    <device id="14" type="gate" coord="3x13" rotate="0">
+      <listen toID="50"/>
+      <listen toID="32"/>
+      <listen toID="31"/>
+      <listen toID="21"/>
+    </device>
+    <device id="16" type="gate" coord="4x13" rotate="0">
+      <listen toID="49"/>
+      <listen toID="37"/>
+      <listen toID="33"/>
+      <listen toID="18"/>
+      <listen toID="20"/>
+      <spec name="initpos" value="false"/>
+    </device>
+    <device id="17" type="bounce" coord="3x12" rotate="0"/>
+    <device id="18" type="control" coord="10x9" rotate="-0.5"/>
+    <device id="19" type="control" coord="10x8" rotate="-0.5"/>
+    <device id="20" type="control" coord="11x9" rotate="-1.5"/>
+    <device id="21" type="control" coord="11x8" rotate="-0.5"/>
+    <device id="22" type="wall" coord="12x11" rotate="0"/>
+    <device id="23" type="wall" coord="13x12" rotate="0"/>
+    <device id="24" type="wall" coord="13x11" rotate="0"/>
+    <device id="25" type="wall" coord="12x8" rotate="0"/>
+    <device id="26" type="wall" coord="12x9" rotate="0"/>
+    <device id="27" type="wall" coord="12x10" rotate="0"/>
+    <device id="28" type="wall" coord="13x10" rotate="0"/>
+    <device id="29" type="wall" coord="13x9" rotate="0"/>
+    <device id="30" type="control" coord="12x7" rotate="-1"/>
+    <device id="31" type="control" coord="13x7" rotate="1"/>
+    <device id="32" type="control" coord="13x6" rotate="1"/>
+    <device id="33" type="control" coord="14x6" rotate="1"/>
+    <device id="34" type="bounce" coord="13x5" rotate="0"/>
+    <device id="35" type="bounce" coord="12x5" rotate="0"/>
+    <device id="36" type="control" coord="11x5" rotate="-0.5"/>
+    <device id="37" type="control" coord="10x5" rotate="-0.5"/>
+    <device id="38" type="control" coord="10x4" rotate="-0.5"/>
+    <device id="39" type="control" coord="11x4" rotate="0.5"/>
+    <device id="40" type="wall" coord="9x5" rotate="0"/>
+    <device id="41" type="wall" coord="8x5" rotate="0"/>
+    <device id="42" type="wall" coord="8x4" rotate="0"/>
+    <device id="43" type="wall" coord="9x4" rotate="0"/>
+    <device id="44" type="wall" coord="9x1" rotate="0"/>
+    <device id="45" type="wall" coord="9x2" rotate="0"/>
+    <device id="46" type="wall" coord="9x3" rotate="0"/>
+    <device id="47" type="wall" coord="8x3" rotate="0"/>
+    <device id="48" type="wall" coord="8x2" rotate="0"/>
+    <device id="49" type="control" coord="9x6" rotate="-1"/>
+    <device id="50" type="control" coord="8x6" rotate="0"/>
+    <device id="51" type="control" coord="8x7" rotate="-1"/>
+    <device id="52" type="control" coord="7x7" rotate="-1"/>
+    <device id="53" type="bounce" coord="8x8" rotate="0"/>
+    <device id="54" type="bounce" coord="9x8" rotate="0"/>
+    <device id="55" type="mirror" coord="1x1" rotate="0"/>
+    <device id="56" type="mirror" coord="2x1" rotate="0"/>
+    <device id="57" type="mirror" coord="3x1" rotate="0"/>
+    <device id="58" type="mirror" coord="4x1" rotate="0"/>
+    <device id="59" type="mirror" coord="4x2" rotate="0"/>
+    <device id="60" type="mirror" coord="3x2" rotate="-0.5"/>
+    <device id="61" type="mirror" coord="2x2" rotate="-0.5"/>
+    <device id="62" type="mirror" coord="1x2" rotate="-0.5"/>
+  </level>
+  <level id="15" grid="18x13" guid="113D4D08-3274-6FAD-05A9-DCBDD4EB5BD7">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="7" type="target" coord="7x1" rotate="-0.5"/>
+    <device id="25" type="control" coord="8x10" rotate="0"/>
+    <device id="26" type="table" coord="7x8" rotate="1">
+      <listen toID="25"/>
+      <spec name="child" value="27"/>
+    </device>
+    <device id="27" type="control" coord="7x8" rotate="1"/>
+    <device id="28" type="wifi" coord="9x8" rotate="1">
+      <listen toID="27"/>
+    </device>
+    <device id="29" type="gate" coord="7x2" rotate="1.5">
+      <listen toID="32"/>
+    </device>
+    <device id="30" type="gate" coord="7x3" rotate="-0.5">
+      <listen toID="31"/>
+    </device>
+    <device id="31" type="wifi" coord="5x1" rotate="1"/>
+    <device id="32" type="control" coord="10x6" rotate="0"/>
+    <device id="34" type="table" coord="7x6" rotate="0">
+      <listen toID="32"/>
+      <spec name="child" value="35"/>
+    </device>
+    <device id="35" type="control" coord="7x6" rotate="0"/>
+    <device id="36" type="mirror" coord="16x3" rotate="-0.5"/>
+    <device id="37" type="mirror" coord="16x4" rotate="0"/>
+    <device id="38" type="mirror" coord="18x5" rotate="-0.5"/>
+    <device id="39" type="mirror" coord="17x3" rotate="0"/>
+    <device id="40" type="mirror" coord="17x4" rotate="0.5"/>
+  </level>
+  <level id="16" grid="18x13" guid="4D734D08-8574-443A-60B8-2FFB79C22606">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="3" type="mirror" coord="17x9" rotate="0"/>
+    <device id="5" type="target" coord="2x10" rotate="-1"/>
+    <device id="8" type="control" coord="5x3" rotate="-1"/>
+    <device id="9" type="control" coord="8x3" rotate="-1"/>
+    <device id="12" type="wall" coord="3x9" rotate="0"/>
+    <device id="13" type="wall" coord="5x7" rotate="0"/>
+    <device id="19" type="wall" coord="8x12" rotate="0"/>
+    <device id="20" type="wall" coord="9x11" rotate="0"/>
+    <device id="23" type="wall" coord="8x8" rotate="0"/>
+    <device id="24" type="wall" coord="9x9" rotate="0"/>
+    <device id="26" type="wall" coord="1x11" rotate="0"/>
+    <device id="29" type="gate" coord="10x8" rotate="-0.5">
+      <listen toID="9"/>
+      <listen toID="8"/>
+    </device>
+    <device id="30" type="wall" coord="11x9" rotate="0"/>
+    <device id="31" type="wall" coord="12x10" rotate="0"/>
+    <device id="32" type="wall" coord="11x11" rotate="0"/>
+    <device id="33" type="wall" coord="12x12" rotate="0"/>
+    <device id="34" type="wall" coord="13x13" rotate="0"/>
+    <device id="35" type="wall" coord="7x13" rotate="0"/>
+    <device id="36" type="mirror" coord="12x4" rotate="1"/>
+    <device id="37" type="mirror" coord="17x12" rotate="0"/>
+    <device id="38" type="mirror" coord="17x5" rotate="0"/>
+    <device id="39" type="wall" coord="3x7" rotate="0"/>
+    <device id="40" type="wall" coord="3x6" rotate="0"/>
+    <device id="41" type="wall" coord="3x5" rotate="0"/>
+    <device id="42" type="wall" coord="4x4" rotate="0"/>
+    <device id="43" type="wall" coord="2x1" rotate="0"/>
+    <device id="44" type="wall" coord="1x2" rotate="0"/>
+    <device id="45" type="wall" coord="3x2" rotate="0"/>
+    <device id="46" type="mirror" coord="17x11" rotate="0"/>
+    <device id="47" type="mirror" coord="17x6" rotate="0.5"/>
+    <device id="48" type="mirror" coord="17x10" rotate="0"/>
+    <device id="49" type="mirror" coord="17x7" rotate="0"/>
+    <device id="50" type="wall" coord="7x7" rotate="0"/>
+    <device id="51" type="wall" coord="6x6" rotate="0"/>
+    <device id="52" type="wall" coord="8x6" rotate="0"/>
+    <device id="53" type="wall" coord="7x5" rotate="0"/>
+    <device id="54" type="bounce" coord="2x8" rotate="0"/>
+    <device id="55" type="bounce" coord="1x9" rotate="0"/>
+    <device id="56" type="bounce" coord="5x5" rotate="0"/>
+    <device id="58" type="wifi" coord="1x13" rotate="0"/>
+    <device id="59" type="control" coord="11x3" rotate="0.5"/>
+    <device id="60" type="gate" coord="4x11" rotate="-0.5">
+      <listen toID="58"/>
+    </device>
+    <device id="61" type="table" coord="4x10" rotate="0">
+      <listen toID="64"/>
+      <spec name="child" value="63"/>
+    </device>
+    <device id="62" type="wifi" coord="18x13" rotate="0">
+      <listen toID="59"/>
+    </device>
+    <device id="63" type="control" coord="4x10" rotate="-0.5"/>
+    <device id="64" type="control" coord="14x6" rotate="-0.5"/>
+    <device id="65" type="mirror" coord="14x4" rotate="0"/>
+    <device id="66" type="mirror" coord="17x8" rotate="-0.5"/>
+    <device id="67" type="mirror" coord="17x4" rotate="-0.5"/>
+    <device id="68" type="mirror" coord="13x4" rotate="-0.5"/>
+    <device id="69" type="mirror" coord="15x4" rotate="-0.5"/>
+    <device id="70" type="mirror" coord="16x4" rotate="0"/>
+  </level>
+  <level id="17" grid="18x13" guid="34903B18-6148-0B6B-97F7-2FB6BA0E2E5A">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="control" coord="8x3" rotate="0.5"/>
+    <device id="3" type="mirror" coord="6x13" rotate="0"/>
+    <device id="4" type="mirror" coord="6x12" rotate="-0.5"/>
+    <device id="5" type="table" coord="3x7" rotate="0.5">
+      <listen toID="28"/>
+      <listen toID="46"/>
+    </device>
+    <device id="6" type="mirror" coord="5x12" rotate="0"/>
+    <device id="7" type="target" coord="8x1" rotate="-0.5"/>
+    <device id="8" type="control" coord="17x5" rotate="0.5"/>
+    <device id="9" type="gate" coord="8x2" rotate="0.5">
+      <listen toID="8"/>
+      <listen toID="1"/>
+      <spec name="initpos" value="false"/>
+    </device>
+    <device id="10" type="wall" coord="2x3" rotate="0"/>
+    <device id="12" type="wall" coord="10x6" rotate="0"/>
+    <device id="13" type="wall" coord="12x6" rotate="0"/>
+    <device id="14" type="wall" coord="12x8" rotate="0"/>
+    <device id="15" type="wall" coord="9x10" rotate="0"/>
+    <device id="16" type="wall" coord="8x10" rotate="0"/>
+    <device id="17" type="wall" coord="7x10" rotate="0"/>
+    <device id="18" type="bounce" coord="6x9" rotate="0"/>
+    <device id="19" type="bounce" coord="5x8" rotate="0"/>
+    <device id="20" type="bounce" coord="4x3" rotate="0"/>
+    <device id="21" type="bounce" coord="5x3" rotate="0"/>
+    <device id="22" type="bounce" coord="10x2" rotate="0"/>
+    <device id="23" type="bounce" coord="10x9" rotate="0"/>
+    <device id="24" type="bounce" coord="11x5" rotate="0"/>
+    <device id="25" type="mirror" coord="7x13" rotate="-0.5"/>
+    <device id="26" type="mirror" coord="4x12" rotate="0"/>
+    <device id="28" type="control1way" coord="5x6" rotate="0.5"/>
+    <device id="29" type="gate" coord="11x7" rotate="1">
+      <listen toID="46"/>
+      <listen toID="53"/>
+    </device>
+    <device id="33" type="wall" coord="12x9" rotate="0"/>
+    <device id="34" type="wall" coord="13x10" rotate="0"/>
+    <device id="35" type="wall" coord="14x9" rotate="0"/>
+    <device id="36" type="wall" coord="15x8" rotate="0"/>
+    <device id="37" type="bounce" coord="16x9" rotate="0"/>
+    <device id="38" type="bounce" coord="17x8" rotate="0"/>
+    <device id="39" type="bounce" coord="18x7" rotate="0"/>
+    <device id="40" type="bounce" coord="10x8" rotate="0"/>
+    <device id="43" type="mirror" coord="3x12" rotate="-0.5"/>
+    <device id="44" type="mirror" coord="1x10" rotate="0"/>
+    <device id="45" type="mirror" coord="1x12" rotate="-0.5"/>
+    <device id="46" type="control1way" coord="16x12" rotate="0"/>
+    <device id="47" type="mirror" coord="2x12" rotate="0"/>
+    <device id="48" type="mirror" coord="1x11" rotate="-0.5"/>
+    <device id="49" type="mirror" coord="7x12" rotate="-0.5"/>
+    <device id="50" type="gate" coord="10x4" rotate="0">
+      <listen toID="8"/>
+    </device>
+    <device id="51" type="wall" coord="11x3" rotate="0"/>
+    <device id="52" type="wall" coord="11x1" rotate="0"/>
+    <device id="53" type="control" coord="2x10" rotate="0"/>
+    <device id="54" type="mirror" coord="2x13" rotate="0"/>
+    <device id="55" type="mirror" coord="3x13" rotate="0"/>
+    <device id="56" type="mirror" coord="1x13" rotate="0"/>
+    <device id="57" type="mirror" coord="5x13" rotate="-0.5"/>
+    <device id="58" type="mirror" coord="2x11" rotate="0"/>
+    <device id="59" type="mirror" coord="4x13" rotate="0"/>
+    <device id="60" type="mirror" coord="3x11" rotate="-0.5"/>
+  </level>
+  <level id="18" grid="18x13" guid="24E10088-F170-F5CA-2FE7-2EF8E435BEF7">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="control1way" coord="14x6" rotate="1"/>
+    <device id="2" type="table" coord="10x9" rotate="0">
+      <listen toID="1"/>
+      <listen toID="14"/>
+      <spec name="child" value="6"/>
+    </device>
+    <device id="4" type="mirror" coord="2x10" rotate="-0.5"/>
+    <device id="5" type="mirror" coord="2x11" rotate="0"/>
+    <device id="6" type="target" coord="10x9" rotate="-1"/>
+    <device id="7" type="wall" coord="9x10" rotate="0"/>
+    <device id="8" type="mirror" coord="2x9" rotate="-1"/>
+    <device id="9" type="mirror" coord="3x9" rotate="-0.5"/>
+    <device id="10" type="wall" coord="10x11" rotate="0"/>
+    <device id="11" type="wall" coord="11x10" rotate="0"/>
+    <device id="12" type="mirror" coord="4x9" rotate="0"/>
+    <device id="13" type="mirror" coord="3x10" rotate="0"/>
+    <device id="14" type="control" coord="4x6" rotate="-1"/>
+    <device id="15" type="wall" coord="2x5" rotate="0"/>
+    <device id="16" type="wall" coord="1x5" rotate="0"/>
+    <device id="17" type="wall" coord="1x7" rotate="0"/>
+    <device id="18" type="wall" coord="2x7" rotate="0"/>
+    <device id="19" type="wall" coord="3x5" rotate="0"/>
+    <device id="20" type="wall" coord="3x7" rotate="0"/>
+    <device id="22" type="bounce" coord="18x6" rotate="0"/>
+  </level>
+  <level id="19" grid="18x13" guid="ACAF9D22-2AEB-D7C7-EC27-DCBDD4EBEEA7">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="0" type="target" coord="17x12" rotate="0"/>
+    <device id="1" type="table" coord="2x6" rotate="-1.5">
+      <listen toID="3"/>
+    </device>
+    <device id="3" type="control1way" coord="6x10" rotate="0"/>
+    <device id="5" type="control" coord="13x7" rotate="0.5"/>
+    <device id="7" type="table" coord="15x12" rotate="1.5">
+      <listen toID="5"/>
+      <spec name="child" value="39"/>
+    </device>
+    <device id="8" type="mirror" coord="18x9" rotate="-0.5"/>
+    <device id="9" type="mirror" coord="18x7" rotate="-0.5"/>
+    <device id="10" type="bounce" coord="7x13" rotate="0"/>
+    <device id="11" type="wall" coord="8x12" rotate="0"/>
+    <device id="15" type="wall" coord="12x12" rotate="0"/>
+    <device id="17" type="bounce" coord="13x13" rotate="0"/>
+    <device id="18" type="mirror" coord="18x8" rotate="-0.5"/>
+    <device id="20" type="wall" coord="6x5" rotate="0"/>
+    <device id="21" type="wall" coord="7x4" rotate="0"/>
+    <device id="22" type="wall" coord="6x3" rotate="0"/>
+    <device id="23" type="wall" coord="5x2" rotate="0"/>
+    <device id="24" type="wall" coord="4x1" rotate="0"/>
+    <device id="25" type="wall" coord="6x7" rotate="0"/>
+    <device id="26" type="wall" coord="7x8" rotate="0"/>
+    <device id="27" type="wall" coord="8x9" rotate="0"/>
+    <device id="33" type="wall" coord="9x10" rotate="0"/>
+    <device id="34" type="bounce" coord="10x10" rotate="0"/>
+    <device id="35" type="wall" coord="11x10" rotate="0"/>
+    <device id="36" type="wall" coord="11x11" rotate="0"/>
+    <device id="37" type="wall" coord="9x11" rotate="0"/>
+    <device id="39" type="gate" coord="15x12" rotate="-0.5">
+      <listen toID="3"/>
+      <listen toID="55"/>
+      <spec name="initpos" value="false"/>
+    </device>
+    <device id="40" type="table" coord="9x6" rotate="0.5">
+      <listen toID="55"/>
+    </device>
+    <device id="41" type="bounce" coord="6x1" rotate="0"/>
+    <device id="42" type="bounce" coord="18x1" rotate="0"/>
+    <device id="43" type="wall" coord="17x2" rotate="0"/>
+    <device id="44" type="wall" coord="16x2" rotate="0"/>
+    <device id="46" type="wall" coord="17x3" rotate="0"/>
+    <device id="50" type="mirror" coord="17x8" rotate="0"/>
+    <device id="51" type="wall" coord="16x13" rotate="0"/>
+    <device id="52" type="wall" coord="16x11" rotate="0"/>
+    <device id="53" type="gate" coord="5x6" rotate="-1">
+      <listen toID="3"/>
+    </device>
+    <device id="54" type="mirror" coord="18x6" rotate="-0.5"/>
+    <device id="55" type="control1way" coord="12x4" rotate="-1"/>
+    <device id="57" type="mirror" coord="18x5" rotate="-0.5"/>
+    <device id="58" type="mirror" coord="17x7" rotate="0"/>
+    <device id="59" type="mirror" coord="17x6" rotate="-1"/>
+    <device id="60" type="mirror" coord="17x9" rotate="0"/>
+    <device id="64" type="mirror" coord="18x10" rotate="-0.5"/>
+  </level>
+  <level id="20" grid="18x13" guid="09301D10-F1D9-238C-1C0A-DCBDD4EB5B66">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="0" type="target" coord="1x8" rotate="-0.5"/>
+    <device id="1" type="gate" coord="3x13" rotate="0">
+      <listen toID="30"/>
+    </device>
+    <device id="2" type="control1way" coord="10x9" rotate="0.5"/>
+    <device id="3" type="table" coord="12x7" rotate="1">
+      <listen toID="2"/>
+      <listen toID="25"/>
+      <spec name="child" value="30"/>
+    </device>
+    <device id="6" type="wall" coord="2x11" rotate="0"/>
+    <device id="8" type="wall" coord="2x12" rotate="0"/>
+    <device id="9" type="mirror" coord="17x11" rotate="-0.5"/>
+    <device id="10" type="wall" coord="7x13" rotate="0"/>
+    <device id="11" type="wall" coord="8x12" rotate="0"/>
+    <device id="12" type="wall" coord="9x11" rotate="0"/>
+    <device id="13" type="wall" coord="10x11" rotate="0"/>
+    <device id="14" type="wall" coord="11x11" rotate="0"/>
+    <device id="15" type="wall" coord="12x12" rotate="0"/>
+    <device id="16" type="wall" coord="13x13" rotate="0"/>
+    <device id="18" type="wifi" coord="12x10" rotate="0">
+      <listen toID="2"/>
+    </device>
+    <device id="19" type="wifi" coord="7x9" rotate="1.5"/>
+    <device id="20" type="mirror" coord="16x12" rotate="0"/>
+    <device id="21" type="bounce" coord="10x1" rotate="0"/>
+    <device id="22" type="control1way" coord="4x4" rotate="-0.5"/>
+    <device id="23" type="wifi" coord="1x1" rotate="0.5">
+      <listen toID="22"/>
+    </device>
+    <device id="24" type="mirror" coord="18x11" rotate="0"/>
+    <device id="25" type="wifi" coord="14x7" rotate="-1"/>
+    <device id="27" type="mirror" coord="17x12" rotate="0.5"/>
+    <device id="28" type="mirror" coord="17x13" rotate="0"/>
+    <device id="29" type="mirror" coord="18x12" rotate="0"/>
+    <device id="30" type="control1way" coord="12x7" rotate="1"/>
+    <device id="31" type="mirror" coord="16x13" rotate="0.5"/>
+    <device id="32" type="mirror" coord="16x11" rotate="0"/>
+    <device id="33" type="mirror" coord="18x13" rotate="0.5"/>
+    <device id="36" type="wall" coord="13x6" rotate="0"/>
+    <device id="37" type="gate" coord="1x9" rotate="0.5">
+      <listen toID="19"/>
+    </device>
+    <device id="38" type="table" coord="11x7" rotate="0">
+      <listen toID="41"/>
+      <spec name="child" value="39"/>
+    </device>
+    <device id="39" type="control1way" coord="11x7" rotate="1.5"/>
+    <device id="40" type="gate" coord="1x10" rotate="0.5">
+      <listen toID="39"/>
+    </device>
+    <device id="41" type="wifi" coord="12x4" rotate="-1"/>
+  </level>
+  <level id="21" grid="18x13" guid="7600AF96-9289-BB7D-E3B2-2ED4BD98F891">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="target" coord="18x13" rotate="0"/>
+    <device id="2" type="wall" coord="4x13" rotate="0"/>
+    <device id="3" type="wall" coord="4x12" rotate="0"/>
+    <device id="4" type="wall" coord="4x11" rotate="0"/>
+    <device id="5" type="wall" coord="4x10" rotate="0"/>
+    <device id="6" type="wall" coord="4x8" rotate="0"/>
+    <device id="7" type="wall" coord="4x7" rotate="0"/>
+    <device id="8" type="wall" coord="4x6" rotate="0"/>
+    <device id="9" type="wall" coord="4x5" rotate="0"/>
+    <device id="10" type="wall" coord="4x4" rotate="0"/>
+    <device id="11" type="wall" coord="4x3" rotate="0"/>
+    <device id="12" type="wall" coord="4x2" rotate="0"/>
+    <device id="13" type="wall" coord="4x1" rotate="0"/>
+    <device id="14" type="wall" coord="5x2" rotate="0"/>
+    <device id="15" type="wall" coord="6x2" rotate="0"/>
+    <device id="16" type="wall" coord="7x2" rotate="0"/>
+    <device id="17" type="wall" coord="8x2" rotate="0"/>
+    <device id="18" type="wall" coord="9x2" rotate="0"/>
+    <device id="19" type="wall" coord="10x2" rotate="0"/>
+    <device id="20" type="wall" coord="11x2" rotate="0"/>
+    <device id="21" type="wall" coord="12x2" rotate="0"/>
+    <device id="22" type="wall" coord="13x2" rotate="0"/>
+    <device id="23" type="wall" coord="14x2" rotate="0"/>
+    <device id="24" type="wall" coord="15x2" rotate="0"/>
+    <device id="25" type="wall" coord="16x2" rotate="0"/>
+    <device id="26" type="wall" coord="17x2" rotate="0"/>
+    <device id="27" type="wall" coord="18x4" rotate="0"/>
+    <device id="28" type="wall" coord="16x4" rotate="0"/>
+    <device id="29" type="wall" coord="14x4" rotate="0"/>
+    <device id="30" type="wall" coord="12x4" rotate="0"/>
+    <device id="31" type="wall" coord="10x4" rotate="0"/>
+    <device id="32" type="wall" coord="8x4" rotate="0"/>
+    <device id="33" type="wall" coord="6x4" rotate="0"/>
+    <device id="34" type="control1way" coord="17x4" rotate="-0.5"/>
+    <device id="35" type="bounce" coord="5x1" rotate="0"/>
+    <device id="36" type="wall" coord="18x6" rotate="0"/>
+    <device id="37" type="wall" coord="16x6" rotate="0"/>
+    <device id="38" type="wall" coord="14x6" rotate="0"/>
+    <device id="39" type="wall" coord="12x6" rotate="0"/>
+    <device id="40" type="wall" coord="10x6" rotate="0"/>
+    <device id="41" type="wall" coord="8x6" rotate="0"/>
+    <device id="42" type="wall" coord="6x6" rotate="0"/>
+    <device id="43" type="wall" coord="18x8" rotate="0"/>
+    <device id="44" type="wall" coord="16x8" rotate="0"/>
+    <device id="45" type="wall" coord="14x8" rotate="0"/>
+    <device id="46" type="wall" coord="12x8" rotate="0"/>
+    <device id="47" type="wall" coord="10x8" rotate="0"/>
+    <device id="48" type="wall" coord="8x8" rotate="0"/>
+    <device id="49" type="wall" coord="6x8" rotate="0"/>
+    <device id="50" type="wall" coord="7x9" rotate="0"/>
+    <device id="51" type="wall" coord="8x9" rotate="0"/>
+    <device id="52" type="wall" coord="7x10" rotate="0"/>
+    <device id="53" type="wall" coord="8x10" rotate="0"/>
+    <device id="54" type="wall" coord="9x10" rotate="0"/>
+    <device id="55" type="wall" coord="10x10" rotate="0"/>
+    <device id="56" type="wall" coord="11x10" rotate="0"/>
+    <device id="57" type="wall" coord="12x10" rotate="0"/>
+    <device id="58" type="wall" coord="13x10" rotate="0"/>
+    <device id="59" type="wall" coord="14x10" rotate="0"/>
+    <device id="60" type="wall" coord="15x10" rotate="0"/>
+    <device id="61" type="wall" coord="16x10" rotate="0"/>
+    <device id="62" type="wall" coord="17x10" rotate="0"/>
+    <device id="63" type="wall" coord="18x10" rotate="0"/>
+    <device id="64" type="wall" coord="18x11" rotate="0"/>
+    <device id="65" type="wall" coord="16x11" rotate="0"/>
+    <device id="66" type="wall" coord="14x11" rotate="0"/>
+    <device id="67" type="wall" coord="12x11" rotate="0"/>
+    <device id="68" type="wall" coord="10x11" rotate="0"/>
+    <device id="69" type="wall" coord="8x11" rotate="0"/>
+    <device id="70" type="table" coord="5x9" rotate="0">
+      <listen toID="34"/>
+    </device>
+    <device id="71" type="mirror" coord="6x1" rotate="-0.5"/>
+    <device id="72" type="mirror" coord="7x1" rotate="-0.5"/>
+    <device id="73" type="mirror" coord="8x1" rotate="-0.5"/>
+    <device id="74" type="mirror" coord="9x1" rotate="-0.5"/>
+    <device id="75" type="mirror" coord="10x1" rotate="-0.5"/>
+    <device id="76" type="mirror" coord="11x1" rotate="-0.5"/>
+    <device id="77" type="mirror" coord="12x1" rotate="-0.5"/>
+    <device id="78" type="mirror" coord="13x1" rotate="-0.5"/>
+    <device id="79" type="mirror" coord="14x1" rotate="-0.5"/>
+    <device id="80" type="mirror" coord="15x1" rotate="-0.5"/>
+    <device id="81" type="mirror" coord="16x1" rotate="-0.5"/>
+    <device id="82" type="mirror" coord="17x1" rotate="-0.5"/>
+    <device id="83" type="mirror" coord="18x1" rotate="-0.5"/>
+    <device id="84" type="mirror" coord="18x2" rotate="-0.5"/>
+    <device id="85" type="mirror" coord="18x3" rotate="0"/>
+    <device id="86" type="mirror" coord="17x3" rotate="0"/>
+    <device id="87" type="mirror" coord="16x3" rotate="0"/>
+    <device id="88" type="mirror" coord="15x3" rotate="0"/>
+    <device id="89" type="mirror" coord="14x3" rotate="0"/>
+    <device id="90" type="mirror" coord="12x3" rotate="0"/>
+    <device id="91" type="mirror" coord="11x3" rotate="0"/>
+    <device id="92" type="mirror" coord="13x3" rotate="0"/>
+    <device id="93" type="mirror" coord="13x4" rotate="0"/>
+    <device id="94" type="mirror" coord="15x4" rotate="0"/>
+    <device id="95" type="mirror" coord="15x5" rotate="-0.5"/>
+    <device id="96" type="mirror" coord="17x5" rotate="-0.5"/>
+    <device id="97" type="mirror" coord="18x5" rotate="-0.5"/>
+    <device id="98" type="mirror" coord="16x5" rotate="-0.5"/>
+    <device id="99" type="mirror" coord="17x6" rotate="0"/>
+    <device id="100" type="mirror" coord="18x7" rotate="0"/>
+    <device id="101" type="mirror" coord="17x7" rotate="0"/>
+    <device id="102" type="mirror" coord="17x8" rotate="0"/>
+    <device id="103" type="mirror" coord="17x9" rotate="-0.5"/>
+    <device id="104" type="mirror" coord="18x9" rotate="-0.5"/>
+    <device id="105" type="mirror" coord="16x9" rotate="-0.5"/>
+    <device id="106" type="mirror" coord="15x9" rotate="-0.5"/>
+    <device id="107" type="mirror" coord="15x8" rotate="0"/>
+    <device id="108" type="mirror" coord="15x7" rotate="0"/>
+    <device id="109" type="mirror" coord="16x7" rotate="0"/>
+    <device id="110" type="mirror" coord="15x6" rotate="0"/>
+    <device id="111" type="mirror" coord="14x5" rotate="-0.5"/>
+    <device id="112" type="mirror" coord="13x5" rotate="-0.5"/>
+    <device id="113" type="mirror" coord="13x6" rotate="0"/>
+    <device id="114" type="mirror" coord="13x7" rotate="0"/>
+    <device id="115" type="mirror" coord="14x7" rotate="0"/>
+    <device id="116" type="mirror" coord="14x9" rotate="-0.5"/>
+    <device id="117" type="mirror" coord="13x9" rotate="-0.5"/>
+    <device id="118" type="mirror" coord="13x8" rotate="0"/>
+    <device id="119" type="mirror" coord="12x9" rotate="-0.5"/>
+    <device id="120" type="mirror" coord="11x9" rotate="-0.5"/>
+    <device id="121" type="mirror" coord="11x8" rotate="0"/>
+    <device id="122" type="mirror" coord="11x7" rotate="0"/>
+    <device id="123" type="mirror" coord="12x7" rotate="0"/>
+    <device id="124" type="mirror" coord="12x5" rotate="-0.5"/>
+    <device id="125" type="mirror" coord="11x5" rotate="-0.5"/>
+    <device id="126" type="mirror" coord="11x6" rotate="0"/>
+    <device id="127" type="mirror" coord="11x4" rotate="0"/>
+    <device id="128" type="mirror" coord="10x3" rotate="0"/>
+    <device id="129" type="mirror" coord="9x3" rotate="0"/>
+    <device id="130" type="mirror" coord="8x3" rotate="0"/>
+    <device id="131" type="mirror" coord="7x3" rotate="0"/>
+    <device id="132" type="mirror" coord="6x3" rotate="0"/>
+    <device id="133" type="mirror" coord="5x3" rotate="0"/>
+    <device id="134" type="mirror" coord="5x4" rotate="0"/>
+    <device id="135" type="mirror" coord="5x5" rotate="-0.5"/>
+    <device id="136" type="mirror" coord="5x6" rotate="0"/>
+    <device id="137" type="mirror" coord="5x7" rotate="0"/>
+    <device id="138" type="mirror" coord="5x8" rotate="0"/>
+    <device id="139" type="mirror" coord="6x9" rotate="0"/>
+    <device id="140" type="mirror" coord="6x10" rotate="0"/>
+    <device id="141" type="mirror" coord="7x8" rotate="0"/>
+    <device id="142" type="mirror" coord="7x7" rotate="0"/>
+    <device id="143" type="mirror" coord="6x7" rotate="0"/>
+    <device id="144" type="mirror" coord="7x5" rotate="-0.5"/>
+    <device id="145" type="mirror" coord="6x5" rotate="-0.5"/>
+    <device id="146" type="mirror" coord="7x6" rotate="0"/>
+    <device id="147" type="mirror" coord="7x4" rotate="0"/>
+    <device id="148" type="mirror" coord="8x5" rotate="-0.5"/>
+    <device id="149" type="mirror" coord="9x5" rotate="-0.5"/>
+    <device id="150" type="mirror" coord="9x4" rotate="0"/>
+    <device id="151" type="mirror" coord="10x5" rotate="-0.5"/>
+    <device id="152" type="mirror" coord="9x6" rotate="0"/>
+    <device id="153" type="mirror" coord="9x7" rotate="0"/>
+    <device id="154" type="mirror" coord="8x7" rotate="0"/>
+    <device id="155" type="mirror" coord="10x7" rotate="0"/>
+    <device id="156" type="mirror" coord="9x8" rotate="0"/>
+    <device id="157" type="mirror" coord="9x9" rotate="-0.5"/>
+    <device id="158" type="mirror" coord="10x9" rotate="-0.5"/>
+    <device id="159" type="mirror" coord="7x11" rotate="0"/>
+    <device id="160" type="mirror" coord="9x11" rotate="0"/>
+    <device id="161" type="mirror" coord="11x11" rotate="0"/>
+    <device id="162" type="mirror" coord="13x11" rotate="0"/>
+    <device id="163" type="mirror" coord="15x11" rotate="0"/>
+    <device id="164" type="mirror" coord="17x11" rotate="0"/>
+  </level>
+  <level id="22" grid="18x13" guid="B52C773B-A60A-59A3-4DB2-2F492FBE4C78">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="1" type="target" coord="11x4" rotate="1"/>
+    <device id="2" type="bounce" coord="11x3" rotate="0"/>
+    <device id="3" type="bounce" coord="10x3" rotate="0"/>
+    <device id="4" type="wall" coord="11x2" rotate="0"/>
+    <device id="5" type="wall" coord="10x2" rotate="0"/>
+    <device id="6" type="wall" coord="9x2" rotate="0"/>
+    <device id="7" type="wall" coord="9x3" rotate="0"/>
+    <device id="8" type="wall" coord="9x4" rotate="0"/>
+    <device id="9" type="wall" coord="10x4" rotate="0"/>
+    <device id="10" type="wall" coord="8x5" rotate="0"/>
+    <device id="11" type="wall" coord="9x5" rotate="0"/>
+    <device id="12" type="wall" coord="10x5" rotate="0"/>
+    <device id="13" type="wall" coord="11x5" rotate="0"/>
+    <device id="14" type="wall" coord="12x5" rotate="0"/>
+    <device id="15" type="wall" coord="12x6" rotate="0"/>
+    <device id="16" type="wall" coord="12x7" rotate="0"/>
+    <device id="17" type="wall" coord="12x8" rotate="0"/>
+    <device id="18" type="wall" coord="12x9" rotate="0"/>
+    <device id="19" type="wall" coord="12x10" rotate="0"/>
+    <device id="20" type="wall" coord="11x10" rotate="0"/>
+    <device id="21" type="wall" coord="10x10" rotate="0"/>
+    <device id="22" type="wall" coord="9x10" rotate="0"/>
+    <device id="23" type="wall" coord="8x10" rotate="0"/>
+    <device id="24" type="wall" coord="8x9" rotate="0"/>
+    <device id="25" type="wall" coord="8x8" rotate="0"/>
+    <device id="26" type="wall" coord="8x7" rotate="0"/>
+    <device id="27" type="wall" coord="8x6" rotate="0"/>
+    <device id="28" type="wall" coord="11x11" rotate="0"/>
+    <device id="29" type="wall" coord="9x11" rotate="0"/>
+    <device id="30" type="wall" coord="12x12" rotate="0"/>
+    <device id="31" type="wall" coord="8x12" rotate="0"/>
+    <device id="32" type="wall" coord="13x13" rotate="0"/>
+    <device id="33" type="wall" coord="14x13" rotate="0"/>
+    <device id="34" type="wall" coord="7x13" rotate="0"/>
+    <device id="35" type="wall" coord="6x13" rotate="0"/>
+    <device id="36" type="wall" coord="13x6" rotate="0"/>
+    <device id="37" type="wall" coord="14x7" rotate="0"/>
+    <device id="38" type="wall" coord="15x8" rotate="0"/>
+    <device id="39" type="wall" coord="7x6" rotate="0"/>
+    <device id="40" type="wall" coord="6x5" rotate="0"/>
+    <device id="41" type="wall" coord="6x4" rotate="0"/>
+    <device id="42" type="wall" coord="6x3" rotate="0"/>
+    <device id="43" type="wall" coord="6x7" rotate="0"/>
+    <device id="44" type="wall" coord="5x8" rotate="0"/>
+    <device id="45" type="wall" coord="5x9" rotate="0"/>
+    <device id="46" type="wall" coord="14x2" rotate="0"/>
+    <device id="47" type="wall" coord="15x2" rotate="0"/>
+    <device id="48" type="wall" coord="15x1" rotate="0"/>
+    <device id="49" type="wall" coord="16x1" rotate="0"/>
+    <device id="50" type="wall" coord="18x7" rotate="0"/>
+    <device id="51" type="wall" coord="18x6" rotate="0"/>
+    <device id="52" type="wall" coord="15x11" rotate="0"/>
+    <device id="53" type="wall" coord="17x13" rotate="0"/>
+    <device id="54" type="wall" coord="18x13" rotate="0"/>
+    <device id="55" type="wall" coord="18x12" rotate="0"/>
+    <device id="56" type="wall" coord="4x13" rotate="0"/>
+    <device id="57" type="wall" coord="3x13" rotate="0"/>
+    <device id="58" type="wall" coord="2x12" rotate="0"/>
+    <device id="59" type="wall" coord="1x12" rotate="0"/>
+    <device id="60" type="wall" coord="1x11" rotate="0"/>
+    <device id="61" type="wall" coord="3x11" rotate="0"/>
+    <device id="62" type="wall" coord="1x9" rotate="0"/>
+    <device id="63" type="wall" coord="1x5" rotate="0"/>
+    <device id="64" type="wall" coord="2x5" rotate="0"/>
+    <device id="65" type="wall" coord="3x5" rotate="0"/>
+    <device id="66" type="wall" coord="5x2" rotate="0"/>
+    <device id="67" type="wall" coord="4x2" rotate="0"/>
+    <device id="68" type="wall" coord="7x1" rotate="0"/>
+    <device id="69" type="mirror" coord="9x6" rotate="0"/>
+    <device id="70" type="mirror" coord="10x6" rotate="0"/>
+    <device id="71" type="mirror" coord="11x6" rotate="-0.5"/>
+    <device id="72" type="mirror" coord="11x7" rotate="-0.5"/>
+    <device id="73" type="mirror" coord="10x7" rotate="0"/>
+    <device id="74" type="mirror" coord="9x7" rotate="0"/>
+    <device id="75" type="mirror" coord="9x8" rotate="-0.5"/>
+    <device id="76" type="mirror" coord="10x8" rotate="-0.5"/>
+    <device id="77" type="mirror" coord="11x8" rotate="0"/>
+    <device id="78" type="mirror" coord="11x9" rotate="0"/>
+    <device id="79" type="mirror" coord="10x9" rotate="-0.5"/>
+    <device id="80" type="mirror" coord="9x9" rotate="-0.5"/>
+  </level>
+  <level id="23" grid="18x13" guid="A6172A73-14FD-E87C-FD06-DCBDD4EBC212">
+    <cannon yPos="6" initBlastWeight="5" initBlastColor="0x65df0d"/>
+    <device id="7" type="target" coord="15x11" rotate="0"/>
+    <device id="29" type="wall" coord="14x12" rotate="0"/>
+    <device id="30" type="wall" coord="13x12" rotate="0"/>
+    <device id="31" type="wall" coord="12x12" rotate="0"/>
+    <device id="35" type="wall" coord="8x12" rotate="0"/>
+    <device id="36" type="wall" coord="7x12" rotate="0"/>
+    <device id="37" type="wall" coord="6x12" rotate="0"/>
+    <device id="38" type="wall" coord="5x12" rotate="0"/>
+    <device id="39" type="wall" coord="4x12" rotate="0"/>
+    <device id="40" type="wall" coord="3x12" rotate="0"/>
+    <device id="41" type="wall" coord="2x12" rotate="0"/>
+    <device id="80" type="gate" coord="14x9" rotate="0">
+      <listen toID="98"/>
+      <listen toID="111"/>
+    </device>
+    <device id="81" type="gate" coord="11x9" rotate="0">
+      <listen toID="93"/>
+      <listen toID="105"/>
+      <listen toID="109"/>
+    </device>
+    <device id="82" type="gate" coord="8x9" rotate="0">
+      <listen toID="91"/>
+      <listen toID="108"/>
+    </device>
+    <device id="83" type="gate" coord="5x9" rotate="0">
+      <listen toID="92"/>
+      <listen toID="106"/>
+    </device>
+    <device id="84" type="gate" coord="6x11" rotate="0">
+      <listen toID="97"/>
+      <listen toID="103"/>
+      <listen toID="107"/>
+      <listen toID="112"/>
+    </device>
+    <device id="85" type="gate" coord="7x11" rotate="0">
+      <listen toID="100"/>
+      <listen toID="102"/>
+    </device>
+    <device id="86" type="gate" coord="9x11" rotate="0">
+      <listen toID="95"/>
+    </device>
+    <device id="87" type="gate" coord="10x11" rotate="0">
+      <listen toID="96"/>
+    </device>
+    <device id="88" type="gate" coord="12x11" rotate="0">
+      <listen toID="99"/>
+      <listen toID="110"/>
+    </device>
+    <device id="89" type="gate" coord="13x11" rotate="0">
+      <listen toID="94"/>
+      <listen toID="104"/>
+    </device>
+    <device id="90" type="gate" coord="3x10" rotate="0.5">
+      <listen toID="91"/>
+      <listen toID="101"/>
+    </device>
+    <device id="91" type="control" coord="4x7" rotate="1"/>
+    <device id="92" type="control" coord="8x7" rotate="1"/>
+    <device id="93" type="control" coord="10x7" rotate="1"/>
+    <device id="94" type="control" coord="13x7" rotate="1"/>
+    <device id="95" type="control" coord="4x5" rotate="1"/>
+    <device id="96" type="control" coord="6x5" rotate="1"/>
+    <device id="97" type="control" coord="8x5" rotate="1"/>
+    <device id="98" type="control" coord="10x5" rotate="1"/>
+    <device id="99" type="control" coord="12x5" rotate="1"/>
+    <device id="100" type="control" coord="13x5" rotate="1"/>
+    <device id="101" type="control" coord="4x6" rotate="1"/>
+    <device id="102" type="control" coord="6x6" rotate="1"/>
+    <device id="103" type="control" coord="8x6" rotate="1"/>
+    <device id="104" type="control" coord="10x6" rotate="1"/>
+    <device id="105" type="control" coord="13x6" rotate="1"/>
+    <device id="106" type="control" coord="4x4" rotate="1"/>
+    <device id="107" type="control" coord="6x4" rotate="1"/>
+    <device id="108" type="control" coord="8x4" rotate="1"/>
+    <device id="109" type="control" coord="10x4" rotate="1"/>
+    <device id="110" type="control" coord="12x4" rotate="1"/>
+    <device id="111" type="control" coord="13x4" rotate="1"/>
+    <device id="112" type="control" coord="14x4" rotate="1"/>
+    <device id="113" type="wall" coord="1x11" rotate="0"/>
+    <device id="114" type="wall" coord="2x10" rotate="0"/>
+    <device id="115" type="wall" coord="4x10" rotate="0"/>
+    <device id="116" type="wall" coord="5x10" rotate="0"/>
+    <device id="117" type="wall" coord="7x10" rotate="0"/>
+    <device id="118" type="wall" coord="6x10" rotate="0"/>
+    <device id="119" type="wall" coord="8x10" rotate="0"/>
+    <device id="120" type="wall" coord="9x10" rotate="0"/>
+    <device id="121" type="wall" coord="10x10" rotate="0"/>
+    <device id="122" type="wall" coord="11x10" rotate="0"/>
+    <device id="123" type="wall" coord="12x10" rotate="0"/>
+    <device id="124" type="wall" coord="13x10" rotate="0"/>
+    <device id="125" type="wall" coord="14x10" rotate="0"/>
+    <device id="126" type="wall" coord="15x10" rotate="0"/>
+    <device id="127" type="wall" coord="16x10" rotate="0"/>
+    <device id="128" type="wall" coord="17x10" rotate="0"/>
+    <device id="129" type="wall" coord="18x10" rotate="0"/>
+    <device id="130" type="wall" coord="17x8" rotate="0"/>
+    <device id="131" type="wall" coord="16x8" rotate="0"/>
+    <device id="132" type="wall" coord="15x8" rotate="0"/>
+    <device id="133" type="wall" coord="14x8" rotate="0"/>
+    <device id="134" type="wall" coord="13x8" rotate="0"/>
+    <device id="135" type="wall" coord="12x8" rotate="0"/>
+    <device id="136" type="wall" coord="10x8" rotate="0"/>
+    <device id="137" type="wall" coord="11x8" rotate="0"/>
+    <device id="138" type="wall" coord="9x8" rotate="0"/>
+    <device id="139" type="wall" coord="8x8" rotate="0"/>
+    <device id="140" type="wall" coord="3x8" rotate="0"/>
+    <device id="141" type="wall" coord="2x8" rotate="0"/>
+    <device id="142" type="wall" coord="1x9" rotate="0"/>
+    <device id="143" type="wall" coord="7x8" rotate="0"/>
+    <device id="144" type="wall" coord="6x8" rotate="0"/>
+    <device id="145" type="wall" coord="5x8" rotate="0"/>
+    <device id="146" type="wall" coord="4x8" rotate="0"/>
+    <device id="147" type="mirror" coord="15x2" rotate="0.5"/>
+    <device id="148" type="mirror" coord="15x1" rotate="0"/>
+    <device id="149" type="mirror" coord="16x2" rotate="1.5"/>
+    <device id="150" type="mirror" coord="18x3" rotate="0.5"/>
+    <device id="151" type="mirror" coord="18x2" rotate="0"/>
+    <device id="152" type="mirror" coord="17x1" rotate="0.5"/>
+    <device id="153" type="mirror" coord="14x1" rotate="0.5"/>
+    <device id="154" type="mirror" coord="16x1" rotate="1"/>
+    <device id="155" type="mirror" coord="18x1" rotate="0.5"/>
+    <device id="156" type="mirror" coord="17x2" rotate="1"/>
+  </level>
+</levels>

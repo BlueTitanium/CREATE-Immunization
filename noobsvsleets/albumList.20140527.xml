@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<album game="QUADRILATERAL" version="2.1.1" build="20140520">
+	<img name="bg_arctic" imgPath="Assets/Arctic_Background.jpg" />
+	<img name="bg_city" imgPath="Assets/City_Bkground.jpg" />
+	<img name="bg_desert" imgPath="Assets/Desert_Background.jpg" />
+	<img name="bg_tropic" imgPath="Assets/Tropic_Background.jpg" />
+	<img name="bg_underground" imgPath="Assets/Underground_Background.jpg" />
+	<img name="bg_volcano" imgPath="Assets/Volcano_Background.jpg" />
+	<img name="path_desert" imgPath="Assets/Desert_Path.png" />
+	<img name="path_arctic" imgPath="Assets/ForestArctic_Path.png" />
+	<img name="path_tropic" imgPath="Assets/Tropical_Path.png" />
+	<img name="path_volcano" imgPath="Assets/Volcano_Path.png" />
+	<img name="path_closed" imgPath="Assets/Blank_Path_01.png" />
+</album>

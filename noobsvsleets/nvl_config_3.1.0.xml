@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nvl name="QUADRILATERAL" version="3.1" build="20161005">
+	<importFiles>
+		<loadfile type="xml" filename="badges.20140527.xml" />	
+		<loadfile type="xml" filename="bookofknowledge.20161005.xml" />		
+		<loadfile type="xml" filename="gameSettings.20161005.xml" />
+		<loadfile type="xml" filename="level_badge_list.20151021.xml" />	
+		<loadfile type="xml" filename="nvl_cinematics.20140619.xml" />
+	</importFiles>
+	<importFiles gameSet="1" gameDesc="regular">
+		<loadfile type="xml" filename="levels.161005.xml" />
+	</importFiles>
+	<importFiles gameSet="2" gameDesc="test newSet">
+		<loadfile type="xml" filename="levels.testing.xml" />
+	</importFiles>
+        <importFiles gameSet="3" gameDesc="test newSet">
+		<loadfile type="xml" filename="nvl_levels.161005.gs3.xml" />
+	</importFiles>
+</nvl>

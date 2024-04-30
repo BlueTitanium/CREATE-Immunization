@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSettings name="BLASTFISH" version="0.3" build="20151022">
+	<Settings_Description>
+		<id>First characters of login ID.  Loads settings for first match.</id>
+		<desc>Description of the game profile.</desc>
+		<gameTimeout>Number of minutes of the player can play until the game redirects to another site.  Set to "no" for unlimited game time.</gameTimeout> 
+
+	</Settings_Description>
+	
+	<Settings>
+		<GameScribe gamescribe_Mode="trace" 
+                            gamescribe_SpiderHz="2"
+                            gamescribe_url="https://steinhardtapps.es.its.nyu.edu/create/gamescribe/api.php" 
+                />
+		<Game id="DEFAULT" desc="Default game settings"
+			lockLevels="no"
+			highestUnlockedLevel="1"
+			editMode="no"
+			showScore="no"
+			tutorials="on"
+			gameTimeout="no"
+			dBugMode="no"
+                        gameSet="1"
+                        onComplete="auto"
+		/>
+		
+		<Game id="EDIT" desc="Enter Edit Mode"		
+			editMode="yes"
+			lockLevels="no"
+		/>
+                
+		<Game id="EDIT2" desc="Enter Edit Mode"		
+			editMode="yes"
+			lockLevels="no"
+                        gameSet="2"
+                        showScore="yes"
+                        onComplete="replay"
+		/>
+                		
+		<Game id="LLB" desc="Regular Game Play"		
+			lockLevels="yes"
+			gameTimeout="no"
+		/>
+
+		<Game id="LLPT" desc="Playtesting"		
+			lockLevels="no"
+			gameTimeout="no"
+		/>	
+
+        <Game id="L2" desc="game set 2"		
+			lockLevels="no"
+			gameTimeout="no"
+                        gameSet="2"
+                        showScore="yes"
+                        onComplete="replay"
+		/>
+				
+		<Game id="SYS" desc="Connecting Youth Systems Thinking assessment"		
+			lockLevels="yes"
+			gameTimeout="10"
+			timeoutURL="http://steinhardtapps.es.its.nyu.edu/cy/route/ll_return.php" 
+		/>			
+
+		<Game id="dbm" desc="debug mode"		
+			lockLevels="no"
+			gameTimeout="0.25"
+			dBugMode="yes"
+		/>
+								
+	</Settings>
+</GameSettings>

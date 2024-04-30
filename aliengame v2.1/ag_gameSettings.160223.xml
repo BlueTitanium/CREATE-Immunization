@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSettings name="ALIENGAME" version="2.1" build="20160219">
+	<Settings_Description>
+		<id>First characters of login ID.  Loads settings for first match.</id>
+		<desc>Description of the game profile.</desc>
+		<levelSetID>Load levels associated with this ID.</levelSetID>
+		<lockLevels>Levels must be unlocked through game play</lockLevels>
+		<showScore>Yes/No to display the points earned stamp on a level</showScore> 
+	</Settings_Description>
+	
+	<Settings>
+		<GameScribe gamescribe_Mode="off" 
+                            gamescribe_SpiderHz="2"
+                            gamescribe_url="http://create.nyu.edu/gamescribe/api.php" 
+                />
+        <Game id="DEFAULT" desc="Default game settings"
+			levelSetID="1"
+			startLevel="5"
+			lockLevels="no"
+			showScore="yes"
+			music="on"
+			musicType="regular"
+			tutorials="on"
+			postLevelMessageType="regular"
+			gameTimeout="no"
+			debug="no"
+			adaptiveEngine="no"
+			baselineUsage="no"
+			baselineSet="0"
+			additivePerformance="no"
+			showGoalMessage="no"
+			alienGlowAssist="no"
+			itemOutline="no"
+			itemTracer="no"
+		/>
+		
+		<Game id="EF" desc="Original EF version"		
+			levelSetID="1"
+			lockLevels="yes"
+			showScore="yes"
+		/>
+		
+		<Game id="apm" desc="Andrew's set for TBI and UCSB"
+			levelSetID="4"
+			lockLevels="no"
+			showScore="yes"
+			debug="yes"
+		/>
+		
+		<Game id="NCAC" desc="NCAC 2015 study"		
+			levelSetID="3"
+			lockLevels="yes"
+			startLevel="2"
+			showScore="yes"
+		/>		
+		
+		<Game id="AEA" desc="Adaptive Engine testing"		
+			levelSetID="4"
+			lockLevels="no"
+			showScore="yes"
+			debug="yes"
+			adaptiveEngine="yes"
+			alienGlowAssist="yes"
+		/>		
+		
+		<Game id="AEO" desc="Adaptive Engine testing"		
+			levelSetID="4"
+			lockLevels="no"
+			showScore="yes"
+			debug="yes"
+			adaptiveEngine="yes"
+			itemOutline="yes"
+			alienGlowAssist="yes"
+		/>	
+				
+		<Game id="BLP" desc="Baseline Plus Performance"		
+			levelSetID="2"
+			lockLevels="no"
+			showScore="yes"
+			debug="no"
+			adaptiveEngine="no"
+			postLevelMessageType="goal"
+			baselineUsage="goal"
+			baselineSet="2"
+			additivePerformance="yes"
+			showGoalMessage="yes"
+			alienGlowAssist="yes"			
+		/>			
+		
+		<Game id="SYS" desc="EF Plus Systems Thinking"		
+			levelSetID="2"
+			lockLevels="no"
+		/>
+		
+		<Game id="C" desc="EF Plus Systems Thinking"		
+			levelSetID="2"
+			lockLevels="yes"
+			showScore="yes"
+		/>
+		
+		<Game id="A" desc="Testing"
+			levelSetID="1"
+			lockLevels="yes"
+			showScore="yes"
+		/>
+		
+		<Game id="mus-original" desc="original music"
+			musicType="original"
+		/>
+		
+		<Game id="mus-bay" desc="Michael Bay"
+			musicType="mb"
+		/>
+		
+		<Game id="mus-bsg" desc="Battlestar Galactica"
+			musicType="bsg"
+		/>
+		
+		<Game id="to" desc="Testing Timeout"
+			gameTimeout="20"
+			music="off"
+			levelSetID="2"
+		/>
+						
+	</Settings>
+</GameSettings>

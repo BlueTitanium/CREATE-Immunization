@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSettings name="QUADRILATERAL" version="3.0.1" build="20161005">
+	<Settings_Description>
+	
+	</Settings_Description>
+	
+	<Settings>
+		<GameScribe gamescribe_Mode="off" gamescribe_SpiderHz="2" gamescribe_trace_filter=""/>
+		<Game id="DEFAULT" desc="Default game settings"
+			gameSet="1"
+			startChapter="1"
+			startLevel="1"
+			lockLevels="no"
+			debugMode="off"
+			viewLabels="no"
+			gameTimeout="no"
+			editor="false"
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="OFF"	
+			pageDisplayMode="NONE"	
+			levelBadgeMode="NONE"
+			enableLevelScoring="no"	
+		/>
+		
+		<Game id="MLB" desc="Melissa's study settings"
+			gameSet="3"
+			ruleMode="C"
+			lockLevels="yes"
+			startChapter="2"
+			startLevel="3"	
+			globalBadgeMode="OFF"	
+			pointsMode="OFF"	
+			pageDisplayMode="NONE"	
+			levelBadgeMode="NONE"
+			agent_caged="purpleLeet"
+			enableLevelScoring="yes"	
+		/>
+		
+		<Game id="CM" desc="Conceptual with Mastery"		
+			ruleMode="C"	
+			globalBadgeMode="M"	
+			pointsMode="FULL"	
+			pageDisplayMode="STATS"	
+			levelBadgeMode="NONE"	
+		/>
+		
+		<Game id="CP" desc="Conceptual with Performance"		
+			ruleMode="C"	
+			globalBadgeMode="P"	
+			pointsMode="FULL"	
+			pageDisplayMode="STATS"	
+			levelBadgeMode="NONE"	
+		/>
+		
+		<Game id="CC" desc="Conceptual with both Mastery and Performance"		
+			ruleMode="C"	
+			globalBadgeMode="C"	
+			pointsMode="FULL"	
+			pageDisplayMode="STATS"	
+			levelBadgeMode="NONE"	
+		/>
+						
+		<Game id="C" name="Conceptual Rules" desc="Conceptual aka Rules"		
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="FULL"	
+			pageDisplayMode="STATS"	
+			levelBadgeMode="NONE"	
+		/>
+		
+		<Game id="Z" desc="Leets versus Noobs!"		
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="FULL"	
+			pageDisplayMode="Badge"	
+			levelBadgeMode="LEARN"			
+			agent_control="orangeLeet"
+			agent_caged="purpleLeet"
+			agent_leet_camper="noob"
+			agent_leet_hunter="noob"		
+		/>		
+		
+		<Game id="A" desc="Arithmetic"		
+			ruleMode="A"	
+			globalBadgeMode="OFF"	
+			pointsMode="FULL"	
+			pageDisplayMode="STATS"	
+			levelBadgeMode="NONE"
+		/>
+		
+		<Game id="N" desc="Rules mode with no badges"	
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="OFF"	
+			pageDisplayMode="NONE"	
+			levelBadgeMode="NONE"	
+		/>
+		
+		<Game id="L" desc="Rules with Learning level badge"	
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="OFF"	
+			pageDisplayMode="BADGE"	
+			levelBadgeMode="LEARN"	
+		/>
+		
+		<Game id="R" desc="Rules with Random level badge"	
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="OFF"	
+			pageDisplayMode="BADGE"	
+			levelBadgeMode="RANDOM"	
+		/>		
+		
+		<Game id="P" desc="Rules with Achievement level badge"	
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="FULL"	
+			pageDisplayMode="BADGE"	
+			levelBadgeMode="ACHIEVEMENT"	
+		/>	
+					
+		<Game id="B" desc="Rules with Learning and Achievement level badges"	
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="FULL"	
+			pageDisplayMode="BADGE"	
+			levelBadgeMode="L_and_A"	
+		/>	
+		
+		<Game id="E" desc="Editor Mode"		
+			ruleMode="C"	
+			globalBadgeMode="OFF"	
+			pointsMode="FULL"	
+			pageDisplayMode="STATS"	
+			levelBadgeMode="NONE"
+			editor="true"	
+		/>
+						
+	</Settings>
+</GameSettings>

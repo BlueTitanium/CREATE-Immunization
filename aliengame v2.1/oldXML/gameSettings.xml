@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSettings name="ALIENGAME" version="2.0" build="20140819">
+	<Settings_Description>
+		<id>First characters of login ID.  Loads settings for first match.</id>
+		<desc>Description of the game profile.</desc>
+		<levelSetID>Load levels associated with this ID.</levelSetID>
+		<lockLevels>Levels must be unlocked through game play</lockLevels>
+		<showScore>Yes/No to display the points earned stamp on a level</showScore> 
+	</Settings_Description>
+	
+	<Settings>
+		<Game id="DEFAULT" desc="Default game settings"
+			levelSetID="1"
+			lockLevels="no"
+			showScore="yes"
+			music="on"
+			tutorials="on"
+			gameTimeout="no"
+		/>
+		
+		<Game id="EF" desc="Original EF version"		
+			levelSetID="1"
+			lockLevels="no"
+			showScore="yes"
+		/>
+		
+		<Game id="SYS" desc="EF Plus Systems Thinking"		
+			levelSetID="2"
+			lockLevels="yes"
+			showScore="yes"
+		/>
+		
+		<Game id="C" desc="EF Plus Systems Thinking"		
+			levelSetID="2"
+			lockLevels="yes"
+			showScore="yes"
+		/>
+		
+		<Game id="A" desc="Testing"
+			levelSetID="1"
+			lockLevels="yes"
+			showScore="yes"
+		/>
+						
+	</Settings>
+</GameSettings>

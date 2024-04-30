@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelBadges>
+<!-- *************************************************************************************************************************************************************** -->
+<!--                                                                              LEARNING CONDITION                                                                 -->
+<!-- *************************************************************************************************************************************************************** -->
+	<badge>
+		<properties title="Acute Angles"	chapter="1"	level="8"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/acute01.png"
+			/>
+		<criteria rule="acute" onUsage="3" critText="Use 3 ACUTE angles." />
+	</badge>
+	
+	<badge>
+		<properties title="Complementary Angles"	chapter="2"	level="4"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/comp01.png"
+			/>
+		<criteria rule="complementary" onUsage="2" critText="Use 2 COMPLEMENTARY angles." />
+	</badge>
+
+	<badge>
+		<properties title="Complementary Angles"	chapter="2"	level="6"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_brain.png"
+			earned_image="Badges/comp02.png"
+			/>
+		<criteria rule="complementary" onUsage="3" critText="Use 3 COMPLEMENTARY angles." />
+	</badge>
+
+	<badge>
+		<properties title="Complementary Angles"	chapter="2"	level="7"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_3corner.png"
+			earned_image="Badges/comp03.png"
+			/>
+		<criteria rule="complementary" onUsage="6" critText="Use 6 COMPLEMENTARY angles." />
+	</badge>
+
+	<badge>
+		<properties title="COMBO Badge"	chapter="3"	level="3"	badge_type="combo"	badge_mode="learning"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_cs01.png"
+			/>
+		<criteria rule="complementary" onUsage="1" critText="Use 1 COMPLEMENTARY angle." />
+		<criteria rule="supplementary" onUsage="1" critText="Use 1 SUPPLEMENTARY angle." />
+	</badge>
+
+	<badge>
+		<properties title="COMBO Badge"	chapter="3"	level="5"	badge_type="combo"	badge_mode="learning"			
+			unearned_image="Badges/unearned_square.png"
+			earned_image="Badges/combo_cs02.png"
+			/>
+		<criteria rule="complementary" onUsage="2" critText="Use 2 COMPLEMENTARY angles." />
+		<criteria rule="supplementary" onUsage="2" critText="Use 2 SUPPLEMENTARY angles." />
+	</badge>
+	
+	<badge>
+		<properties title="Supplementary Angles"	chapter="3"	level="6"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_brain.png"
+			earned_image="Badges/supp01.png"
+			/>
+		<criteria rule="supplementary" onUsage="4" critText="Use 4 SUPPLEMENTARY angles." />
+	</badge>					
+	
+	<badge>
+		<properties title="Supplementary Angles"	chapter="3"	level="8"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_3corner.png"
+			earned_image="Badges/supp02.png"
+			/>
+		<criteria rule="supplementary" onUsage="6" critText="Use 6 SUPPLEMENTARY angles." />
+	</badge>	
+
+	<badge>
+		<properties title="Vertical Angles"	chapter="4"	level="3"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/vert01.png"
+			/>
+		<criteria rule="vertical" onUsage="2" critText="Use 2 VERTICAL angles." />
+	</badge>	
+	
+	<badge>
+		<properties title="COMBO Badge"	chapter="4"	level="5"	badge_type="combo"	badge_mode="learning"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_vs01.png"
+			/>
+		<criteria rule="vertical" onUsage="1" critText="Use 1 VERTICAL angle." />
+		<criteria rule="supplementary" onUsage="1" critText="Use 1 SUPPLEMENTARY angle." />
+	</badge>
+	
+	<badge>
+		<properties title="COMBO Badge"	chapter="4"	level="7"	badge_type="combo"	badge_mode="learning"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_cvs01.png"
+			/>
+		<criteria rule="vertical" onUsage="1" critText="Use 1 VERTICAL angle." />
+		<criteria rule="supplementary" onUsage="1" critText="Use 1 SUPPLEMENTARY angle." />
+		<criteria rule="complementary" onUsage="1" critText="Use 1 COMPLEMENTARY angle." />
+	</badge>
+	
+	<badge>
+		<properties title="Triangle Rule"	chapter="5"	level="2"	badge_type="feature"	badge_mode="learning"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/tri01.png"
+			/>
+		<criteria rule="triangle" onUsage="2" critText="Use the TRIANGLE rule 2 times." />
+	</badge>		
+
+	<badge>
+		<properties title="Complex Rules"	chapter="5"	level="4"	badge_type="complex"	badge_mode="learning"			
+			unearned_image="Badges/unearned_3up.png"
+			earned_image="Badges/complex_3.png"
+			/>
+		<criteria rule="complex" onUsage="3" critText="Use 3 complex angle rules." />
+	</badge>
+	
+	<badge>
+		<properties title="COMBO Badge"	chapter="5"	level="6"	badge_type="combo"	badge_mode="learning"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_csvt01.png"
+			/>
+		<criteria rule="complementary" onUsage="2" critText="Use 2 COMPLEMENTARY angles." />
+		<criteria rule="supplementary" onUsage="2" critText="Use 2 SUPPLEMENTARY angles." />
+		<criteria rule="vertical" onUsage="2" critText="Use 2 VERTICAL angles." />
+		<criteria rule="triangle" onUsage="2" critText="Use the TRIANGLE rule 2 times." />
+	</badge>
+	
+	
+	
+<!-- *************************************************************************************************************************************************************** -->
+<!--                                                                              RANDOM CONDITION                                                                   -->
+<!-- *************************************************************************************************************************************************************** -->
+	<badge>
+		<properties title="Water"	chapter="1"	level="8"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/acute01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+	
+	<badge>
+		<properties title="Mountain"	chapter="2"	level="4"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/comp01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+
+	<badge>
+		<properties title="Charity"	chapter="2"	level="6"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_brain.png"
+			earned_image="Badges/comp02r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+
+	<badge>
+		<properties title="Community"	chapter="2"	level="7"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_3corner.png"
+			earned_image="Badges/comp03r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+
+	<badge>
+		<properties title="Cheerful"	chapter="3"	level="3"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_cs01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+
+	<badge>
+		<properties title="House"	chapter="3"	level="5"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_square.png"
+			earned_image="Badges/combo_cs02r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+	
+	<badge>
+		<properties title="Harmony"	chapter="3"	level="6"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_brain.png"
+			earned_image="Badges/supp01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>					
+	
+	<badge>
+		<properties title="Pleasant"	chapter="3"	level="8"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_3corner.png"
+			earned_image="Badges/supp02r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>	
+
+	<badge>
+		<properties title="Connection"	chapter="4"	level="3"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/vert01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>	
+	
+	<badge>
+		<properties title="Bright"	chapter="4"	level="5"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_vs01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+	
+	<badge>
+		<properties title="Airplane"	chapter="4"	level="7"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_cvs01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+	
+	<badge>
+		<properties title="Juice"	chapter="5"	level="2"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_round.png"
+			earned_image="Badges/tri01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>		
+
+	<badge>
+		<properties title="Sunshine"	chapter="5"	level="4"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_3up.png"
+			earned_image="Badges/complex_3r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+	
+	<badge>
+		<properties title="Rainbow"	chapter="5"	level="6"	badge_type="random"	badge_mode="random"			
+			unearned_image="Badges/unearned_diamond.png"
+			earned_image="Badges/combo_csvt01r.png"
+			/>
+		<criteria rule="points" onUsage="0" critText="na" />
+	</badge>
+						
+</LevelBadges>

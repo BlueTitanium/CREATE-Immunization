@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tutorials language="english">
+<levels id="1">
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 1  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="1">
+			<round id="1">
+					<page id="1">
+						<elem type="txt" styleName="h1">Welcome, Space Ranger!</elem>
+						<elem type="txt" styleName="h2" topMargin="50">All of the aliens on this strange planet have been waiting for your ship to arrive.</elem>
+						<elem type="img" topMargin="40">
+							<imgItem imgClass="AlienR1Happy" yOffset="20" />
+							<imgItem imgClass="AlienB1Happy" yOffset="0" />
+							<imgItem imgClass="AlienR2Happy" yOffset="40" />
+							<imgItem imgClass="AlienB2Happy" yOffset="30" />
+						</elem>  
+					</page>
+					<page id="2">
+						<elem type="txt" styleName="h2">Some of the aliens are very hungry and some of the aliens are very thirsty.</elem>
+						<elem type="txt" styleName="h2" topMargin="20">Good thing you have plenty of food and drinks on board your ship to give them.</elem>
+						<elem type="img">
+							<imgItem imgClass="ItemDrink" yOffset="40" scale="1.5" />
+							<imgItem imgClass="ItemFood" yOffset="50" xOffset="80" scale="1.5" />
+						</elem>
+					</page>
+					<page id="3">
+						<elem type="txt" styleName="h1">Right Now...</elem>
+						<elem type="txt" styleName="h2" topMargin="50">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+					</page>
+					<page id="4">
+						<elem type="txt" styleName="h2">It is your job as a Space Ranger to take care of the aliens</elem>
+						<elem type="img">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="AlienR2Happy" xOffset="200" />
+						</elem>
+						<elem type="txt" styleName="h2">and give them EXACTLY what they want...</elem>
+						<elem type="img">
+							<imgItem imgClass="AlienR1Sad" />
+							<imgItem imgClass="AlienR2Sad" xOffset="200" />
+						</elem>
+						<elem type="txt" styleName="h2">...so that the aliens stay happy!</elem>
+					</page>
+					<page id="5">
+						<elem type="txt" styleName="h2">Click on an alien to give it food or drink from your ship’s storage.</elem>
+						<elem type="album">
+							<albumItem name="tut_alien_target" />
+						</elem>
+					</page>
+					<page id="6">
+						<elem type="txt" styleName="h2">Discard the current food or drink by clicking anywhere in space.</elem>
+						<elem type="album">
+							<albumItem name="tut_item_away" />
+						</elem>
+						<elem type="txt" styleName="h2">This will automatically give you access to the next item.</elem>
+					</page>
+					<page id="7">
+						<elem type="txt" styleName="h2">BE CAREFUL! This is a strange planet and the rules are always changing!</elem>
+						<elem type="album">
+							<albumItem name="tut_rule_change" />
+						</elem>
+						<elem type="txt" styleName="h2">As a Space Ranger, it is your job to give the aliens what they need, even when they change their minds.</elem>
+					</page>
+					<page id="8">
+						<elem type="txt" styleName="h1">REMEMBER!</elem>
+						<elem type="txt" styleName="h2" topMargin="50">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+					</page>
+					<page id="9">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+					</page>
+			</round> 
+			<round id="2" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="20">Red Aliens are hungry!      Blue Aliens are thirsty!</elem>
+					<elem type="img" topMargin="20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 2  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->		
+		<level lvlNumber="2">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Great job, Space Ranger!</elem>
+					<elem type="txt" styleName="h2">But the aliens changed their minds again!</elem>
+					<elem type="txt" styleName="h1" topMargin="10">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+					</page>
+			</round>
+			<round id="2" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">hungry!			      thirsty!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 3  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="3">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Nice work!!</elem>
+					<elem type="txt" styleName="h2">The aliens told all of their friends what an awesome Space Ranger you are and now MORE aliens are coming to get food and drinks! There will be a bunch of aliens and they move super quick, so think fast and remember:</elem>
+					<elem type="txt" styleName="h2" topMargin="30">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+					</page>
+			</round>
+			<round id="2" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Red Aliens are hungry!      Blue Aliens are thirsty!</elem>
+					<elem type="img" topMargin="10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+			<round id="3" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds AGAIN!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+			<round id="4" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">hungry!			      thirsty!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 4  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="4">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Way to go Space Ranger!!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Now, some of the aliens need food AND drinks</elem>
+					<elem type="txt" styleName="h2">One-eyed Red Aliens are  	    One-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">hungry!				      thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="250" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2">Two-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Now</elem>
+					<elem type="txt" styleName="h2">Two-eyed Red Aliens are  	    Two-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!				      hungry!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="250" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2">One-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>	
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 5  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="5">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Awesome job!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Even MORE aliens are coming, and they are super FAST!  Remember:</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">One-eyed Red Aliens are  	    One-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!				      hungry!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="250" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">Two-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Now</elem>
+					<elem type="txt" styleName="h2">Two-eyed Red Aliens are  	    Two-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!				      hungry!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="250" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2">One-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>	
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 6  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="6">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Strange Storms Alert!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">When there is a radioactive blast, the aliens ALL change their minds at the same time!!</elem>
+						<elem type="album">
+							<albumItem name="tut_radiation" />
+						</elem>
+				</page>
+				<page id="2">
+					<elem type="txt" styleName="h1">When the sky is clear...</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="-10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="30">When there is RADIATION...</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">Red Aliens are hungry!      Blue Aliens are thirsty!</elem>
+					<elem type="img" topMargin="-10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="3">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 7  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="7">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Great job, Space Ranger!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">The aliens changed their minds again!  Now...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Remember the radioactive blasts! The aliens ALL change their minds and need different things!!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 8  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="8">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Excellent!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">Now you will have radioactive blasts and even FASTER aliens!</elem>
+						<elem type="txt" styleName="h2" topMargin="20">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Remember the radioactive blasts! The aliens ALL change their minds and need different things!!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The Aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Remember the radioactive blasts! The aliens ALL change their minds and need different things!!</elem>
+				</page>
+			</round>
+		</level>	
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 9  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="9">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Lightning!</elem>
+					<elem type="album">
+						<albumItem name="tut_lightning" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="0">When lightning hits only ONE alien, he instantly changes his mind and needs a DIFFERENT thing!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1">Lightning!</elem>
+						<elem type="txt" styleName="h2" topMargin="20">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+						<elem type="txt" styleName="h2" topMargin="20">But remember...</elem>
+						<elem type="txt" styleName="h2" topMargin="0">When lightning hits an alien, he instantly changes his mind and needs a different thing!</elem>
+				</page>
+				<page id="3">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 10  --------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="10">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Amazing job, Space Ranger!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">The aliens changed their minds again!  Now...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="20">Watch out for LIGHTNING!  When lightning hits an Alien, he instantly changes his mind and needs a different thing!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>		
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 11  --------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="11">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Fantastic!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">This is your final challenge, Space Ranger! Even MORE aliens are coming and they are super FAST! Right now:</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="0">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="15">Remember the LIGHTNING!  When lightning hits an alien, he instantly changes his mind and needs a different thing!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The Aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>	
+
+</levels>
+	
+	
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------                         LEVEL SET #2          --------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<levels id="2">
+
+</levels>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------                         LEVEL SET #3          --------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<levels id="3">
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 1  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="1">
+			<round id="1">
+					<page id="1">
+						<elem type="txt" styleName="h1">Welcome, Space Ranger!</elem>
+						<elem type="txt" styleName="h2" topMargin="50">All of the aliens on this strange planet have been waiting for your ship to arrive.</elem>
+						<elem type="img" topMargin="40">
+							<imgItem imgClass="AlienR1Happy" yOffset="20" />
+							<imgItem imgClass="AlienB1Happy" yOffset="0" />
+							<imgItem imgClass="AlienR2Happy" yOffset="40" />
+							<imgItem imgClass="AlienB2Happy" yOffset="30" />
+						</elem>  
+					</page>
+					<page id="2">
+						<elem type="txt" styleName="h2">Some of the aliens are very hungry and some of the aliens are very thirsty.</elem>
+						<elem type="txt" styleName="h2" topMargin="20">Good thing you have plenty of food and drinks on board your ship to give them.</elem>
+						<elem type="img">
+							<imgItem imgClass="ItemDrink" yOffset="40" scale="1.5" />
+							<imgItem imgClass="ItemFood" yOffset="50" xOffset="80" scale="1.5" />
+						</elem>
+					</page>
+					<page id="3">
+						<elem type="txt" styleName="h1">Right Now...</elem>
+						<elem type="txt" styleName="h2" topMargin="50">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+					</page>
+					<page id="4">
+						<elem type="txt" styleName="h2">It is your job as a Space Ranger to take care of the aliens</elem>
+						<elem type="img">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="AlienR2Happy" xOffset="200" />
+						</elem>
+						<elem type="txt" styleName="h2">and give them EXACTLY what they want...</elem>
+						<elem type="img">
+							<imgItem imgClass="AlienR1Sad" />
+							<imgItem imgClass="AlienR2Sad" xOffset="200" />
+						</elem>
+						<elem type="txt" styleName="h2">...so that the aliens stay happy!</elem>
+					</page>
+					<page id="5">
+						<elem type="txt" styleName="h2">Click on an alien to give it food or drink from your ship’s storage.</elem>
+						<elem type="album">
+							<albumItem name="tut_alien_target" />
+						</elem>
+					</page>
+					<page id="6">
+						<elem type="txt" styleName="h2">Discard the current food or drink by clicking anywhere in space.</elem>
+						<elem type="album">
+							<albumItem name="tut_item_away" />
+						</elem>
+						<elem type="txt" styleName="h2">This will automatically give you access to the next item.</elem>
+					</page>
+					<page id="7">
+						<elem type="txt" styleName="h2">BE CAREFUL! This is a strange planet and the rules are always changing!</elem>
+						<elem type="album">
+							<albumItem name="tut_rule_change" />
+						</elem>
+						<elem type="txt" styleName="h2">As a Space Ranger, it is your job to give the aliens what they need, even when they change their minds.</elem>
+					</page>
+					<page id="8">
+						<elem type="txt" styleName="h1">REMEMBER!</elem>
+						<elem type="txt" styleName="h2" topMargin="50">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+					</page>
+					<page id="9">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+					</page>
+			</round> 
+			<round id="2" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="20">Red Aliens are hungry!      Blue Aliens are thirsty!</elem>
+					<elem type="img" topMargin="20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 2  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->		
+		<level lvlNumber="2">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Great job, Space Ranger!</elem>
+					<elem type="txt" styleName="h2">But the aliens changed their minds again!</elem>
+					<elem type="txt" styleName="h1" topMargin="10">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+					</page>
+			</round>
+			<round id="2" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">hungry!			      thirsty!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 3  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="3">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Nice work!!</elem>
+					<elem type="txt" styleName="h2">The aliens told all of their friends what an awesome Space Ranger you are and now MORE aliens are coming to get food and drinks! There will be a bunch of aliens and they move super quick, so think fast and remember:</elem>
+					<elem type="txt" styleName="h2" topMargin="30">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+					</page>
+			</round>
+			<round id="2" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Red Aliens are hungry!      Blue Aliens are thirsty!</elem>
+					<elem type="img" topMargin="10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+			<round id="3" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds AGAIN!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+			<round id="4" >
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h1" topMargin="20">NOW...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">hungry!			      thirsty!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 4  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="4">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Way to go Space Ranger!!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Now, some of the aliens need food AND drinks</elem>
+					<elem type="txt" styleName="h2">One-eyed Red Aliens are  	    One-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">hungry!				      thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="250" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2">Two-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Now</elem>
+					<elem type="txt" styleName="h2">Two-eyed Red Aliens are  	    Two-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!				      hungry!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="250" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2">One-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>	
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 5  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="5">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Awesome job!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Even MORE aliens are coming, and they are super FAST!  Remember:</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">One-eyed Red Aliens are  	    One-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!				      hungry!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="250" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">Two-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h2">The aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">Now</elem>
+					<elem type="txt" styleName="h2">Two-eyed Red Aliens are  	    Two-eyed Blue Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!				      hungry!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR2Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="250" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+					</elem>
+					<elem type="txt" styleName="h2">One-eyed Aliens are hungry AND thirsty!</elem>
+					<elem type="img" topMargin="-20">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>	
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 6  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="6">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Strange Storms Alert!</elem>
+					<elem type="txt" styleName="h2" topMargin="-20">When there is a radioactive blast, the aliens ALL change their minds at the same time!!</elem>
+						<elem type="album">
+							<albumItem name="tut_radiation" />
+						</elem>
+				</page>
+				<page id="2">
+					<elem type="txt" styleName="h1">When the sky is clear...</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="-10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="30">When there is RADIATION...</elem>
+					<elem type="txt" styleName="h2" topMargin="-10">Red Aliens are hungry!      Blue Aliens are thirsty!</elem>
+					<elem type="img" topMargin="-10">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+				<page id="3">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 7  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="7">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Great job, Space Ranger!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">The aliens changed their minds again!  Now...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Remember the radioactive blasts! The aliens ALL change their minds and need different things!!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>
+		
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 8  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="8">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Excellent!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">Now you will have radioactive blasts and even FASTER aliens!</elem>
+						<elem type="txt" styleName="h2" topMargin="20">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Remember the radioactive blasts! The aliens ALL change their minds and need different things!!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The Aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Remember the radioactive blasts! The aliens ALL change their minds and need different things!!</elem>
+				</page>
+			</round>
+		</level>	
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 9  ---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="9">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Lightning!</elem>
+					<elem type="album">
+						<albumItem name="tut_lightning" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="0">When lightning hits only ONE alien, he instantly changes his mind and needs a DIFFERENT thing!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1">Lightning!</elem>
+						<elem type="txt" styleName="h2" topMargin="20">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+						<elem type="img" topMargin="20">
+							<imgItem imgClass="AlienR1Happy" />
+							<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+							<imgItem imgClass="AlienB1Happy" xOffset="100" />
+							<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+							<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+						</elem>
+						<elem type="txt" styleName="h2" topMargin="20">But remember...</elem>
+						<elem type="txt" styleName="h2" topMargin="0">When lightning hits an alien, he instantly changes his mind and needs a different thing!</elem>
+				</page>
+				<page id="3">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 10  --------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="10">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Amazing job, Space Ranger!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">The aliens changed their minds again!  Now...</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="20">Watch out for LIGHTNING!  When lightning hits an Alien, he instantly changes his mind and needs a different thing!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+		</level>		
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 11  --------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="11">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Fantastic!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">Only two more challenges, Space Ranger! Even MORE aliens are coming and they are super FAST! Right now:</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="0">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="15">Remember the LIGHTNING!  When lightning hits an alien, he instantly changes his mind and needs a different thing!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The Aliens changed their minds!</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>	
+				
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------  LEVEL 12  --------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<level lvlNumber="12">
+			<round id="1">
+				<page id="1">
+					<elem type="txt" styleName="h1">Fantastic!</elem>
+					<elem type="txt" styleName="h2" topMargin="0">This is your final challenge, Space Ranger! Aliens now have to worry about LIGHTNING AND RADIATION! Right now:</elem>
+					<elem type="txt" styleName="h2" topMargin="10">Red Aliens are thirsty!      Blue Aliens are hungry!</elem>
+					<elem type="img" topMargin="0">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienR2Happy" xOffset="-30" />
+						<imgItem imgClass="AlienB1Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+					<elem type="txt" styleName="h2" topMargin="15">Remember the LIGHTNING AND RADIATION!  When lightning hits an alien, he instantly changes his mind and needs a different thing!  When there is a radiation blast, ALL the aliens change their mind!</elem>
+				</page>
+				<page id="2">
+						<elem type="txt" styleName="h1" topMargin="30">Good luck, Space Ranger!</elem>
+						<elem type="album">
+							<albumItem name="tut_good_luck" />
+						</elem>
+				</page>
+			</round>
+			<round id="2">
+				<page id="1">
+					<elem type="txt" styleName="h3">RULE CHANGE!</elem>
+					<elem type="txt" styleName="h2">The Aliens changed their minds and are coming even faster!</elem>
+					<elem type="txt" styleName="h2" topMargin="10">One-eyed Aliens are  	    Two-eyed Aliens are</elem>
+					<elem type="txt" styleName="h2" topMargin="-30">thirsty!			      hungry!</elem>
+					<elem type="img">
+						<imgItem imgClass="AlienR1Happy" />
+						<imgItem imgClass="ItemDrink" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB1Happy" xOffset="-30" />
+						<imgItem imgClass="AlienR2Happy" xOffset="100" />
+						<imgItem imgClass="ItemFood" xOffset="-30" yOffset="100" />
+						<imgItem imgClass="AlienB2Happy" xOffset="-30" />
+					</elem>
+				</page>
+			</round>
+		</level>
+</levels>
+</Tutorials>

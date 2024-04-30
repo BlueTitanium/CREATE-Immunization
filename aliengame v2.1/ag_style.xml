@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styles language="english">
+	<style styleName="h1" 
+		color="0x191919" 
+		size="50" 
+		letterSpacing="2.5"
+	/>
+	
+	<style styleName="h2" 
+		color="0x333333" 
+		size="30" 
+	/>
+	
+	<style styleName="h3" 
+		color="0xFF0000" 
+		size="60" 
+	/>
+	
+	<style styleName="menuFrame"
+		color="0x38a738"
+		alpha="0.9"
+		width="730"
+		height="550"
+		ellipse="80"
+	/>
+	
+	<style styleName="menuFrame1"
+		color="0x38a738"
+		alpha="0.75"
+		width="750"
+		height="500"
+		ellipse="40"
+	/>		
+	
+</styles>

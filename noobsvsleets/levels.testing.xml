@@ -1,0 +1,2397 @@
+<Levels>
+  <level name="0.1" guid="7C93865C-53C0-1134-678A-0342312426F6">
+    <gamemode id="C" name="Conceptual">
+      <callout trigger="start" message="WATCH OUT!  There's Leet on the path!" target="lineID:2" removal="timer:3"/>
+      <callout trigger="timerGroup:0" message="You will have to..." target="vertexID:5" removal="timer:3"/>
+      <callout trigger="timerGroup:0" message="...go around!" target="vertexID:8" removal="timer:3"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <callout trigger="start" message="WATCH OUT!  There's Leet on the path!" target="lineID:2" removal="timer:3"/>
+      <callout trigger="timerGroup:0" message="You will have to..." target="vertexID:5" removal="timer:3"/>
+      <callout trigger="timerGroup:0" message="...go around!" target="vertexID:8" removal="timer:3"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="699" y="228" type="CAGE"/>
+    <vertex id="2" x="200" y="303"/>
+    <vertex id="3" x="594" y="302"/>
+    <vertex id="4" x="200" y="573"/>
+    <vertex id="5" x="291" y="436"/>
+    <vertex id="8" x="289" y="515"/>
+    <line id="1" fromVert="2" toVert="4" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3" type="OPEN" occupy="CAMPER"/>
+    <line id="3" fromVert="3" toVert="1" type="OPEN"/>
+    <line id="4" fromVert="4" toVert="5" type="OPEN"/>
+    <line id="8" fromVert="8" toVert="3" type="OPEN"/>
+    <line id="9" fromVert="2" toVert="0" type="OPEN"/>
+    <line id="10" fromVert="5" toVert="8" type="OPEN"/>
+  </level>
+  <level name="0.2" guid="245A2715-1361-F58D-C857-FF795D26C989">
+    <gamemode id="C" name="Conceptual">
+      <callout trigger="start" message="Click on a green VERTEX to move your Noob!" target="vertexID:8" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <callout trigger="start" message="Click on a green VERTEX to move your Noob!" target="vertexID:8" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="476" y="367" type="CAGE"/>
+    <vertex id="5" x="245" y="177"/>
+    <vertex id="7" x="437" y="153"/>
+    <vertex id="8" x="646" y="179"/>
+    <vertex id="9" x="748" y="458"/>
+    <vertex id="10" x="649" y="546"/>
+    <vertex id="11" x="266" y="550"/>
+    <vertex id="12" x="151" y="454"/>
+    <vertex id="13" x="148" y="316"/>
+    <vertex id="14" x="752" y="245"/>
+    <vertex id="15" x="306" y="233"/>
+    <vertex id="16" x="596" y="241"/>
+    <vertex id="17" x="648" y="408"/>
+    <vertex id="18" x="577" y="450"/>
+    <vertex id="19" x="357" y="448"/>
+    <vertex id="20" x="262" y="367"/>
+    <vertex id="21" x="443" y="223"/>
+    <vertex id="23" x="662" y="286"/>
+    <line id="3" fromVert="0" toVert="5" type="OPEN"/>
+    <line id="8" fromVert="5" toVert="7" type="OPEN"/>
+    <line id="13" fromVert="7" toVert="8" type="OPEN"/>
+    <line id="19" fromVert="8" toVert="14" type="OPEN"/>
+    <line id="20" fromVert="14" toVert="9" type="OPEN"/>
+    <line id="21" fromVert="9" toVert="10" type="OPEN"/>
+    <line id="22" fromVert="10" toVert="11" type="OPEN"/>
+    <line id="23" fromVert="11" toVert="12" type="OPEN"/>
+    <line id="24" fromVert="12" toVert="13" type="OPEN"/>
+    <line id="25" fromVert="13" toVert="15" type="OPEN"/>
+    <line id="28" fromVert="17" toVert="18" type="OPEN"/>
+    <line id="29" fromVert="18" toVert="19" type="OPEN"/>
+    <line id="30" fromVert="19" toVert="20" type="OPEN"/>
+    <line id="31" fromVert="20" toVert="1" type="OPEN"/>
+    <line id="32" fromVert="15" toVert="21" type="OPEN"/>
+    <line id="35" fromVert="21" toVert="16" type="OPEN"/>
+    <line id="36" fromVert="16" toVert="23" type="OPEN"/>
+    <line id="37" fromVert="23" toVert="17" type="OPEN"/>
+  </level>
+  <level guid="20120607-002" name="0.3">
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="200" y="300"/>
+    <vertex id="2" x="200" y="600"/>
+    <vertex id="3" x="500" y="600"/>
+    <vertex id="4" x="750" y="600" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <angle id="0" leftLine="2" rightLine="3" radius="100"/>
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:1, straight:1"/>
+      <callout trigger="start" message="This line is solved. A Noob can only walk on solved lines." target="lineID:1" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="180:1"/>
+      <callout trigger="start" message="This line is solved. A Noob can only walk on solved lines." target="lineID:1" removal="click:self"/>
+    </gamemode>
+  </level>
+  <level guid="20120607-003" name="0.4">
+    <vertex id="0" x="600" y="118" type="START"/>
+    <vertex id="1" x="600" y="300"/>
+    <vertex id="2" x="200" y="540"/>
+    <vertex id="3" x="750" y="540" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="100"/>
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:1, straight:1, acute:1"/>
+      <callout trigger="start" message="Unlock the angle to solve the lines connected to the angle." target="angleID:0" removal="click:angleID:0"/>
+      <callout trigger="click:button:acute" message="This line is now solved." target="lineID:2" removal="timer:2"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:1, straight:1, acute:1"/>
+      <callout trigger="start" message="Unlock the angle to solve the lines connected to the angle." target="angleID:0" removal="click:angleID:0"/>
+      <callout trigger="click:button:acute" message="This line is now solved." target="lineID:2" removal="timer:2"/>
+    </gamemode>
+  </level>
+  <level guid="20120607-004" name="0.5">
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="200" y="300"/>
+    <vertex id="2" x="400" y="575"/>
+    <vertex id="3" x="750" y="575" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="100"/>
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:1, straight:1, acute:1, obtuse:1"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:1, straight:1, acute:1, obtuse:1"/>
+    </gamemode>
+  </level>
+  <level guid="76B44611-9F7D-D719-63A1-81B1514313C4" name="0.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="45:99, 90:99, 135:99, 180:99"/>
+      <callout trigger="start" message="What is the measure of a straight line?" target="angleID:0" removal="click:self"/>
+      <callout trigger="click:button:180" message="What is the measure of a right angle?" target="angleID:1" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="45:99, 90:99, 135:99, 180:99"/>
+      <callout trigger="start" message="What is the measure of a straight line?" target="angleID:0" removal="click:self"/>
+      <callout trigger="click:button:180" message="What is the measure of a right angle?" target="angleID:1" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="200" y="300"/>
+    <vertex id="2" x="200" y="400"/>
+    <vertex id="3" x="500" y="400"/>
+    <vertex id="4" x="800" y="400"/>
+    <vertex id="5" x="799" y="218" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="3" toVert="4"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <angle id="0" leftLine="2" rightLine="4" radius="100" locked="YES"/>
+    <angle id="1" leftLine="3" rightLine="5" radius="100" locked="YES"/>
+  </level>
+  <level guid="4BAC7C56-8829-354D-C16F-81B2D6A66286" name="0.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="60:99, 90:99, 120:99, 180:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="60:99, 90:99, 120:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="494" y="117" type="START"/>
+    <vertex id="1" x="500" y="300"/>
+    <vertex id="2" x="438" y="411"/>
+    <vertex id="3" x="629" y="413"/>
+    <vertex id="4" x="724" y="578" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="102" locked="YES"/>
+    <angle id="1" leftLine="3" rightLine="2" radius="75" locked="YES"/>
+  </level>
+  <level name="0.8" guid="20B8523E-5AA2-6EAF-8A0A-FF79B46FA220">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="800" y="300" type="CAGE"/>
+    <vertex id="2" x="200" y="253"/>
+    <vertex id="3" x="200" y="420"/>
+    <vertex id="4" x="200" y="518"/>
+    <vertex id="5" x="400" y="600"/>
+    <vertex id="6" x="600" y="449"/>
+    <line id="0" fromVert="0" toVert="2"/>
+    <line id="1" fromVert="2" toVert="3"/>
+    <line id="2" fromVert="3" toVert="4"/>
+    <line id="3" fromVert="4" toVert="5"/>
+    <line id="4" fromVert="6" toVert="5"/>
+    <line id="5" fromVert="1" toVert="6"/>
+    <angle id="0" leftLine="0" rightLine="1" radius="100" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="100" locked="YES"/>
+    <angle id="2" leftLine="3" rightLine="4" radius="63" locked="YES"/>
+    <angle id="3" leftLine="2" rightLine="1" radius="100" locked="YES"/>
+    <angle id="4" leftLine="5" rightLine="4" radius="100" locked="YES"/>
+  </level>
+  <level name="0.9" guid="ACB26099-F357-38EC-E6B2-FF82AAD7F977">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="800" y="300" type="CAGE"/>
+    <vertex id="2" x="499" y="199"/>
+    <vertex id="3" x="690" y="550"/>
+    <vertex id="4" x="317" y="546"/>
+    <vertex id="5" x="313" y="276"/>
+    <vertex id="6" x="280" y="354"/>
+    <vertex id="7" x="433" y="323"/>
+    <vertex id="8" x="412" y="363"/>
+    <vertex id="9" x="235" y="274"/>
+    <line id="0" fromVert="2" toVert="3"/>
+    <line id="1" fromVert="3" toVert="4"/>
+    <line id="3" fromVert="2" toVert="7"/>
+    <line id="4" fromVert="4" toVert="8"/>
+    <line id="5" fromVert="7" toVert="5" type="OPEN"/>
+    <line id="6" fromVert="8" toVert="6" type="OPEN"/>
+    <line id="7" fromVert="5" toVert="9" type="OPEN"/>
+    <line id="8" fromVert="6" toVert="9" type="OPEN"/>
+    <line id="9" fromVert="9" toVert="0" type="OPEN"/>
+    <line id="10" fromVert="3" toVert="1" type="OPEN"/>
+    <angle id="1" leftLine="1" rightLine="0" radius="100" locked="YES"/>
+    <angle id="3" leftLine="0" rightLine="3" radius="100" locked="NO"/>
+    <angle id="4" leftLine="4" rightLine="1" radius="100" locked="NO"/>
+  </level>
+  <level name="1.1" guid="6D827123-0BAC-5348-7867-75134ED64516">
+    <gamemode id="C" name="Conceptual">
+      <callout trigger="start" message="Click on the cage to free the Noob!" target="vertexID:1" removal="click:vertexID:1"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <callout trigger="start" message="Click on the cage to free the Noob!" target="vertexID:1" removal="click:vertexID:1"/>
+    </gamemode>
+    <vertex id="0" x="161" y="173" type="START"/>
+    <vertex id="1" x="764" y="548" type="CAGE"/>
+    <vertex id="2" x="161" y="548"/>
+    <line id="10" fromVert="1" toVert="0"/>
+    <line id="11" fromVert="2" toVert="0" type="OPEN"/>
+    <line id="12" fromVert="2" toVert="1" type="OPEN"/>
+  </level>
+  <level name="1.2" guid="7332F36E-66A8-C095-D4F2-5F8A9515267E">
+    <gamemode id="C" name="Conceptual">
+      <callout trigger="start" message="Noobs cannot walk down CLOSED paths." target="lineID:3" removal="timer:3"/>
+      <callout trigger="timerGroup:0" message="You will have to go around the long way!" target="vertexID:4" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <callout trigger="start" message="Noobs cannot walk down CLOSED paths." target="lineID:3" removal="timer:3"/>
+      <callout trigger="timerGroup:0" message="You will have to go around the long way!" target="vertexID:4" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="579" y="273" type="CAGE"/>
+    <vertex id="2" x="361" y="393"/>
+    <vertex id="3" x="513" y="395"/>
+    <vertex id="4" x="445" y="526"/>
+    <line id="1" fromVert="2" toVert="4" type="OPEN"/>
+    <line id="3" fromVert="2" toVert="3"/>
+    <line id="4" fromVert="3" toVert="1" type="OPEN"/>
+    <line id="5" fromVert="2" toVert="0" type="OPEN"/>
+    <line id="17" fromVert="4" toVert="3" type="OPEN"/>
+  </level>
+  <level name="1.3" guid="5821D6BC-2848-B411-E669-5F8ADA3C305F">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+      <callout id="0" trigger="start" message="Watch out! There's a Leet on the path!" target="lineID:25" removal="click:self"/>
+      <callout trigger="callout:0" message="Click the vertices to tell the Noob where to go." target="vertexID:6" removal="click:vertexID:6"/>
+      <callout trigger="noob:vertexID:6" message="Now you can get to the cage without hitting the Leet." target="vertexID:1" removal="down:vertexID:1"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <vertex id="0" x="210" y="173" type="START"/>
+    <vertex id="1" x="725" y="326" type="CAGE"/>
+    <vertex id="2" x="208" y="320"/>
+    <vertex id="3" x="205" y="583"/>
+    <vertex id="6" x="395" y="452"/>
+    <vertex id="8" x="726" y="456"/>
+    <vertex id="21" x="391" y="585"/>
+    <line id="0" fromVert="0" toVert="2" type="OPEN"/>
+    <line id="8" fromVert="6" toVert="8" type="OPEN"/>
+    <line id="9" fromVert="8" toVert="1" type="OPEN"/>
+    <line id="10" fromVert="2" toVert="3" type="OPEN"/>
+    <line id="23" fromVert="21" toVert="6" type="OPEN"/>
+    <line id="24" fromVert="3" toVert="21" type="OPEN"/>
+    <line id="25" fromVert="1" toVert="2" type="OPEN" occupy="CAMPER"/>
+    <line id="26" fromVert="2" toVert="6"/>
+  </level>
+  <level guid="62EAFD34-8223-9797-D25A-5F8B0A1193C6" name="1.4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:1"/>
+      <callout trigger="start" message="Click this right angle. It's locked." target="angleID:0" removal="click:angleID:0"/>
+      <callout trigger="click:angleID:0" message="Click the right angle rule to unlock the angle." target="button:right" removal="click:button:right"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="90:1"/>
+      <callout trigger="start" message="Click this right angle. It's locked." target="angleID:0" removal="click:angleID:0"/>
+      <callout trigger="click:angleID:0" message="Click the 90 degree angle button to unlock the angle." target="button:90" removal="click:button:90"/>
+    </gamemode>
+    <vertex id="0" x="209" y="174" type="START"/>
+    <vertex id="1" x="207" y="308"/>
+    <vertex id="2" x="208" y="600"/>
+    <vertex id="3" x="698" y="388" type="CAGE"/>
+    <vertex id="6" x="698" y="603"/>
+    <vertex id="7" x="375" y="468"/>
+    <vertex id="8" x="513" y="309"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="5" fromVert="2" toVert="6"/>
+    <line id="6" fromVert="3" toVert="6" type="OPEN"/>
+    <line id="9" fromVert="1" toVert="8" type="OPEN"/>
+    <line id="10" fromVert="8" toVert="7" type="OPEN" occupy="CAMPER"/>
+    <line id="11" fromVert="6" toVert="7" type="OPEN"/>
+    <angle id="0" leftLine="1" rightLine="5" radius="128" locked="YES"/>
+  </level>
+  <level guid="A7DD9FDF-6A51-C984-4838-5F8B44759952" name="1.5">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="acute:5, obtuse:5, right:5, straight:5"/>
+      <callout trigger="start" message="Unlock the rest of the angles to open up a path." target="angleID:1" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="acute:5, obtuse:5, right:5, straight:5"/>
+      <callout trigger="start" message="Unlock the rest of the angles to open up a path." target="angleID:1" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="161" y="175" type="START"/>
+    <vertex id="1" x="200" y="300"/>
+    <vertex id="2" x="508" y="302"/>
+    <vertex id="3" x="346" y="486"/>
+    <vertex id="4" x="669" y="600" type="CAGE"/>
+    <vertex id="5" x="665" y="301"/>
+    <vertex id="6" x="201" y="432"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <line id="7" fromVert="3" toVert="6" type="OPEN"/>
+    <line id="9" fromVert="5" toVert="4" type="OPEN" occupy="CAMPER"/>
+    <line id="10" fromVert="1" toVert="6" type="OPEN" occupy="CAMPER"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="100" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="103" locked="YES"/>
+    <angle id="2" leftLine="4" rightLine="2" radius="104" locked="NO"/>
+    <angle id="3" leftLine="7" rightLine="2" radius="91" locked="NO"/>
+  </level>
+  <level guid="183B3560-61AB-50AE-DF7D-5F8B68DFEA21" name="1.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99:labelonly, acute:99:labelonly, obtuse:99:labelonly, straight:99:labelonly"/>
+      <callout trigger="start" message="Can you remember the names of the angles without seeing the images?" target="button:straight" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99:labelonly, acute:99:labelonly, obtuse:99:labelonly, straight:99:labelonly"/>
+      <callout trigger="start" message="Can you remember the names of the angles without seeing the images?" target="button:straight" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="200" y="174" type="START"/>
+    <vertex id="1" x="200" y="300"/>
+    <vertex id="2" x="373" y="595"/>
+    <vertex id="3" x="597" y="597"/>
+    <vertex id="4" x="791" y="597" type="CAGE"/>
+    <vertex id="5" x="200" y="594"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="7" fromVert="5" toVert="2"/>
+    <line id="8" fromVert="1" toVert="5" type="OPEN"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="80" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="80" locked="YES"/>
+    <angle id="6" leftLine="8" rightLine="7" radius="100" locked="YES"/>
+    <angle id="7" leftLine="1" rightLine="8" radius="100" locked="NO"/>
+  </level>
+  <level guid="E2B39496-C1F4-E51C-DF33-5F8B97C02071" name="1.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="acute:5, obtuse:5, right:5, straight:5"/>
+      <callout trigger="start" message="Oh no, that's a purple Leet!  They will chase you if you open up the path, be careful!" target="lineID:6" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="45:99, 90:99, 105:99, 120:99, 135:99, 150:99, 165:99, 180:99"/>
+      <callout trigger="start" message="Oh no, that's a purple Leet!  They will chase you if you open up the path, be careful!" target="lineID:6" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="471" y="192" type="START"/>
+    <vertex id="1" x="471" y="293"/>
+    <vertex id="2" x="288" y="295"/>
+    <vertex id="3" x="179" y="559"/>
+    <vertex id="4" x="468" y="558"/>
+    <vertex id="5" x="668" y="560"/>
+    <vertex id="6" x="804" y="449" type="CAGE"/>
+    <vertex id="7" x="124" y="297"/>
+    <vertex id="8" x="23" y="561"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="4" toVert="5"/>
+    <line id="5" fromVert="5" toVert="6"/>
+    <line id="6" fromVert="1" toVert="4" occupy="HUNTER"/>
+    <line id="10" fromVert="2" toVert="7" type="OPEN"/>
+    <line id="11" fromVert="3" toVert="8" type="OPEN"/>
+    <line id="13" fromVert="7" toVert="8" type="OPEN"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="90" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="79" locked="YES"/>
+    <angle id="3" leftLine="4" rightLine="5" radius="80" locked="YES"/>
+    <angle id="4" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+    <angle id="5" leftLine="3" rightLine="6" radius="100" locked="YES"/>
+    <angle id="6" leftLine="6" rightLine="4" radius="99" locked="NO"/>
+    <angle id="7" leftLine="6" rightLine="1" radius="100" locked="NO"/>
+    <angle id="9" leftLine="2" rightLine="10" radius="88" locked="NO"/>
+    <angle id="10" leftLine="11" rightLine="2" radius="77" locked="NO"/>
+  </level>
+  <level guid="A05D903A-E0F7-B1E5-0F09-5F8BE699A2F5" name="1.8">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="acute:99, obtuse:99, right:99, straight:99"/>
+      <callout trigger="start" message="Look how many Noobs you have saved!" target="display:counter" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="acute:99, obtuse:99, right:99, straight:99"/>
+    </gamemode>
+    <vertex id="0" x="176" y="152" type="START"/>
+    <vertex id="1" x="459" y="346"/>
+    <vertex id="2" x="217" y="552"/>
+    <vertex id="3" x="456" y="552"/>
+    <vertex id="4" x="765" y="368" type="CAGE"/>
+    <vertex id="5" x="71" y="347"/>
+    <vertex id="6" x="255" y="207"/>
+    <vertex id="7" x="67" y="549"/>
+    <vertex id="8" x="766" y="549"/>
+    <line id="1" fromVert="1" toVert="2" occupy="HUNTER"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <line id="5" fromVert="1" toVert="5" occupy="CAMPER"/>
+    <line id="6" fromVert="6" toVert="0" type="OPEN"/>
+    <line id="7" fromVert="6" toVert="5"/>
+    <line id="9" fromVert="5" toVert="7" type="OPEN"/>
+    <line id="10" fromVert="7" toVert="2" type="OPEN"/>
+    <line id="11" fromVert="6" toVert="1"/>
+    <line id="12" fromVert="3" toVert="8"/>
+    <line id="14" fromVert="1" toVert="8"/>
+    <line id="15" fromVert="8" toVert="4"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="100" locked="YES"/>
+    <angle id="2" leftLine="5" rightLine="4" radius="100" locked="YES"/>
+    <angle id="3" leftLine="7" rightLine="5" radius="100" locked="YES"/>
+    <angle id="4" leftLine="9" rightLine="10" radius="100" locked="NO"/>
+    <angle id="5" leftLine="4" rightLine="1" radius="100" locked="YES"/>
+    <angle id="7" leftLine="5" rightLine="11" radius="130" locked="YES"/>
+    <angle id="8" leftLine="1" rightLine="5" radius="100" locked="YES"/>
+    <angle id="9" leftLine="2" rightLine="12" radius="73" locked="YES"/>
+    <angle id="10" leftLine="14" rightLine="15" radius="100" locked="YES"/>
+    <angle id="11" leftLine="12" rightLine="14" radius="100" locked="YES"/>
+    <angle id="12" leftLine="14" rightLine="1" radius="85" locked="YES"/>
+    <angle id="13" leftLine="11" rightLine="7" radius="77" locked="NO"/>
+  </level>
+  <level name="1.9" guid="5BD17A3D-4FA9-BABF-CE6E-5F8C41322A22">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="532" y="490" type="CAGE"/>
+    <vertex id="2" x="61" y="291"/>
+    <vertex id="3" x="342" y="291"/>
+    <vertex id="4" x="556" y="293"/>
+    <vertex id="5" x="205" y="292"/>
+    <vertex id="6" x="204" y="551"/>
+    <vertex id="7" x="420" y="551"/>
+    <vertex id="8" x="826" y="291"/>
+    <vertex id="9" x="829" y="584"/>
+    <vertex id="10" x="615" y="584"/>
+    <line id="0" fromVert="0" toVert="3"/>
+    <line id="1" fromVert="0" toVert="2"/>
+    <line id="2" fromVert="2" toVert="5"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="5" toVert="3" type="OPEN" occupy="CAMPER"/>
+    <line id="5" fromVert="5" toVert="6"/>
+    <line id="6" fromVert="6" toVert="7"/>
+    <line id="7" fromVert="4" toVert="8"/>
+    <line id="8" fromVert="4" toVert="9"/>
+    <line id="9" fromVert="7" toVert="1"/>
+    <line id="10" fromVert="8" toVert="9" type="OPEN" occupy="CAMPER"/>
+    <line id="12" fromVert="10" toVert="9"/>
+    <line id="13" fromVert="10" toVert="1"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="100" locked="YES"/>
+    <angle id="1" leftLine="0" rightLine="3" radius="82" locked="YES"/>
+    <angle id="2" leftLine="5" rightLine="6" radius="100" locked="YES"/>
+    <angle id="3" leftLine="3" rightLine="7" radius="76" locked="YES"/>
+    <angle id="4" leftLine="7" rightLine="8" radius="111" locked="YES"/>
+    <angle id="5" leftLine="6" rightLine="9" radius="73" locked="YES"/>
+    <angle id="6" leftLine="10" rightLine="7" radius="79" locked="YES"/>
+    <angle id="7" leftLine="13" rightLine="12" radius="69" locked="YES"/>
+    <angle id="9" leftLine="4" rightLine="5" radius="100" locked="NO"/>
+    <angle id="10" leftLine="8" rightLine="10" radius="83" locked="NO"/>
+    <angle id="11" leftLine="12" rightLine="8" radius="81" locked="NO"/>
+    <angle id="12" leftLine="8" rightLine="3" radius="83" locked="NO"/>
+  </level>
+  <level name="1.10" guid="ED5DE6F0-8B91-A818-376F-371A92D0C3E3" levelType="incomplete">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+      <callout crit="angles:3" trigger="start" message="This level is incomplete!  You need to add an angle." target="vertexID:4" targOffset="0, -40" removal="timer:1"/>
+      <callout crit="angles:3" trigger="timerGroup:0" message="Open the map to draw a new angle" target="parch:control" removal="down:parch:control"/>
+      <callout crit="angles:3" trigger="parch:start" message="Click and hold to pick up a new angle..." target="parch:box:angles" removal="down:parch:box:angles"/>
+      <callout crit="angles:3" id="0" trigger="parch:box:angles" message="And drop it here." target="vertexID:4" targOffset="0, -40" removal="up:self"/>
+      <callout trigger="callout:0" message="Now close the map to play the level" target="parch:control" removal="down:parch:control"/>
+      <callout crit="angles:4" trigger="start" message="Here is the new angle!" target="vertexID:4" targOffset="0, -40" removal="down:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <toolbox angles="1"/>
+    <vertex id="0" x="168" y="551" type="START"/>
+    <vertex id="1" x="904" y="446" type="CAGE"/>
+    <vertex id="2" x="285" y="344"/>
+    <vertex id="3" x="685" y="344"/>
+    <vertex id="4" x="487" y="342"/>
+    <line id="0" fromVert="0" toVert="2" type="OPEN"/>
+    <line id="1" fromVert="3" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="4" toVert="2"/>
+    <line id="3" fromVert="4" toVert="3"/>
+    <angle id="0" leftLine="3" rightLine="2" radius="100" locked="NO"/>
+    <angle id="1" leftLine="2" rightLine="0" radius="56" locked="NO"/>
+    <angle id="2" leftLine="1" rightLine="3" radius="50" locked="NO"/>
+  </level>
+  <level name="1.11" guid="7C59D2ED-1C9C-5B7A-5B22-BF8411BD04CE" levelType="incomplete">
+    <toolbox lines="1" angles="1"/>
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+      <callout trigger="parch:start" message="Click and hold to pick up a new line..." target="parch:box:lines" removal="down:parch:box:lines"/>
+      <callout trigger="parch:box:lines" message="drop the first point here." target="vertexID:2" removal="up:parch:vertexID:2"/>
+      <callout trigger="parch:up:vertexID:2" message="Now click on this point to draw a new line." target="vertexID:4" removal="down:parch:vertexID:4"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <vertex id="0" x="176" y="156" type="START"/>
+    <vertex id="1" x="169" y="546" type="CAGE"/>
+    <vertex id="2" x="794" y="203"/>
+    <vertex id="4" x="896" y="447"/>
+    <line id="1" fromVert="4" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="0" toVert="2" type="OPEN"/>
+  </level>
+  <level name="1.12" levelType="incomplete" guid="4AAB6132-622E-609D-A75A-3751AB206CC4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <toolbox lines="2" angles="1"/>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="800" y="300" type="CAGE"/>
+    <vertex id="2" x="227" y="304"/>
+    <vertex id="3" x="624" y="304"/>
+    <vertex id="4" x="443" y="457" movable="yes"/>
+    <line id="0" fromVert="0" toVert="2" type="OPEN"/>
+    <line id="1" fromVert="3" toVert="1" type="OPEN"/>
+  </level>
+  <level name="1.13" levelType="regular" guid="DCEFE3E4-D4D5-9ECB-3B99-4B22D0DB31FA">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99"/>
+    </gamemode>
+    <toolbox/>
+    <vertex id="0" x="200" y="118" type="START"/>
+    <vertex id="1" x="800" y="300" type="CAGE"/>
+    <vertex id="2" x="522" y="265" movable="yes"/>
+    <vertex id="3" x="235" y="448" movable="yes"/>
+    <vertex id="4" x="458" y="452" movable="yes"/>
+    <line id="0" fromVert="3" toVert="0" type="OPEN"/>
+    <line id="1" fromVert="2" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="4" toVert="3" type="OPEN"/>
+    <line id="3" fromVert="4" toVert="2" type="OPEN" occupy="CAMPER"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="100" locked="NO"/>
+  </level>
+  <level guid="E360F78A-A178-AF97-6E11-5F8C7EA3934C" name="2.1">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99"/>
+      <callout trigger="start" message="YOU HAVE A NEW RULE BUTTON!" target="button:complementary" removal="timer:2"/>
+      <callout trigger="timerGroup:0" message="To use the new rule you need to select 1 locked..." target="angleID:2" removal="click:angleID:2"/>
+      <callout trigger="click:angleID:2" message="... and 1 unlocked angle." target="angleID:1" removal="click:angleID:1"/>
+      <callout trigger="click:angleID:1" message="Now you can select the COMPLEMENTARY Rule button." target="button:complementary" removal="click:button:complementary"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="50:99, 90:99, 120:99, 180:99"/>
+      <callout trigger="start" message="What is the value of this angle?" target="angleID:2" removal="click:button:50"/>
+    </gamemode>
+    <vertex id="0" x="212" y="111" type="START"/>
+    <vertex id="1" x="334" y="231"/>
+    <vertex id="2" x="331" y="500"/>
+    <vertex id="3" x="635" y="498" type="CAGE"/>
+    <vertex id="4" x="545" y="276"/>
+    <vertex id="5" x="135" y="499"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <angle id="0" leftLine="4" rightLine="1" radius="100" locked="NO"/>
+    <angle id="1" leftLine="1" rightLine="3" radius="100" locked="NO"/>
+    <angle id="2" leftLine="3" rightLine="2" radius="100" locked="YES"/>
+  </level>
+  <level guid="D52B068F-3BD1-E78D-F393-BF9E60740824" name="2.2">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, obtuse:99, straight:99, complementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 25:99, 35:99, 45:99, 55:99, 65:99, 75:99, 100:99, 120:99, 140:99"/>
+    </gamemode>
+    <vertex id="0" x="213" y="115" type="START"/>
+    <vertex id="1" x="215" y="228"/>
+    <vertex id="2" x="507" y="223" movable="yes"/>
+    <vertex id="3" x="513" y="600" type="CAGE"/>
+    <vertex id="4" x="320" y="399"/>
+    <vertex id="5" x="831" y="214"/>
+    <vertex id="6" x="159" y="229"/>
+    <line id="0" fromVert="0" toVert="1"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5" type="OPEN"/>
+    <line id="5" fromVert="1" toVert="6" type="OPEN"/>
+    <line id="6" fromVert="6" toVert="4" type="OPEN"/>
+    <line id="7" fromVert="5" toVert="3" type="OPEN" occupy="CAMPER"/>
+    <line id="8" fromVert="4" toVert="3"/>
+    <angle id="0" leftLine="4" rightLine="2" radius="103" locked="NO"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="100" locked="NO"/>
+    <angle id="2" leftLine="3" rightLine="1" radius="100" locked="YES"/>
+    <angle id="3" leftLine="0" rightLine="1" radius="76" locked="YES"/>
+    <angle id="5" leftLine="6" rightLine="3" radius="80" locked="NO"/>
+    <angle id="6" leftLine="5" rightLine="6" radius="100" locked="NO"/>
+    <angle id="7" leftLine="7" rightLine="4" radius="100" locked="NO"/>
+    <angle id="8" leftLine="2" rightLine="7" radius="154" locked="NO"/>
+    <angle id="11" leftLine="8" rightLine="2" radius="153" locked="NO"/>
+  </level>
+  <level guid="1CE56261-B064-8050-07D8-5F8D0326608E" name="2.3" levelType="incomplete">
+    <toolbox lines="2" angles="4"/>
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 50:99, 90:99, 125:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="122" y="145" type="START"/>
+    <vertex id="1" x="124" y="305"/>
+    <vertex id="2" x="240" y="602"/>
+    <vertex id="3" x="450" y="600"/>
+    <vertex id="4" x="315" y="300"/>
+    <vertex id="5" x="450" y="300"/>
+    <vertex id="6" x="709" y="301" type="CAGE"/>
+    <vertex id="7" x="709" y="598"/>
+    <vertex id="8" x="450" y="200"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="5"/>
+    <line id="4" fromVert="5" toVert="6"/>
+    <line id="6" fromVert="5" toVert="7"/>
+    <line id="7" fromVert="5" toVert="4"/>
+    <line id="8" fromVert="3" toVert="4"/>
+    <line id="9" fromVert="4" toVert="1" occupy="CAMPER"/>
+    <line id="10" fromVert="7" toVert="3"/>
+    <line id="11" fromVert="7" toVert="6"/>
+    <angle id="1" leftLine="2" rightLine="8" radius="102" locked="NO"/>
+    <angle id="2" leftLine="8" rightLine="3" radius="131" locked="YES"/>
+    <angle id="4" leftLine="6" rightLine="3" radius="100" locked="NO"/>
+    <angle id="5" leftLine="4" rightLine="6" radius="102" locked="YES"/>
+    <angle id="6" leftLine="10" rightLine="6" radius="100" locked="NO"/>
+    <angle id="7" leftLine="8" rightLine="9" radius="100" locked="NO"/>
+    <angle id="8" leftLine="3" rightLine="7" radius="100" locked="NO"/>
+    <angle id="10" leftLine="3" rightLine="10" radius="100" locked="NO"/>
+    <angle id="11" leftLine="11" rightLine="4" radius="100" locked="NO"/>
+    <angle id="12" leftLine="6" rightLine="11" radius="100" locked="YES"/>
+  </level>
+  <level guid="08CF9515-B79E-BF91-3880-5F8D45932EC2" name="2.4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 40:99, 45:99, 65:99, 125:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="220" y="116" type="START"/>
+    <vertex id="1" x="251" y="325"/>
+    <vertex id="2" x="250" y="600"/>
+    <vertex id="4" x="489" y="322"/>
+    <vertex id="5" x="488" y="600"/>
+    <vertex id="6" x="736" y="169"/>
+    <vertex id="7" x="665" y="600"/>
+    <vertex id="8" x="795" y="598" type="CAGE"/>
+    <vertex id="9" x="135" y="324"/>
+    <vertex id="10" x="37" y="325"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="4" fromVert="2" toVert="5" occupy="CAMPER"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <line id="6" fromVert="5" toVert="6"/>
+    <line id="7" fromVert="5" toVert="7"/>
+    <line id="8" fromVert="7" toVert="8"/>
+    <line id="9" fromVert="1" toVert="9"/>
+    <line id="10" fromVert="0" toVert="9"/>
+    <line id="11" fromVert="10" toVert="9"/>
+    <line id="12" fromVert="10" toVert="2"/>
+    <line id="13" fromVert="1" toVert="4" occupy="CAMPER"/>
+    <line id="14" fromVert="5" toVert="1"/>
+    <line id="15" fromVert="4" toVert="6"/>
+    <angle id="5" leftLine="5" rightLine="6" radius="91" locked="YES"/>
+    <angle id="6" leftLine="6" rightLine="7" radius="91" locked="NO"/>
+    <angle id="7" leftLine="7" rightLine="8" radius="68" locked="YES"/>
+    <angle id="8" leftLine="10" rightLine="9" radius="100" locked="YES"/>
+    <angle id="9" leftLine="11" rightLine="10" radius="88" locked="NO"/>
+    <angle id="10" leftLine="1" rightLine="9" radius="100" locked="NO"/>
+    <angle id="11" leftLine="12" rightLine="1" radius="100" locked="NO"/>
+    <angle id="15" leftLine="5" rightLine="13" radius="100" locked="NO"/>
+    <angle id="16" leftLine="15" rightLine="5" radius="84" locked="YES"/>
+    <angle id="17" leftLine="13" rightLine="14" radius="100" locked="NO"/>
+    <angle id="18" leftLine="14" rightLine="1" radius="100" locked="YES"/>
+    <angle id="20" leftLine="14" rightLine="5" radius="100" locked="YES"/>
+    <angle id="21" leftLine="4" rightLine="14" radius="100" locked="NO"/>
+    <angle id="22" leftLine="1" rightLine="4" radius="92" locked="YES"/>
+    <angle id="23" leftLine="13" rightLine="15" radius="73" locked="NO"/>
+  </level>
+  <level guid="DBBA81AA-2EF2-C3A3-DB6D-5F8D875F98DE" name="2.5">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 50:99, 90:99, 125:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="198" y="99" type="START"/>
+    <vertex id="1" x="279" y="151"/>
+    <vertex id="2" x="279" y="335"/>
+    <vertex id="3" x="69" y="336"/>
+    <vertex id="4" x="549" y="188"/>
+    <vertex id="5" x="580" y="336"/>
+    <vertex id="7" x="279" y="564"/>
+    <vertex id="8" x="689" y="567" type="CAGE"/>
+    <vertex id="18" x="72" y="562"/>
+    <vertex id="19" x="819" y="340"/>
+    <vertex id="20" x="583" y="564"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5" occupy="CAMPER"/>
+    <line id="5" fromVert="5" toVert="7"/>
+    <line id="10" fromVert="2" toVert="7" occupy="CAMPER"/>
+    <line id="15" fromVert="18" toVert="7"/>
+    <line id="16" fromVert="18" toVert="3"/>
+    <line id="17" fromVert="5" toVert="19"/>
+    <line id="19" fromVert="5" toVert="20"/>
+    <line id="21" fromVert="19" toVert="8"/>
+    <line id="22" fromVert="7" toVert="20"/>
+    <line id="23" fromVert="4" toVert="19"/>
+    <line id="24" fromVert="3" toVert="7"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="115" locked="NO"/>
+    <angle id="1" leftLine="1" rightLine="3" radius="116" locked="NO"/>
+    <angle id="2" leftLine="3" rightLine="4" radius="115" locked="YES"/>
+    <angle id="6" leftLine="5" rightLine="4" radius="108" locked="NO"/>
+    <angle id="7" leftLine="4" rightLine="10" radius="114" locked="YES"/>
+    <angle id="13" leftLine="16" rightLine="15" radius="80" locked="NO"/>
+    <angle id="14" leftLine="10" rightLine="2" radius="80" locked="YES"/>
+    <angle id="15" leftLine="10" rightLine="5" radius="86" locked="NO"/>
+    <angle id="17" leftLine="17" rightLine="19" radius="87" locked="NO"/>
+    <angle id="18" leftLine="19" rightLine="5" radius="100" locked="YES"/>
+    <angle id="20" leftLine="21" rightLine="17" radius="78" locked="YES"/>
+    <angle id="21" leftLine="5" rightLine="22" radius="80" locked="YES"/>
+    <angle id="23" leftLine="22" rightLine="19" radius="88" locked="NO"/>
+    <angle id="25" leftLine="23" rightLine="3" radius="100" locked="NO"/>
+    <angle id="26" leftLine="17" rightLine="23" radius="100" locked="NO"/>
+    <angle id="27" leftLine="2" rightLine="24" radius="100" locked="NO"/>
+    <angle id="28" leftLine="24" rightLine="16" radius="100" locked="YES"/>
+    <angle id="29" leftLine="24" rightLine="10" radius="90" locked="YES"/>
+    <angle id="30" leftLine="15" rightLine="24" radius="88" locked="NO"/>
+  </level>
+  <level guid="F8C65370-5A57-4A45-C265-5F8E015E2AA1" name="2.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 115:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="148" y="131" type="START"/>
+    <vertex id="1" x="86" y="294"/>
+    <vertex id="2" x="328" y="293"/>
+    <vertex id="3" x="575" y="290"/>
+    <vertex id="4" x="84" y="556"/>
+    <vertex id="5" x="327" y="558"/>
+    <vertex id="6" x="535" y="556"/>
+    <vertex id="7" x="773" y="320"/>
+    <vertex id="8" x="537" y="433" type="CAGE"/>
+    <vertex id="10" x="327" y="143"/>
+    <vertex id="11" x="475" y="141"/>
+    <vertex id="12" x="700" y="135"/>
+    <vertex id="40" x="742" y="557"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="4" type="OPEN" occupy="CAMPER"/>
+    <line id="2" fromVert="1" toVert="2"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5" occupy="CAMPER"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <line id="6" fromVert="2" toVert="3"/>
+    <line id="7" fromVert="5" toVert="6"/>
+    <line id="8" fromVert="6" toVert="7"/>
+    <line id="9" fromVert="6" toVert="8"/>
+    <line id="11" fromVert="2" toVert="10" type="OPEN"/>
+    <line id="12" fromVert="2" toVert="11"/>
+    <line id="13" fromVert="12" toVert="7"/>
+    <line id="14" fromVert="12" toVert="11"/>
+    <line id="15" fromVert="12" toVert="3"/>
+    <line id="17" fromVert="6" toVert="40"/>
+    <line id="18" fromVert="10" toVert="11" type="OPEN"/>
+    <angle id="1" leftLine="3" rightLine="2" radius="100" locked="NO"/>
+    <angle id="2" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+    <angle id="3" leftLine="5" rightLine="4" radius="96" locked="NO"/>
+    <angle id="4" leftLine="6" rightLine="4" radius="99" locked="NO"/>
+    <angle id="5" leftLine="4" rightLine="7" radius="100" locked="YES"/>
+    <angle id="9" leftLine="2" rightLine="1" radius="95" locked="NO"/>
+    <angle id="10" leftLine="11" rightLine="12" radius="91" locked="NO"/>
+    <angle id="11" leftLine="12" rightLine="6" radius="100" locked="YES"/>
+    <angle id="14" leftLine="15" rightLine="14" radius="107" locked="NO"/>
+    <angle id="15" leftLine="13" rightLine="15" radius="84" locked="YES"/>
+    <angle id="16" leftLine="6" rightLine="15" radius="66" locked="YES"/>
+    <angle id="17" leftLine="3" rightLine="5" radius="90" locked="NO"/>
+    <angle id="18" leftLine="1" rightLine="3" radius="90" locked="YES"/>
+    <angle id="19" leftLine="8" rightLine="13" radius="89" locked="NO"/>
+    <angle id="20" leftLine="9" rightLine="8" radius="78" locked="YES"/>
+    <angle id="21" leftLine="7" rightLine="9" radius="75" locked="NO"/>
+    <angle id="22" leftLine="8" rightLine="17" radius="100" locked="NO"/>
+    <angle id="23" leftLine="14" rightLine="12" radius="73" locked="NO"/>
+    <angle id="25" leftLine="12" rightLine="18" radius="85" locked="NO"/>
+  </level>
+  <level guid="C235FE95-A8B4-C6C9-FD81-5F8E73F9226D" name="2.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 65:99, 125:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="145" y="129" type="START"/>
+    <vertex id="1" x="166" y="304"/>
+    <vertex id="2" x="159" y="598"/>
+    <vertex id="3" x="400" y="600"/>
+    <vertex id="4" x="251" y="448"/>
+    <vertex id="5" x="400" y="300"/>
+    <vertex id="6" x="252" y="301"/>
+    <vertex id="7" x="622" y="600"/>
+    <vertex id="8" x="763" y="297"/>
+    <vertex id="9" x="760" y="550" type="CAGE"/>
+    <vertex id="11" x="294" y="120"/>
+    <vertex id="12" x="400" y="210"/>
+    <vertex id="44" x="511" y="208"/>
+    <vertex id="45" x="605" y="208"/>
+    <vertex id="46" x="765" y="121"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="3" toVert="5" occupy="CAMPER"/>
+    <line id="5" fromVert="3" toVert="7"/>
+    <line id="6" fromVert="5" toVert="6"/>
+    <line id="8" fromVert="5" toVert="8" occupy="CAMPER"/>
+    <line id="9" fromVert="8" toVert="9"/>
+    <line id="11" fromVert="5" toVert="12"/>
+    <line id="12" fromVert="5" toVert="11"/>
+    <line id="14" fromVert="12" toVert="44"/>
+    <line id="15" fromVert="44" toVert="45"/>
+    <line id="18" fromVert="45" toVert="8"/>
+    <line id="19" fromVert="46" toVert="8" occupy="CAMPER"/>
+    <line id="20" fromVert="46" toVert="11"/>
+    <line id="21" fromVert="46" toVert="45"/>
+    <line id="22" fromVert="1" toVert="11" type="OPEN"/>
+    <line id="23" fromVert="6" toVert="4"/>
+    <line id="29" fromVert="8" toVert="3" occupy="CAMPER"/>
+    <angle id="0" leftLine="2" rightLine="3" radius="115" locked="YES"/>
+    <angle id="1" leftLine="3" rightLine="4" radius="97" locked="NO"/>
+    <angle id="3" leftLine="4" rightLine="6" radius="106" locked="NO"/>
+    <angle id="7" leftLine="6" rightLine="12" radius="91" locked="NO"/>
+    <angle id="8" leftLine="12" rightLine="11" radius="90" locked="YES"/>
+    <angle id="9" leftLine="15" rightLine="14" radius="54" locked="YES"/>
+    <angle id="13" leftLine="8" rightLine="18" radius="100" locked="YES"/>
+    <angle id="14" leftLine="19" rightLine="21" radius="86" locked="YES"/>
+    <angle id="15" leftLine="21" rightLine="20" radius="85" locked="NO"/>
+    <angle id="16" leftLine="23" rightLine="3" radius="85" locked="YES"/>
+    <angle id="17" leftLine="18" rightLine="19" radius="75" locked="NO"/>
+    <angle id="18" leftLine="11" rightLine="8" radius="74" locked="NO"/>
+    <angle id="25" leftLine="8" rightLine="4" radius="83" locked="YES"/>
+    <angle id="26" leftLine="4" rightLine="29" radius="84" locked="YES"/>
+    <angle id="27" leftLine="29" rightLine="5" radius="100" locked="NO"/>
+    <angle id="30" leftLine="9" rightLine="29" radius="100" locked="NO"/>
+    <angle id="31" leftLine="29" rightLine="8" radius="100" locked="YES"/>
+  </level>
+  <level guid="02123C4D-1C18-25A6-AA4B-5F8EA0FF4C9C" name="3.1">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+      <callout trigger="start" message="YOU HAVE A NEW RULE BUTTON!" target="button:supplementary" removal="timer:2"/>
+      <callout trigger="timerGroup:0" message="To use the new rule you need to select 1 locked..." target="angleID:1" removal="click:angleID:1"/>
+      <callout trigger="click:angleID:1" message="... and 1 unlocked angle." target="angleID:0" removal="click:angleID:0"/>
+      <callout trigger="click:angleID:0" message="Now you can select the SUPPLEMENTARY Rule button." target="button:supplementary" removal="click:button:supplementary"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 45:99, 55:99, 75:99, 90:99, 105:99, 125:99, 145:99, 165:99, 180:99"/>
+      <callout trigger="start" message="What is the value of this angle?" target="angleID:1" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="127" y="260" type="START"/>
+    <vertex id="1" x="127" y="344"/>
+    <vertex id="2" x="127" y="541"/>
+    <vertex id="3" x="378" y="538"/>
+    <vertex id="4" x="570" y="340"/>
+    <vertex id="5" x="715" y="539" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="3" toVert="5"/>
+    <line id="5" fromVert="1" toVert="2" type="OPEN"/>
+    <angle id="0" leftLine="2" rightLine="3" radius="92" locked="NO"/>
+    <angle id="1" leftLine="3" rightLine="4" radius="85" locked="YES"/>
+    <angle id="2" leftLine="5" rightLine="2" radius="91" locked="NO"/>
+  </level>
+  <level guid="6CC02754-DFC6-9E5E-C239-5F8EF7F6254D" name="3.2">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 45:99, 55:99, 75:99, 90:99, 105:99, 115:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="132" y="270" type="START"/>
+    <vertex id="2" x="129" y="519"/>
+    <vertex id="3" x="336" y="523"/>
+    <vertex id="5" x="754" y="310" type="CAGE"/>
+    <vertex id="6" x="559" y="529"/>
+    <vertex id="7" x="780" y="534"/>
+    <vertex id="8" x="562" y="312"/>
+    <vertex id="9" x="336" y="308"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="5" fromVert="0" toVert="2"/>
+    <line id="6" fromVert="0" toVert="3"/>
+    <line id="7" fromVert="3" toVert="6"/>
+    <line id="8" fromVert="6" toVert="7"/>
+    <line id="9" fromVert="7" toVert="8"/>
+    <line id="11" fromVert="8" toVert="5"/>
+    <line id="12" fromVert="9" toVert="8"/>
+    <angle id="3" leftLine="6" rightLine="7" radius="100" locked="YES"/>
+    <angle id="4" leftLine="2" rightLine="6" radius="100" locked="NO"/>
+    <angle id="5" leftLine="9" rightLine="12" radius="100" locked="YES"/>
+    <angle id="6" leftLine="11" rightLine="9" radius="100" locked="NO"/>
+    <angle id="7" leftLine="7" rightLine="8" radius="73" locked="YES"/>
+    <angle id="8" leftLine="8" rightLine="9" radius="100" locked="NO"/>
+    <angle id="9" leftLine="6" rightLine="5" radius="118" locked="YES"/>
+    <angle id="10" leftLine="5" rightLine="2" radius="100" locked="NO"/>
+  </level>
+  <level guid="B0B846E6-3518-A236-16D1-5F8F8D7BC5FE" name="3.3">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 45:99, 55:99, 75:99, 90:99, 145:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="472" y="275" type="START"/>
+    <vertex id="1" x="114" y="268"/>
+    <vertex id="2" x="242" y="361"/>
+    <vertex id="3" x="412" y="349"/>
+    <vertex id="4" x="516" y="560"/>
+    <vertex id="5" x="891" y="323" type="CAGE"/>
+    <vertex id="6" x="42" y="497"/>
+    <vertex id="7" x="538" y="354"/>
+    <vertex id="8" x="698" y="340"/>
+    <vertex id="10" x="813" y="594"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="7" fromVert="2" toVert="6"/>
+    <line id="8" fromVert="0" toVert="3" type="OPEN"/>
+    <line id="9" fromVert="4" toVert="7"/>
+    <line id="10" fromVert="8" toVert="5"/>
+    <line id="11" fromVert="7" toVert="8"/>
+    <line id="14" fromVert="8" toVert="10"/>
+    <line id="15" fromVert="4" toVert="10"/>
+    <line id="16" fromVert="6" toVert="4"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="110" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="112" locked="NO"/>
+    <angle id="6" leftLine="3" rightLine="7" radius="90" locked="NO"/>
+    <angle id="7" leftLine="7" rightLine="1" radius="88" locked="YES"/>
+    <angle id="9" leftLine="3" rightLine="9" radius="100" locked="YES"/>
+    <angle id="10" leftLine="11" rightLine="9" radius="84" locked="NO"/>
+    <angle id="11" leftLine="10" rightLine="14" radius="100" locked="NO"/>
+    <angle id="12" leftLine="14" rightLine="11" radius="78" locked="YES"/>
+    <angle id="13" leftLine="15" rightLine="14" radius="100" locked="YES"/>
+    <angle id="14" leftLine="9" rightLine="15" radius="96" locked="NO"/>
+    <angle id="15" leftLine="11" rightLine="10" radius="61" locked="NO"/>
+    <angle id="16" leftLine="7" rightLine="16" radius="100" locked="YES"/>
+    <angle id="17" leftLine="16" rightLine="3" radius="109" locked="NO"/>
+  </level>
+  <level guid="AA63CA6C-F2BC-A10F-A762-5F916A058BCC" name="3.4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="55:99, 90:99, 105:99, 115:99, 150:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="120" y="261" type="START"/>
+    <vertex id="1" x="116" y="364"/>
+    <vertex id="2" x="199" y="586"/>
+    <vertex id="3" x="440" y="494"/>
+    <vertex id="4" x="932" y="556" type="CAGE"/>
+    <vertex id="5" x="794" y="359"/>
+    <vertex id="6" x="946" y="299"/>
+    <vertex id="7" x="240" y="372"/>
+    <vertex id="8" x="414" y="188"/>
+    <vertex id="9" x="632" y="281"/>
+    <vertex id="10" x="395" y="383"/>
+    <vertex id="11" x="486" y="111"/>
+    <vertex id="12" x="118" y="618"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="3" toVert="5"/>
+    <line id="5" fromVert="5" toVert="6"/>
+    <line id="6" fromVert="5" toVert="4"/>
+    <line id="7" fromVert="1" toVert="7" type="OPEN"/>
+    <line id="8" fromVert="7" toVert="2"/>
+    <line id="9" fromVert="7" toVert="8"/>
+    <line id="11" fromVert="9" toVert="8"/>
+    <line id="12" fromVert="9" toVert="6" occupy="CAMPER"/>
+    <line id="13" fromVert="9" toVert="10"/>
+    <line id="14" fromVert="7" toVert="10" occupy="CAMPER"/>
+    <line id="15" fromVert="10" toVert="3"/>
+    <line id="16" fromVert="8" toVert="11"/>
+    <line id="17" fromVert="2" toVert="12"/>
+    <angle id="1" leftLine="3" rightLine="2" radius="100" locked="YES"/>
+    <angle id="2" leftLine="4" rightLine="3" radius="106" locked="NO"/>
+    <angle id="3" leftLine="5" rightLine="6" radius="100" locked="YES"/>
+    <angle id="4" leftLine="6" rightLine="4" radius="100" locked="NO"/>
+    <angle id="5" leftLine="11" rightLine="9" radius="91" locked="NO"/>
+    <angle id="6" leftLine="16" rightLine="11" radius="83" locked="YES"/>
+    <angle id="7" leftLine="12" rightLine="13" radius="81" locked="YES"/>
+    <angle id="9" leftLine="2" rightLine="15" radius="79" locked="NO"/>
+    <angle id="11" leftLine="13" rightLine="15" radius="93" locked="YES"/>
+    <angle id="12" leftLine="1" rightLine="8" radius="100" locked="NO"/>
+    <angle id="13" leftLine="8" rightLine="2" radius="100" locked="YES"/>
+    <angle id="14" leftLine="17" rightLine="1" radius="74" locked="NO"/>
+  </level>
+  <level guid="41AD7D74-4D64-C519-C565-5F91022638BC" name="3.5">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+      <callout trigger="start" message="Oh No! Be Careful! This purple Leet will come chasing after you if you solve his line!" target="lineID:12" removal="click:self"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 50:99, 65:99, 95:99, 105:99, 115:99, 135:99, 165:99, 180:99"/>
+      <callout trigger="start" message="Oh No! Be Careful! This purple Leet will come chasing after you if you solve his line!" target="lineID:12" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="53" y="255" type="START"/>
+    <vertex id="1" x="63" y="603"/>
+    <vertex id="2" x="264" y="311"/>
+    <vertex id="3" x="492" y="310"/>
+    <vertex id="4" x="357" y="174"/>
+    <vertex id="5" x="493" y="607"/>
+    <vertex id="6" x="720" y="369"/>
+    <vertex id="7" x="843" y="245" type="CAGE"/>
+    <vertex id="8" x="492" y="505"/>
+    <vertex id="9" x="494" y="107"/>
+    <vertex id="10" x="172" y="311"/>
+    <vertex id="11" x="72" y="311"/>
+    <vertex id="12" x="969" y="608"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="5" fromVert="3" toVert="6"/>
+    <line id="6" fromVert="5" toVert="6"/>
+    <line id="7" fromVert="6" toVert="7"/>
+    <line id="8" fromVert="2" toVert="8"/>
+    <line id="9" fromVert="5" toVert="8"/>
+    <line id="10" fromVert="8" toVert="3"/>
+    <line id="11" fromVert="1" toVert="2"/>
+    <line id="12" fromVert="1" toVert="5" occupy="HUNTER"/>
+    <line id="13" fromVert="3" toVert="9"/>
+    <line id="14" fromVert="2" toVert="4"/>
+    <line id="15" fromVert="2" toVert="10"/>
+    <line id="17" fromVert="11" toVert="10" type="OPEN" occupy="CAMPER"/>
+    <line id="18" fromVert="11" toVert="1"/>
+    <line id="20" fromVert="0" toVert="11" type="OPEN"/>
+    <line id="21" fromVert="12" toVert="7"/>
+    <line id="22" fromVert="5" toVert="12"/>
+    <angle id="0" leftLine="2" rightLine="3" radius="122" locked="YES"/>
+    <angle id="4" leftLine="6" rightLine="5" radius="100" locked="NO"/>
+    <angle id="5" leftLine="5" rightLine="7" radius="100" locked="YES"/>
+    <angle id="9" leftLine="8" rightLine="10" radius="100" locked="NO"/>
+    <angle id="10" leftLine="9" rightLine="8" radius="80" locked="YES"/>
+    <angle id="11" leftLine="11" rightLine="12" radius="100" locked="NO"/>
+    <angle id="12" leftLine="10" rightLine="2" radius="82" locked="NO"/>
+    <angle id="15" leftLine="5" rightLine="10" radius="100" locked="NO"/>
+    <angle id="16" leftLine="13" rightLine="5" radius="82" locked="YES"/>
+    <angle id="17" leftLine="3" rightLine="13" radius="100" locked="NO"/>
+    <angle id="19" leftLine="18" rightLine="11" radius="124" locked="YES"/>
+    <angle id="20" leftLine="15" rightLine="14" radius="73" locked="YES"/>
+    <angle id="21" leftLine="11" rightLine="15" radius="100" locked="NO"/>
+    <angle id="22" leftLine="14" rightLine="2" radius="94" locked="NO"/>
+    <angle id="24" leftLine="8" rightLine="11" radius="84" locked="NO"/>
+    <angle id="25" leftLine="2" rightLine="8" radius="100" locked="YES"/>
+    <angle id="26" leftLine="9" rightLine="6" radius="97" locked="YES"/>
+    <angle id="27" leftLine="7" rightLine="6" radius="84" locked="NO"/>
+    <angle id="28" leftLine="6" rightLine="22" radius="100" locked="NO"/>
+    <angle id="29" leftLine="22" rightLine="21" radius="100" locked="YES"/>
+    <angle id="30" leftLine="21" rightLine="7" radius="100" locked="NO"/>
+  </level>
+  <level guid="922BE1EF-2CC9-54F5-155E-5F92468E3EB7" name="3.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 50:99, 65:99, 90:99, 105:99, 115:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="62" y="368" type="START"/>
+    <vertex id="1" x="222" y="368"/>
+    <vertex id="2" x="221" y="594"/>
+    <vertex id="3" x="450" y="600"/>
+    <vertex id="4" x="833" y="606"/>
+    <vertex id="5" x="690" y="431" type="CAGE"/>
+    <vertex id="6" x="838" y="155"/>
+    <vertex id="7" x="952" y="607"/>
+    <vertex id="8" x="408" y="368"/>
+    <vertex id="9" x="553" y="369"/>
+    <vertex id="10" x="338" y="151"/>
+    <vertex id="11" x="629" y="154"/>
+    <vertex id="12" x="94" y="145"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="1" toVert="3" occupy="CAMPER"/>
+    <line id="3" fromVert="2" toVert="3"/>
+    <line id="4" fromVert="3" toVert="4"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <line id="6" fromVert="4" toVert="6"/>
+    <line id="7" fromVert="4" toVert="7"/>
+    <line id="8" fromVert="1" toVert="8"/>
+    <line id="9" fromVert="8" toVert="9"/>
+    <line id="10" fromVert="8" toVert="10"/>
+    <line id="11" fromVert="10" toVert="11"/>
+    <line id="12" fromVert="11" toVert="6"/>
+    <line id="13" fromVert="11" toVert="9"/>
+    <line id="14" fromVert="10" toVert="12" occupy="HUNTER"/>
+    <line id="15" fromVert="12" toVert="1"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="124" locked="NO"/>
+    <angle id="1" leftLine="1" rightLine="3" radius="100" locked="NO"/>
+    <angle id="2" leftLine="3" rightLine="2" radius="89" locked="YES"/>
+    <angle id="3" leftLine="2" rightLine="4" radius="86" locked="NO"/>
+    <angle id="4" leftLine="6" rightLine="7" radius="94" locked="NO"/>
+    <angle id="5" leftLine="4" rightLine="5" radius="125" locked="YES"/>
+    <angle id="6" leftLine="5" rightLine="6" radius="125" locked="NO"/>
+    <angle id="7" leftLine="8" rightLine="2" radius="126" locked="YES"/>
+    <angle id="8" leftLine="10" rightLine="9" radius="85" locked="YES"/>
+    <angle id="9" leftLine="8" rightLine="10" radius="78" locked="NO"/>
+    <angle id="10" leftLine="12" rightLine="13" radius="95" locked="YES"/>
+    <angle id="11" leftLine="13" rightLine="11" radius="100" locked="NO"/>
+    <angle id="12" leftLine="14" rightLine="15" radius="70" locked="YES"/>
+    <angle id="13" leftLine="11" rightLine="12" radius="66" locked="NO"/>
+    <angle id="14" leftLine="0" rightLine="15" radius="100" locked="YES"/>
+    <angle id="15" leftLine="15" rightLine="8" radius="76" locked="NO"/>
+    <angle id="16" leftLine="1" rightLine="0" radius="100" locked="NO"/>
+    <angle id="17" leftLine="10" rightLine="14" radius="100" locked="NO"/>
+    <angle id="19" leftLine="11" rightLine="10" radius="84" locked="YES"/>
+    <angle id="20" leftLine="6" rightLine="12" radius="91" locked="YES"/>
+  </level>
+  <level guid="9D3C0266-310A-4DCF-3EF7-5F9368F6BE50" name="3.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 55:99, 75:99, 90:99, 105:99, 115:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="656" y="139" type="START"/>
+    <vertex id="1" x="805" y="275"/>
+    <vertex id="2" x="807" y="600"/>
+    <vertex id="3" x="305" y="594"/>
+    <vertex id="4" x="304" y="279"/>
+    <vertex id="5" x="84" y="275" type="CAGE"/>
+    <vertex id="6" x="81" y="596"/>
+    <vertex id="14" x="612" y="279"/>
+    <vertex id="15" x="369" y="162"/>
+    <vertex id="16" x="191" y="440"/>
+    <vertex id="17" x="599" y="464"/>
+    <vertex id="18" x="802" y="157"/>
+    <vertex id="19" x="930" y="274"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" occupy="HUNTER"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="6"/>
+    <line id="4" fromVert="3" toVert="4"/>
+    <line id="7" fromVert="1" toVert="14"/>
+    <line id="8" fromVert="14" toVert="4" occupy="CAMPER"/>
+    <line id="11" fromVert="6" toVert="5"/>
+    <line id="14" fromVert="4" toVert="16"/>
+    <line id="15" fromVert="16" toVert="6"/>
+    <line id="16" fromVert="2" toVert="17"/>
+    <line id="17" fromVert="1" toVert="18"/>
+    <line id="18" fromVert="1" toVert="19"/>
+    <line id="19" fromVert="17" toVert="4"/>
+    <line id="20" fromVert="14" toVert="15"/>
+    <line id="21" fromVert="14" toVert="17"/>
+    <line id="22" fromVert="16" toVert="3"/>
+    <angle id="6" leftLine="1" rightLine="7" radius="100" locked="YES"/>
+    <angle id="7" leftLine="8" rightLine="19" radius="121" locked="YES"/>
+    <angle id="8" leftLine="17" rightLine="18" radius="100" locked="NO"/>
+    <angle id="9" leftLine="0" rightLine="17" radius="100" locked="YES"/>
+    <angle id="10" leftLine="7" rightLine="0" radius="100" locked="NO"/>
+    <angle id="13" leftLine="20" rightLine="7" radius="79" locked="NO"/>
+    <angle id="14" leftLine="8" rightLine="20" radius="123" locked="YES"/>
+    <angle id="15" leftLine="16" rightLine="1" radius="100" locked="NO"/>
+    <angle id="16" leftLine="2" rightLine="16" radius="111" locked="YES"/>
+    <angle id="17" leftLine="4" rightLine="2" radius="89" locked="NO"/>
+    <angle id="18" leftLine="21" rightLine="16" radius="73" locked="NO"/>
+    <angle id="19" leftLine="19" rightLine="21" radius="100" locked="YES"/>
+    <angle id="20" leftLine="15" rightLine="3" radius="100" locked="NO"/>
+    <angle id="21" leftLine="22" rightLine="4" radius="109" locked="NO"/>
+    <angle id="22" leftLine="3" rightLine="22" radius="100" locked="YES"/>
+    <angle id="23" leftLine="22" rightLine="15" radius="92" locked="NO"/>
+    <angle id="24" leftLine="14" rightLine="22" radius="94" locked="YES"/>
+    <angle id="25" leftLine="16" rightLine="19" radius="70" locked="NO"/>
+    <angle id="26" leftLine="19" rightLine="4" radius="100" locked="NO"/>
+    <angle id="28" leftLine="11" rightLine="15" radius="100" locked="YES"/>
+  </level>
+  <level guid="B0E44DE4-A686-A6A1-9398-5F93E5CA75D7" name="3.8">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 55:99, 75:99, 90:99, 105:99, 115:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="957" y="185" type="START"/>
+    <vertex id="1" x="279" y="323"/>
+    <vertex id="2" x="209" y="495"/>
+    <vertex id="3" x="412" y="490"/>
+    <vertex id="4" x="668" y="488"/>
+    <vertex id="5" x="671" y="315"/>
+    <vertex id="6" x="453" y="271" type="CAGE"/>
+    <vertex id="8" x="46" y="248"/>
+    <vertex id="9" x="44" y="385"/>
+    <vertex id="10" x="41" y="606"/>
+    <vertex id="12" x="545" y="611"/>
+    <vertex id="13" x="961" y="310"/>
+    <vertex id="14" x="673" y="154"/>
+    <vertex id="58" x="778" y="609"/>
+    <vertex id="60" x="963" y="608"/>
+    <vertex id="61" x="674" y="22"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="5" occupy="CAMPER"/>
+    <line id="4" fromVert="3" toVert="4"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <line id="8" fromVert="1" toVert="8"/>
+    <line id="9" fromVert="1" toVert="9"/>
+    <line id="10" fromVert="9" toVert="10"/>
+    <line id="11" fromVert="8" toVert="9"/>
+    <line id="12" fromVert="10" toVert="12"/>
+    <line id="14" fromVert="12" toVert="4"/>
+    <line id="17" fromVert="13" toVert="5" occupy="CAMPER"/>
+    <line id="18" fromVert="0" toVert="13"/>
+    <line id="19" fromVert="1" toVert="6"/>
+    <line id="23" fromVert="2" toVert="1" occupy="CAMPER"/>
+    <line id="24" fromVert="13" toVert="14"/>
+    <line id="25" fromVert="60" toVert="58"/>
+    <line id="26" fromVert="58" toVert="12"/>
+    <line id="27" fromVert="58" toVert="4"/>
+    <line id="28" fromVert="13" toVert="60"/>
+    <line id="29" fromVert="10" toVert="2"/>
+    <line id="30" fromVert="5" toVert="14"/>
+    <line id="31" fromVert="14" toVert="61"/>
+    <angle id="0" leftLine="2" rightLine="3" radius="97" locked="YES"/>
+    <angle id="1" leftLine="3" rightLine="4" radius="100" locked="NO"/>
+    <angle id="2" leftLine="4" rightLine="5" radius="88" locked="YES"/>
+    <angle id="4" leftLine="5" rightLine="3" radius="82" locked="NO"/>
+    <angle id="9" leftLine="11" rightLine="9" radius="80" locked="YES"/>
+    <angle id="10" leftLine="9" rightLine="10" radius="74" locked="NO"/>
+    <angle id="11" leftLine="12" rightLine="14" radius="61" locked="NO"/>
+    <angle id="13" leftLine="25" rightLine="28" radius="100" locked="NO"/>
+    <angle id="14" leftLine="27" rightLine="25" radius="73" locked="YES"/>
+    <angle id="15" leftLine="26" rightLine="27" radius="100" locked="NO"/>
+    <angle id="16" leftLine="14" rightLine="26" radius="100" locked="YES"/>
+    <angle id="17" leftLine="24" rightLine="18" radius="100" locked="YES"/>
+    <angle id="18" leftLine="17" rightLine="24" radius="100" locked="NO"/>
+    <angle id="19" leftLine="28" rightLine="17" radius="100" locked="NO"/>
+    <angle id="20" leftLine="10" rightLine="29" radius="100" locked="YES"/>
+    <angle id="21" leftLine="29" rightLine="12" radius="100" locked="NO"/>
+    <angle id="22" leftLine="8" rightLine="19" radius="77" locked="NO"/>
+    <angle id="23" leftLine="9" rightLine="8" radius="100" locked="YES"/>
+    <angle id="24" leftLine="19" rightLine="23" radius="71" locked="NO"/>
+    <angle id="25" leftLine="23" rightLine="9" radius="100" locked="NO"/>
+    <angle id="26" leftLine="4" rightLine="2" radius="73" locked="NO"/>
+    <angle id="27" leftLine="24" rightLine="30" radius="100" locked="NO"/>
+    <angle id="28" leftLine="31" rightLine="24" radius="100" locked="YES"/>
+    <angle id="29" leftLine="30" rightLine="17" radius="74" locked="YES"/>
+  </level>
+  <level guid="2C780CCD-90E8-4533-519E-5F945A1E9EA2" name="4.1">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+      <callout trigger="start" message="YOU HAVE A NEW RULE BUTTON!" target="button:vertical" removal="timer:2"/>
+      <callout trigger="timerGroup:0" message="To use the new rule you need to select 1 locked..." target="angleID:1" removal="click:angleID:1"/>
+      <callout trigger="click:angleID:1" message="... and 1 unlocked angle." target="angleID:2" removal="click:angleID:2"/>
+      <callout trigger="click:angleID:2" message="Now you can select the VERTICAL ANGLES Rule button." target="button:vertical" removal="click:button:vertical"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 50:99, 65:99, 95:99, 105:99, 120:99, 135:99, 165:99, 180:99"/>
+      <callout trigger="start" message="What is the value of this angle?" target="angleID:1" removal="click:button:120"/>
+    </gamemode>
+    <vertex id="0" x="339" y="176" type="START"/>
+    <vertex id="1" x="340" y="265"/>
+    <vertex id="2" x="453" y="374"/>
+    <vertex id="3" x="628" y="210"/>
+    <vertex id="4" x="200" y="600"/>
+    <vertex id="5" x="680" y="591" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <line id="5" fromVert="1" toVert="2"/>
+    <angle id="1" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+    <angle id="2" leftLine="5" rightLine="2" radius="100" locked="NO"/>
+  </level>
+  <level guid="8924EA63-1F0A-098A-A2B4-5F94E1A9C482" name="4.2">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 30:99, 35:99, 55:99, 80:99, 90:99, 105:99, 120:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="195" y="232" type="START"/>
+    <vertex id="1" x="246" y="300"/>
+    <vertex id="2" x="367" y="337"/>
+    <vertex id="3" x="363" y="159"/>
+    <vertex id="4" x="690" y="440"/>
+    <vertex id="5" x="798" y="296" type="CAGE"/>
+    <vertex id="6" x="844" y="488"/>
+    <vertex id="7" x="585" y="588"/>
+    <vertex id="8" x="370" y="524"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4" occupy="CAMPER"/>
+    <line id="4" fromVert="4" toVert="7"/>
+    <line id="5" fromVert="4" toVert="6"/>
+    <line id="6" fromVert="4" toVert="5"/>
+    <line id="8" fromVert="2" toVert="8"/>
+    <line id="9" fromVert="8" toVert="7" type="OPEN"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="103" locked="YES"/>
+    <angle id="2" leftLine="3" rightLine="6" radius="125" locked="YES"/>
+    <angle id="3" leftLine="5" rightLine="4" radius="89" locked="NO"/>
+    <angle id="4" leftLine="3" rightLine="8" radius="100" locked="YES"/>
+    <angle id="5" leftLine="8" rightLine="1" radius="100" locked="NO"/>
+    <angle id="6" leftLine="1" rightLine="2" radius="100" locked="NO"/>
+  </level>
+  <level guid="FC6FB4E5-63F0-4437-281D-5F948EA424AF" name="4.3">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 45:99, 50:99, 60:99, 95:99, 105:99, 120:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="343" y="146" type="START"/>
+    <vertex id="1" x="176" y="241"/>
+    <vertex id="2" x="512" y="468"/>
+    <vertex id="3" x="728" y="283" type="CAGE"/>
+    <vertex id="4" x="375" y="585"/>
+    <vertex id="5" x="681" y="576"/>
+    <vertex id="6" x="24" y="325"/>
+    <vertex id="7" x="30" y="137"/>
+    <line id="0" fromVert="0" toVert="1"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <line id="5" fromVert="1" toVert="6"/>
+    <line id="6" fromVert="1" toVert="7"/>
+    <angle id="0" leftLine="3" rightLine="1" radius="133" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="4" radius="144" locked="NO"/>
+    <angle id="2" leftLine="0" rightLine="1" radius="100" locked="NO"/>
+    <angle id="4" leftLine="5" rightLine="6" radius="100" locked="YES"/>
+    <angle id="5" leftLine="1" rightLine="5" radius="89" locked="YES"/>
+    <angle id="6" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+  </level>
+  <level guid="93A63577-CF7C-888D-CC9A-5F95AF0E8D79" name="4.4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 35:99, 50:99, 60:99, 70:99, 85:99, 90:99, 140:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="807" y="155" type="START"/>
+    <vertex id="1" x="892" y="231"/>
+    <vertex id="2" x="850" y="276"/>
+    <vertex id="3" x="239" y="289"/>
+    <vertex id="4" x="92" y="444" type="CAGE"/>
+    <vertex id="5" x="476" y="561"/>
+    <vertex id="6" x="367" y="155"/>
+    <vertex id="84" x="981" y="395"/>
+    <vertex id="85" x="951" y="428"/>
+    <vertex id="86" x="787" y="288"/>
+    <vertex id="87" x="164" y="203"/>
+    <vertex id="88" x="505" y="371"/>
+    <vertex id="89" x="613" y="542"/>
+    <vertex id="90" x="540" y="134"/>
+    <vertex id="91" x="436" y="260"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="6" fromVert="2" toVert="84" type="OPEN"/>
+    <line id="7" fromVert="84" toVert="85" type="OPEN"/>
+    <line id="8" fromVert="85" toVert="86" type="OPEN"/>
+    <line id="13" fromVert="86" toVert="89"/>
+    <line id="14" fromVert="89" toVert="88"/>
+    <line id="15" fromVert="88" toVert="5"/>
+    <line id="16" fromVert="5" toVert="3" occupy="CAMPER"/>
+    <line id="17" fromVert="3" toVert="4"/>
+    <line id="18" fromVert="3" toVert="6"/>
+    <line id="19" fromVert="3" toVert="87"/>
+    <line id="20" fromVert="88" toVert="90"/>
+    <line id="21" fromVert="88" toVert="91"/>
+    <line id="23" fromVert="90" toVert="6"/>
+    <angle id="3" leftLine="21" rightLine="20" radius="100" locked="YES"/>
+    <angle id="4" leftLine="14" rightLine="15" radius="100" locked="NO"/>
+    <angle id="5" leftLine="18" rightLine="16" radius="92" locked="YES"/>
+    <angle id="6" leftLine="17" rightLine="19" radius="86" locked="NO"/>
+    <angle id="8" leftLine="19" rightLine="18" radius="87" locked="YES"/>
+    <angle id="9" leftLine="16" rightLine="17" radius="87" locked="NO"/>
+    <angle id="10" leftLine="23" rightLine="18" radius="77" locked="YES"/>
+    <angle id="11" leftLine="16" rightLine="15" radius="92" locked="YES"/>
+    <angle id="12" leftLine="14" rightLine="13" radius="82" locked="YES"/>
+  </level>
+  <level guid="7AA37112-4EAE-F1AE-A09A-5F9B2C7A2CFC" name="4.5">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 35:99, 50:99, 60:99, 90:99, 105:99, 120:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="185" y="233" type="START"/>
+    <vertex id="1" x="238" y="293"/>
+    <vertex id="2" x="303" y="459"/>
+    <vertex id="3" x="633" y="455"/>
+    <vertex id="4" x="937" y="264" type="CAGE"/>
+    <vertex id="5" x="899" y="453"/>
+    <vertex id="6" x="541" y="614"/>
+    <vertex id="7" x="71" y="459"/>
+    <vertex id="8" x="735" y="264"/>
+    <vertex id="9" x="456" y="263"/>
+    <vertex id="10" x="635" y="148"/>
+    <vertex id="11" x="825" y="101"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="7"/>
+    <line id="3" fromVert="2" toVert="3" occupy="CAMPER"/>
+    <line id="4" fromVert="3" toVert="6"/>
+    <line id="5" fromVert="3" toVert="5"/>
+    <line id="7" fromVert="1" toVert="7"/>
+    <line id="8" fromVert="2" toVert="6"/>
+    <line id="9" fromVert="3" toVert="8"/>
+    <line id="10" fromVert="8" toVert="9"/>
+    <line id="11" fromVert="8" toVert="5"/>
+    <line id="12" fromVert="8" toVert="4"/>
+    <line id="13" fromVert="8" toVert="10"/>
+    <line id="14" fromVert="8" toVert="11"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="100" locked="NO"/>
+    <angle id="1" leftLine="1" rightLine="3" radius="102" locked="YES"/>
+    <angle id="2" leftLine="5" rightLine="4" radius="107" locked="NO"/>
+    <angle id="4" leftLine="7" rightLine="2" radius="100" locked="NO"/>
+    <angle id="5" leftLine="8" rightLine="4" radius="86" locked="NO"/>
+    <angle id="6" leftLine="8" rightLine="2" radius="86" locked="YES"/>
+    <angle id="7" leftLine="3" rightLine="8" radius="113" locked="NO"/>
+    <angle id="8" leftLine="3" rightLine="9" radius="82" locked="NO"/>
+    <angle id="9" leftLine="10" rightLine="13" radius="100" locked="YES"/>
+    <angle id="12" leftLine="13" rightLine="14" radius="100" locked="NO"/>
+    <angle id="14" leftLine="11" rightLine="9" radius="100" locked="YES"/>
+    <angle id="15" leftLine="14" rightLine="12" radius="100" locked="YES"/>
+    <angle id="16" leftLine="12" rightLine="11" radius="100" locked="NO"/>
+    <angle id="17" leftLine="9" rightLine="10" radius="100" locked="NO"/>
+    <angle id="18" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+    <angle id="19" leftLine="9" rightLine="5" radius="100" locked="NO"/>
+    <angle id="20" leftLine="5" rightLine="11" radius="100" locked="YES"/>
+  </level>
+  <level guid="97EB9A75-9C8D-422A-2084-5F9BA84889F5" name="4.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 45:99, 55:99, 85:99, 90:99, 95:99, 120:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="114" y="169" type="START"/>
+    <vertex id="1" x="85" y="279"/>
+    <vertex id="2" x="250" y="582"/>
+    <vertex id="4" x="421" y="425"/>
+    <vertex id="5" x="322" y="296"/>
+    <vertex id="6" x="538" y="569"/>
+    <vertex id="7" x="600" y="250"/>
+    <vertex id="8" x="500" y="153"/>
+    <vertex id="9" x="787" y="439" type="CAGE"/>
+    <vertex id="10" x="702" y="145"/>
+    <vertex id="11" x="87" y="589"/>
+    <vertex id="12" x="228" y="173"/>
+    <vertex id="13" x="190" y="464"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="11"/>
+    <line id="4" fromVert="2" toVert="4"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <line id="6" fromVert="4" toVert="6"/>
+    <line id="7" fromVert="4" toVert="7"/>
+    <line id="8" fromVert="7" toVert="8"/>
+    <line id="9" fromVert="7" toVert="10"/>
+    <line id="10" fromVert="7" toVert="6" occupy="CAMPER"/>
+    <line id="11" fromVert="7" toVert="9"/>
+    <line id="12" fromVert="1" toVert="12"/>
+    <line id="13" fromVert="1" toVert="13"/>
+    <line id="14" fromVert="13" toVert="5"/>
+    <line id="15" fromVert="13" toVert="11"/>
+    <line id="16" fromVert="2" toVert="6"/>
+    <line id="17" fromVert="12" toVert="5" occupy="HUNTER"/>
+    <angle id="3" leftLine="4" rightLine="5" radius="100" locked="NO"/>
+    <angle id="4" leftLine="5" rightLine="7" radius="100" locked="YES"/>
+    <angle id="5" leftLine="7" rightLine="6" radius="100" locked="YES"/>
+    <angle id="6" leftLine="7" rightLine="8" radius="123" locked="YES"/>
+    <angle id="7" leftLine="9" rightLine="11" radius="126" locked="NO"/>
+    <angle id="8" leftLine="11" rightLine="10" radius="128" locked="NO"/>
+    <angle id="9" leftLine="10" rightLine="7" radius="125" locked="YES"/>
+    <angle id="10" leftLine="6" rightLine="4" radius="100" locked="NO"/>
+    <angle id="11" leftLine="17" rightLine="12" radius="100" locked="YES"/>
+    <angle id="12" leftLine="13" rightLine="14" radius="100" locked="NO"/>
+    <angle id="13" leftLine="15" rightLine="13" radius="100" locked="YES"/>
+    <angle id="14" leftLine="15" rightLine="2" radius="100" locked="NO"/>
+    <angle id="15" leftLine="2" rightLine="4" radius="73" locked="NO"/>
+    <angle id="16" leftLine="4" rightLine="16" radius="107" locked="YES"/>
+    <angle id="17" leftLine="8" rightLine="9" radius="100" locked="YES"/>
+  </level>
+  <level guid="90EFA100-C4BE-6D5F-16C1-5F9C71CC553A" name="4.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 30:99, 60:99, 85:99, 90:99, 95:99, 120:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="735" y="172" type="START"/>
+    <vertex id="1" x="900" y="260"/>
+    <vertex id="2" x="969" y="419"/>
+    <vertex id="3" x="309" y="311"/>
+    <vertex id="4" x="434" y="148"/>
+    <vertex id="5" x="200" y="448"/>
+    <vertex id="8" x="575" y="299"/>
+    <vertex id="9" x="480" y="470" type="CAGE"/>
+    <vertex id="10" x="764" y="295"/>
+    <vertex id="11" x="628" y="467"/>
+    <vertex id="12" x="748" y="521"/>
+    <vertex id="345" x="532" y="151"/>
+    <vertex id="346" x="77" y="323"/>
+    <vertex id="347" x="559" y="611"/>
+    <vertex id="348" x="1008" y="507"/>
+    <vertex id="380" x="286" y="537"/>
+    <vertex id="381" x="363" y="612"/>
+    <vertex id="382" x="112" y="591"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="12"/>
+    <line id="5" fromVert="3" toVert="5"/>
+    <line id="8" fromVert="3" toVert="4"/>
+    <line id="9" fromVert="3" toVert="8"/>
+    <line id="10" fromVert="8" toVert="11"/>
+    <line id="11" fromVert="8" toVert="10" occupy="CAMPER"/>
+    <line id="14" fromVert="8" toVert="345"/>
+    <line id="15" fromVert="3" toVert="346" occupy="HUNTER"/>
+    <line id="16" fromVert="345" toVert="4"/>
+    <line id="18" fromVert="12" toVert="347"/>
+    <line id="19" fromVert="347" toVert="11" type="OPEN"/>
+    <line id="21" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="22" fromVert="2" toVert="348"/>
+    <line id="23" fromVert="2" toVert="10"/>
+    <line id="24" fromVert="12" toVert="10"/>
+    <line id="26" fromVert="346" toVert="5"/>
+    <line id="27" fromVert="5" toVert="380"/>
+    <line id="28" fromVert="380" toVert="9"/>
+    <line id="29" fromVert="380" toVert="381"/>
+    <line id="30" fromVert="380" toVert="382"/>
+    <angle id="7" leftLine="8" rightLine="9" radius="100" locked="YES"/>
+    <angle id="11" leftLine="22" rightLine="2" radius="100" locked="NO"/>
+    <angle id="12" leftLine="23" rightLine="1" radius="118" locked="NO"/>
+    <angle id="13" leftLine="2" rightLine="23" radius="100" locked="YES"/>
+    <angle id="14" leftLine="24" rightLine="2" radius="100" locked="NO"/>
+    <angle id="15" leftLine="18" rightLine="24" radius="88" locked="YES"/>
+    <angle id="17" leftLine="5" rightLine="15" radius="100" locked="NO"/>
+    <angle id="18" leftLine="9" rightLine="5" radius="81" locked="NO"/>
+    <angle id="19" leftLine="15" rightLine="8" radius="82" locked="YES"/>
+    <angle id="21" leftLine="16" rightLine="8" radius="76" locked="YES"/>
+    <angle id="22" leftLine="2" rightLine="18" radius="71" locked="NO"/>
+    <angle id="23" leftLine="26" rightLine="5" radius="80" locked="YES"/>
+    <angle id="25" leftLine="5" rightLine="27" radius="88" locked="NO"/>
+    <angle id="26" leftLine="28" rightLine="29" radius="100" locked="NO"/>
+    <angle id="28" leftLine="30" rightLine="27" radius="100" locked="YES"/>
+    <angle id="29" leftLine="11" rightLine="10" radius="100" locked="NO"/>
+    <angle id="30" leftLine="9" rightLine="14" radius="100" locked="YES"/>
+  </level>
+  <level guid="F7036A59-063A-8BFC-9433-5F9CC6741A39" name="4.8">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 30:99, 55:99, 70:99, 75:99, 90:99, 105:99, 110:99, 120:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="63" y="287" type="START"/>
+    <vertex id="1" x="288" y="221"/>
+    <vertex id="2" x="293" y="510"/>
+    <vertex id="3" x="486" y="366"/>
+    <vertex id="4" x="670" y="221"/>
+    <vertex id="5" x="670" y="133"/>
+    <vertex id="6" x="849" y="220" type="CAGE"/>
+    <vertex id="7" x="673" y="505"/>
+    <vertex id="8" x="921" y="502"/>
+    <vertex id="9" x="673" y="600"/>
+    <vertex id="10" x="175" y="222"/>
+    <vertex id="11" x="58" y="388"/>
+    <vertex id="12" x="366" y="108"/>
+    <vertex id="13" x="134" y="405"/>
+    <vertex id="14" x="62" y="512"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="1" toVert="10"/>
+    <line id="3" fromVert="1" toVert="4" occupy="CAMPER"/>
+    <line id="4" fromVert="1" toVert="3"/>
+    <line id="5" fromVert="4" toVert="5"/>
+    <line id="6" fromVert="4" toVert="6"/>
+    <line id="7" fromVert="4" toVert="7"/>
+    <line id="8" fromVert="4" toVert="3"/>
+    <line id="9" fromVert="7" toVert="8"/>
+    <line id="10" fromVert="7" toVert="9"/>
+    <line id="11" fromVert="7" toVert="3"/>
+    <line id="12" fromVert="2" toVert="7" occupy="CAMPER"/>
+    <line id="14" fromVert="2" toVert="3"/>
+    <line id="16" fromVert="0" toVert="11" type="OPEN"/>
+    <line id="17" fromVert="0" toVert="10" type="OPEN"/>
+    <line id="19" fromVert="10" toVert="12"/>
+    <line id="20" fromVert="11" toVert="13" type="OPEN"/>
+    <line id="22" fromVert="13" toVert="14"/>
+    <line id="23" fromVert="14" toVert="2"/>
+    <angle id="1" leftLine="3" rightLine="4" radius="100" locked="NO"/>
+    <angle id="2" leftLine="4" rightLine="1" radius="100" locked="YES"/>
+    <angle id="3" leftLine="3" rightLine="5" radius="88" locked="YES"/>
+    <angle id="4" leftLine="6" rightLine="7" radius="80" locked="NO"/>
+    <angle id="5" leftLine="7" rightLine="9" radius="101" locked="YES"/>
+    <angle id="6" leftLine="10" rightLine="12" radius="97" locked="NO"/>
+    <angle id="7" leftLine="11" rightLine="7" radius="100" locked="YES"/>
+    <angle id="8" leftLine="12" rightLine="11" radius="100" locked="NO"/>
+    <angle id="10" leftLine="14" rightLine="12" radius="118" locked="NO"/>
+    <angle id="11" leftLine="1" rightLine="14" radius="118" locked="YES"/>
+    <angle id="12" leftLine="8" rightLine="11" radius="100" locked="NO"/>
+    <angle id="13" leftLine="4" rightLine="8" radius="100" locked="NO"/>
+    <angle id="18" leftLine="19" rightLine="2" radius="113" locked="NO"/>
+    <angle id="19" leftLine="17" rightLine="19" radius="77" locked="NO"/>
+    <angle id="20" leftLine="2" rightLine="17" radius="67" locked="YES"/>
+    <angle id="21" leftLine="22" rightLine="23" radius="100" locked="YES"/>
+    <angle id="22" leftLine="23" rightLine="1" radius="89" locked="NO"/>
+    <angle id="23" leftLine="11" rightLine="14" radius="100" locked="YES"/>
+    <angle id="24" leftLine="14" rightLine="4" radius="100" locked="YES"/>
+  </level>
+  <level guid="06112CB4-D213-65F5-175A-5F9D02988F79" name="5.1">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+      <callout trigger="start" message="YOU HAVE A NEW RULE BUTTON!" target="button:triangle" removal="timer:2"/>
+      <callout trigger="timerGroup:0" message="To use the new rule you need to select 1 locked..." target="angleID:0" removal="click:angleID:0"/>
+      <callout trigger="click:angleID:0" message="... an unlocked angle..." target="angleID:2" removal="click:angleID:2"/>
+      <callout trigger="click:angleID:2" message="... and another unlocked angle." target="angleID:3" removal="click:angleID:3"/>
+      <callout trigger="click:angleID:3" message="Now you can select the TRIANGLE Rule button." target="button:triangle" removal="click:button:triangle"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 30:99, 60:99, 70:99, 90:99, 95:99, 120:99, 135:99, 165:99, 180:99"/>
+      <callout trigger="start" message="What is the value of this angle?" target="angleid:2" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="220" y="214" type="START"/>
+    <vertex id="1" x="279" y="264"/>
+    <vertex id="2" x="280" y="582"/>
+    <vertex id="3" x="711" y="590" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="1" toVert="3"/>
+    <line id="3" fromVert="2" toVert="3"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="125" locked="YES"/>
+    <angle id="2" leftLine="3" rightLine="2" radius="146" locked="NO"/>
+    <angle id="3" leftLine="1" rightLine="3" radius="100" locked="NO"/>
+  </level>
+  <level guid="5EF599D1-B0A9-96F4-9CD8-5F9DE9516CD2" name="5.2">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 35:99, 55:99, 70:99, 90:99, 95:99, 125:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="207" y="202" type="START"/>
+    <vertex id="1" x="92" y="273"/>
+    <vertex id="2" x="375" y="508"/>
+    <vertex id="3" x="569" y="277"/>
+    <vertex id="5" x="920" y="306" type="CAGE"/>
+    <vertex id="6" x="92" y="507"/>
+    <vertex id="7" x="575" y="615"/>
+    <vertex id="8" x="89" y="607"/>
+    <vertex id="9" x="740" y="467"/>
+    <vertex id="11" x="843" y="576"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="1" toVert="3"/>
+    <line id="3" fromVert="3" toVert="2"/>
+    <line id="6" fromVert="2" toVert="6"/>
+    <line id="7" fromVert="2" toVert="7"/>
+    <line id="8" fromVert="3" toVert="7"/>
+    <line id="10" fromVert="1" toVert="6"/>
+    <line id="11" fromVert="6" toVert="8"/>
+    <line id="12" fromVert="3" toVert="9"/>
+    <line id="13" fromVert="7" toVert="9"/>
+    <line id="15" fromVert="9" toVert="5"/>
+    <line id="16" fromVert="9" toVert="11"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="151" locked="YES"/>
+    <angle id="3" leftLine="1" rightLine="3" radius="100" locked="NO"/>
+    <angle id="5" leftLine="3" rightLine="2" radius="100" locked="NO"/>
+    <angle id="6" leftLine="6" rightLine="1" radius="94" locked="NO"/>
+    <angle id="7" leftLine="3" rightLine="7" radius="100" locked="NO"/>
+    <angle id="8" leftLine="7" rightLine="8" radius="100" locked="YES"/>
+    <angle id="9" leftLine="8" rightLine="3" radius="100" locked="YES"/>
+    <angle id="12" leftLine="10" rightLine="6" radius="84" locked="YES"/>
+    <angle id="13" leftLine="6" rightLine="11" radius="100" locked="NO"/>
+    <angle id="14" leftLine="1" rightLine="10" radius="100" locked="NO"/>
+    <angle id="15" leftLine="12" rightLine="8" radius="100" locked="NO"/>
+    <angle id="16" leftLine="8" rightLine="13" radius="100" locked="NO"/>
+    <angle id="18" leftLine="13" rightLine="12" radius="100" locked="YES"/>
+    <angle id="19" leftLine="15" rightLine="16" radius="100" locked="NO"/>
+  </level>
+  <level guid="37FA24B7-7003-3154-2218-5F9E8108C3E3" name="5.3">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 40:99, 50:99, 65:99, 90:99, 95:99, 125:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="134" y="204" type="START"/>
+    <vertex id="1" x="149" y="383"/>
+    <vertex id="2" x="284" y="606"/>
+    <vertex id="3" x="680" y="406"/>
+    <vertex id="4" x="848" y="168"/>
+    <vertex id="5" x="817" y="578" type="CAGE"/>
+    <vertex id="6" x="544" y="236"/>
+    <vertex id="7" x="29" y="611"/>
+    <vertex id="8" x="284" y="261"/>
+    <vertex id="9" x="531" y="605"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" occupy="CAMPER"/>
+    <line id="2" fromVert="2" toVert="7"/>
+    <line id="5" fromVert="3" toVert="4"/>
+    <line id="6" fromVert="3" toVert="6"/>
+    <line id="7" fromVert="3" toVert="5"/>
+    <line id="9" fromVert="1" toVert="8"/>
+    <line id="10" fromVert="8" toVert="2"/>
+    <line id="11" fromVert="1" toVert="7"/>
+    <line id="12" fromVert="2" toVert="9"/>
+    <line id="14" fromVert="9" toVert="3"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="105" locked="NO"/>
+    <angle id="5" leftLine="5" rightLine="7" radius="117" locked="NO"/>
+    <angle id="8" leftLine="1" rightLine="11" radius="100" locked="NO"/>
+    <angle id="11" leftLine="11" rightLine="2" radius="100" locked="YES"/>
+    <angle id="13" leftLine="10" rightLine="12" radius="100" locked="NO"/>
+    <angle id="14" leftLine="1" rightLine="10" radius="127" locked="YES"/>
+    <angle id="15" leftLine="9" rightLine="1" radius="100" locked="NO"/>
+    <angle id="16" leftLine="10" rightLine="9" radius="100" locked="NO"/>
+    <angle id="18" leftLine="6" rightLine="5" radius="100" locked="YES"/>
+    <angle id="20" leftLine="14" rightLine="6" radius="100" locked="YES"/>
+    <angle id="21" leftLine="7" rightLine="14" radius="100" locked="NO"/>
+    <angle id="22" leftLine="12" rightLine="14" radius="100" locked="YES"/>
+  </level>
+  <level guid="6E5D6E6D-126F-CAE8-389A-5FA0E374456B" name="5.4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 35:99, 50:99, 70:99, 90:99, 95:99, 110:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="919" y="343" type="START"/>
+    <vertex id="1" x="260" y="265"/>
+    <vertex id="2" x="442" y="405"/>
+    <vertex id="3" x="261" y="510"/>
+    <vertex id="4" x="717" y="254"/>
+    <vertex id="6" x="779" y="491"/>
+    <vertex id="7" x="80" y="379" type="CAGE"/>
+    <vertex id="8" x="207" y="359"/>
+    <vertex id="9" x="925" y="489"/>
+    <vertex id="10" x="108" y="151"/>
+    <vertex id="11" x="448" y="140"/>
+    <vertex id="13" x="59" y="627"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="3" fromVert="4" toVert="2"/>
+    <line id="4" fromVert="2" toVert="3"/>
+    <line id="10" fromVert="3" toVert="8"/>
+    <line id="12" fromVert="8" toVert="1"/>
+    <line id="13" fromVert="0" toVert="9" type="OPEN"/>
+    <line id="14" fromVert="1" toVert="7"/>
+    <line id="15" fromVert="1" toVert="10"/>
+    <line id="16" fromVert="1" toVert="11"/>
+    <line id="17" fromVert="11" toVert="2" occupy="HUNTER"/>
+    <line id="18" fromVert="9" toVert="6" type="OPEN"/>
+    <line id="19" fromVert="6" toVert="4"/>
+    <line id="21" fromVert="3" toVert="6"/>
+    <line id="22" fromVert="8" toVert="13"/>
+    <line id="23" fromVert="3" toVert="13"/>
+    <angle id="10" leftLine="14" rightLine="15" radius="100" locked="NO"/>
+    <angle id="11" leftLine="16" rightLine="1" radius="100" locked="YES"/>
+    <angle id="12" leftLine="17" rightLine="16" radius="100" locked="NO"/>
+    <angle id="13" leftLine="1" rightLine="17" radius="100" locked="NO"/>
+    <angle id="14" leftLine="4" rightLine="21" radius="169" locked="NO"/>
+    <angle id="15" leftLine="19" rightLine="3" radius="100" locked="NO"/>
+    <angle id="16" leftLine="21" rightLine="19" radius="100" locked="YES"/>
+    <angle id="17" leftLine="1" rightLine="12" radius="88" locked="NO"/>
+    <angle id="18" leftLine="22" rightLine="23" radius="108" locked="YES"/>
+    <angle id="20" leftLine="10" rightLine="4" radius="84" locked="YES"/>
+    <angle id="21" leftLine="23" rightLine="10" radius="81" locked="NO"/>
+    <angle id="22" leftLine="4" rightLine="1" radius="100" locked="NO"/>
+  </level>
+  <level guid="A35BAE27-0986-0B37-9E8B-5FA17B61AC5C" name="5.5">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="25:99, 35:99, 55:99, 65:99, 90:99, 95:99, 115:99, 120:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="149" y="192" type="START"/>
+    <vertex id="1" x="150" y="253"/>
+    <vertex id="2" x="398" y="476"/>
+    <vertex id="3" x="269" y="564"/>
+    <vertex id="4" x="443" y="252"/>
+    <vertex id="5" x="712" y="251"/>
+    <vertex id="6" x="642" y="583" type="CAGE"/>
+    <vertex id="7" x="798" y="489"/>
+    <vertex id="8" x="539" y="596"/>
+    <vertex id="9" x="149" y="481"/>
+    <vertex id="10" x="43" y="255"/>
+    <vertex id="11" x="950" y="403"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" occupy="HUNTER"/>
+    <line id="2" fromVert="1" toVert="4"/>
+    <line id="3" fromVert="4" toVert="2"/>
+    <line id="4" fromVert="2" toVert="3"/>
+    <line id="5" fromVert="2" toVert="5"/>
+    <line id="6" fromVert="4" toVert="5"/>
+    <line id="8" fromVert="5" toVert="7"/>
+    <line id="9" fromVert="7" toVert="6"/>
+    <line id="10" fromVert="2" toVert="8"/>
+    <line id="12" fromVert="1" toVert="9"/>
+    <line id="13" fromVert="1" toVert="10"/>
+    <line id="14" fromVert="7" toVert="11"/>
+    <line id="15" fromVert="5" toVert="11"/>
+    <line id="16" fromVert="9" toVert="3"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="100" locked="NO"/>
+    <angle id="1" leftLine="4" rightLine="1" radius="85" locked="NO"/>
+    <angle id="2" leftLine="3" rightLine="2" radius="88" locked="YES"/>
+    <angle id="3" leftLine="6" rightLine="3" radius="85" locked="NO"/>
+    <angle id="4" leftLine="1" rightLine="3" radius="104" locked="NO"/>
+    <angle id="5" leftLine="3" rightLine="5" radius="107" locked="NO"/>
+    <angle id="6" leftLine="5" rightLine="6" radius="100" locked="YES"/>
+    <angle id="8" leftLine="12" rightLine="13" radius="100" locked="NO"/>
+    <angle id="9" leftLine="1" rightLine="12" radius="100" locked="YES"/>
+    <angle id="10" leftLine="14" rightLine="9" radius="78" locked="NO"/>
+    <angle id="11" leftLine="8" rightLine="14" radius="83" locked="NO"/>
+    <angle id="12" leftLine="9" rightLine="8" radius="92" locked="YES"/>
+    <angle id="13" leftLine="15" rightLine="8" radius="100" locked="YES"/>
+    <angle id="14" leftLine="14" rightLine="15" radius="100" locked="NO"/>
+    <angle id="15" leftLine="5" rightLine="10" radius="100" locked="YES"/>
+    <angle id="16" leftLine="12" rightLine="16" radius="98" locked="YES"/>
+  </level>
+  <level guid="119118A6-D372-DBFF-03ED-5FA61A277210" name="5.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 30:99, 60:99, 80:99, 90:99, 95:99, 120:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="198" y="218" type="START"/>
+    <vertex id="1" x="200" y="300"/>
+    <vertex id="2" x="200" y="600"/>
+    <vertex id="3" x="450" y="451"/>
+    <vertex id="4" x="700" y="600"/>
+    <vertex id="5" x="700" y="300"/>
+    <vertex id="6" x="700" y="170"/>
+    <vertex id="7" x="922" y="458" type="CAGE"/>
+    <vertex id="8" x="74" y="601"/>
+    <vertex id="9" x="822" y="599"/>
+    <vertex id="10" x="919" y="169"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="8"/>
+    <line id="3" fromVert="1" toVert="3" occupy="CAMPER"/>
+    <line id="4" fromVert="2" toVert="3"/>
+    <line id="5" fromVert="2" toVert="4"/>
+    <line id="6" fromVert="4" toVert="9"/>
+    <line id="7" fromVert="4" toVert="3"/>
+    <line id="8" fromVert="4" toVert="5"/>
+    <line id="9" fromVert="5" toVert="3" occupy="CAMPER"/>
+    <line id="10" fromVert="5" toVert="6"/>
+    <line id="12" fromVert="5" toVert="10"/>
+    <line id="13" fromVert="10" toVert="7"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="100" locked="NO"/>
+    <angle id="1" leftLine="3" rightLine="1" radius="120" locked="NO"/>
+    <angle id="2" leftLine="1" rightLine="4" radius="133" locked="YES"/>
+    <angle id="3" leftLine="4" rightLine="5" radius="125" locked="NO"/>
+    <angle id="4" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+    <angle id="5" leftLine="9" rightLine="7" radius="100" locked="YES"/>
+    <angle id="6" leftLine="7" rightLine="4" radius="96" locked="YES"/>
+    <angle id="7" leftLine="5" rightLine="7" radius="118" locked="YES"/>
+    <angle id="8" leftLine="8" rightLine="6" radius="100" locked="NO"/>
+    <angle id="9" leftLine="7" rightLine="8" radius="125" locked="YES"/>
+    <angle id="10" leftLine="8" rightLine="9" radius="100" locked="YES"/>
+    <angle id="11" leftLine="9" rightLine="10" radius="100" locked="YES"/>
+    <angle id="14" leftLine="13" rightLine="12" radius="100" locked="YES"/>
+    <angle id="15" leftLine="10" rightLine="12" radius="100" locked="NO"/>
+  </level>
+  <level guid="A11EC6AA-7128-FE72-3F42-5FA261E8047A" name="5.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 30:99, 45:99, 60:99, 90:99, 95:99, 120:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="84" y="245" type="START"/>
+    <vertex id="2" x="251" y="344"/>
+    <vertex id="3" x="113" y="408"/>
+    <vertex id="4" x="496" y="240"/>
+    <vertex id="5" x="621" y="185" movable="yes"/>
+    <vertex id="6" x="366" y="588"/>
+    <vertex id="7" x="278" y="626"/>
+    <vertex id="8" x="605" y="485"/>
+    <vertex id="9" x="660" y="610"/>
+    <vertex id="10" x="931" y="351" type="CAGE"/>
+    <vertex id="11" x="203" y="239"/>
+    <line id="2" fromVert="11" toVert="2" type="OPEN"/>
+    <line id="3" fromVert="2" toVert="3"/>
+    <line id="4" fromVert="2" toVert="6"/>
+    <line id="5" fromVert="2" toVert="4"/>
+    <line id="6" fromVert="4" toVert="8"/>
+    <line id="7" fromVert="4" toVert="6" occupy="CAMPER"/>
+    <line id="8" fromVert="4" toVert="5"/>
+    <line id="9" fromVert="6" toVert="8"/>
+    <line id="10" fromVert="6" toVert="7"/>
+    <line id="11" fromVert="8" toVert="9"/>
+    <line id="12" fromVert="8" toVert="10"/>
+    <line id="13" fromVert="11" toVert="0" type="OPEN"/>
+    <angle id="0" leftLine="2" rightLine="5" radius="101" locked="NO"/>
+    <angle id="1" leftLine="5" rightLine="4" radius="100" locked="YES"/>
+    <angle id="2" leftLine="4" rightLine="3" radius="100" locked="YES"/>
+    <angle id="3" leftLine="10" rightLine="4" radius="79" locked="NO"/>
+    <angle id="4" leftLine="4" rightLine="7" radius="125" locked="YES"/>
+    <angle id="5" leftLine="7" rightLine="9" radius="125" locked="YES"/>
+    <angle id="6" leftLine="12" rightLine="11" radius="100" locked="YES"/>
+    <angle id="7" leftLine="9" rightLine="6" radius="100" locked="YES"/>
+    <angle id="8" leftLine="7" rightLine="5" radius="125" locked="NO"/>
+    <angle id="9" leftLine="6" rightLine="7" radius="125" locked="YES"/>
+    <angle id="10" leftLine="8" rightLine="6" radius="86" locked="NO"/>
+  </level>
+  <level guid="4CB8E283-6345-A6EA-BBE7-5FA2C0A5C129" name="5.8">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 35:99, 45:99, 55:99, 90:99, 95:99, 125:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="128" y="180" type="START"/>
+    <vertex id="1" x="25" y="239"/>
+    <vertex id="2" x="197" y="238"/>
+    <vertex id="3" x="195" y="566"/>
+    <vertex id="4" x="56" y="564"/>
+    <vertex id="5" x="454" y="237"/>
+    <vertex id="6" x="460" y="567"/>
+    <vertex id="7" x="715" y="234"/>
+    <vertex id="8" x="905" y="231"/>
+    <vertex id="9" x="725" y="566"/>
+    <vertex id="10" x="726" y="627"/>
+    <vertex id="11" x="842" y="564" type="CAGE"/>
+    <vertex id="12" x="712" y="131"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <line id="5" fromVert="3" toVert="6" occupy="CAMPER"/>
+    <line id="6" fromVert="3" toVert="5"/>
+    <line id="7" fromVert="5" toVert="7"/>
+    <line id="8" fromVert="6" toVert="9"/>
+    <line id="9" fromVert="6" toVert="7"/>
+    <line id="10" fromVert="5" toVert="6"/>
+    <line id="11" fromVert="9" toVert="10"/>
+    <line id="12" fromVert="9" toVert="11"/>
+    <line id="13" fromVert="7" toVert="9" occupy="CAMPER"/>
+    <line id="14" fromVert="7" toVert="12"/>
+    <line id="15" fromVert="7" toVert="8" occupy="HUNTER"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="98" locked="NO"/>
+    <angle id="1" leftLine="4" rightLine="2" radius="100" locked="YES"/>
+    <angle id="2" leftLine="2" rightLine="6" radius="100" locked="YES"/>
+    <angle id="3" leftLine="3" rightLine="2" radius="97" locked="NO"/>
+    <angle id="4" leftLine="10" rightLine="6" radius="100" locked="YES"/>
+    <angle id="5" leftLine="5" rightLine="10" radius="113" locked="YES"/>
+    <angle id="6" leftLine="6" rightLine="4" radius="100" locked="NO"/>
+    <angle id="7" leftLine="7" rightLine="10" radius="100" locked="YES"/>
+    <angle id="8" leftLine="10" rightLine="9" radius="114" locked="NO"/>
+    <angle id="9" leftLine="9" rightLine="7" radius="117" locked="YES"/>
+    <angle id="10" leftLine="7" rightLine="14" radius="80" locked="NO"/>
+    <angle id="11" leftLine="15" rightLine="13" radius="102" locked="YES"/>
+    <angle id="12" leftLine="13" rightLine="9" radius="118" locked="YES"/>
+    <angle id="13" leftLine="9" rightLine="8" radius="117" locked="YES"/>
+    <angle id="14" leftLine="8" rightLine="13" radius="100" locked="YES"/>
+    <angle id="15" leftLine="12" rightLine="11" radius="58" locked="YES"/>
+    <angle id="16" leftLine="6" rightLine="5" radius="100" locked="YES"/>
+  </level>
+  <level guid="F053CF8C-75FA-B101-411E-FAC2FF1195FC" name="6.1">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+      <callout trigger="start" message="YOU HAVE A NEW RULE BUTTON!" target="button:quadrilateral" removal="timer:2"/>
+      <callout trigger="timerGroup:0" message="To use the new rule you need to select 1 locked..." target="angleID:4" removal="click:angleID:4"/>
+      <callout trigger="click:angleID:4" message="... and 1, ..." target="angleID:5" removal="click:angleID:5"/>
+      <callout trigger="click:angleID:5" message="2, ..." target="angleID:3" removal="click:angleID:3"/>
+      <callout trigger="click:angleID:3" message="... 3 unlocked angles." target="angleID:2" removal="click:angleID:2"/>
+      <callout trigger="click:angleID:2" message="Now you can select the QUADRILATERAL Rule button." target="button:quadrilateral" removal="click:button:quadrilateral"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 35:99, 45:99, 55:99, 90:99, 95:99, 125:99, 145:99, 165:99, 180:99"/>
+      <callout trigger="start" message="What is the value of this angle?" target="angleID:2" removal="click:self"/>
+    </gamemode>
+    <vertex id="0" x="108" y="426" type="START"/>
+    <vertex id="1" x="145" y="466"/>
+    <vertex id="2" x="305" y="619"/>
+    <vertex id="3" x="478" y="205"/>
+    <vertex id="4" x="781" y="409" type="CAGE"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="2" fromVert="1" toVert="3"/>
+    <line id="3" fromVert="2" toVert="4"/>
+    <line id="4" fromVert="3" toVert="4"/>
+    <line id="5" fromVert="1" toVert="2"/>
+    <angle id="2" leftLine="3" rightLine="4" radius="161" locked="NO"/>
+    <angle id="3" leftLine="4" rightLine="2" radius="93" locked="NO"/>
+    <angle id="4" leftLine="2" rightLine="5" radius="100" locked="YES"/>
+    <angle id="5" leftLine="5" rightLine="3" radius="100" locked="NO"/>
+  </level>
+  <level guid="0D2BBCB6-59CE-E233-0181-5FA3A0975DCE" name="6.2">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 35:99, 45:99, 65:99, 90:99, 95:99, 115:99, 145:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="921" y="378" type="START"/>
+    <vertex id="1" x="212" y="271"/>
+    <vertex id="2" x="37" y="475"/>
+    <vertex id="4" x="504" y="271"/>
+    <vertex id="5" x="287" y="140"/>
+    <vertex id="6" x="765" y="272"/>
+    <vertex id="7" x="262" y="475"/>
+    <vertex id="8" x="286" y="590" type="CAGE"/>
+    <vertex id="28" x="953" y="419"/>
+    <vertex id="36" x="636" y="465"/>
+    <vertex id="37" x="769" y="420"/>
+    <vertex id="38" x="920" y="273"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="3" fromVert="1" toVert="4"/>
+    <line id="5" fromVert="4" toVert="7"/>
+    <line id="6" fromVert="4" toVert="5"/>
+    <line id="7" fromVert="4" toVert="6"/>
+    <line id="9" fromVert="2" toVert="8"/>
+    <line id="11" fromVert="0" toVert="28" type="OPEN"/>
+    <line id="13" fromVert="36" toVert="6"/>
+    <line id="14" fromVert="36" toVert="7"/>
+    <line id="15" fromVert="28" toVert="37" type="OPEN"/>
+    <line id="16" fromVert="37" toVert="6"/>
+    <line id="17" fromVert="7" toVert="2"/>
+    <line id="18" fromVert="6" toVert="38"/>
+    <angle id="3" leftLine="6" rightLine="7" radius="90" locked="YES"/>
+    <angle id="4" leftLine="5" rightLine="3" radius="96" locked="YES"/>
+    <angle id="8" leftLine="3" rightLine="6" radius="100" locked="NO"/>
+    <angle id="9" leftLine="3" rightLine="1" radius="100" locked="NO"/>
+    <angle id="11" leftLine="7" rightLine="5" radius="87" locked="NO"/>
+    <angle id="13" leftLine="14" rightLine="13" radius="77" locked="NO"/>
+    <angle id="14" leftLine="5" rightLine="14" radius="100" locked="NO"/>
+    <angle id="15" leftLine="1" rightLine="17" radius="100" locked="NO"/>
+    <angle id="16" leftLine="17" rightLine="5" radius="86" locked="NO"/>
+    <angle id="17" leftLine="13" rightLine="7" radius="100" locked="YES"/>
+    <angle id="18" leftLine="18" rightLine="16" radius="100" locked="NO"/>
+    <angle id="20" leftLine="17" rightLine="9" radius="173" locked="YES"/>
+    <angle id="21" leftLine="16" rightLine="13" radius="100" locked="NO"/>
+  </level>
+  <level guid="60E57D27-F9D5-43D2-5D4C-5FA4128FBF84" name="6.3">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 40:99, 60:99, 80:99, 90:99, 95:99, 100:99, 120:99, 140:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="163" y="440" type="START"/>
+    <vertex id="1" x="167" y="242"/>
+    <vertex id="2" x="315" y="410"/>
+    <vertex id="3" x="78" y="612"/>
+    <vertex id="4" x="487" y="606"/>
+    <vertex id="5" x="542" y="222"/>
+    <vertex id="6" x="431" y="111"/>
+    <vertex id="7" x="685" y="111"/>
+    <vertex id="8" x="733" y="419"/>
+    <vertex id="9" x="953" y="418" type="CAGE"/>
+    <vertex id="10" x="865" y="554"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="2" toVert="4"/>
+    <line id="5" fromVert="2" toVert="5"/>
+    <line id="6" fromVert="5" toVert="6"/>
+    <line id="7" fromVert="5" toVert="7"/>
+    <line id="8" fromVert="5" toVert="8"/>
+    <line id="9" fromVert="4" toVert="8"/>
+    <line id="10" fromVert="8" toVert="9"/>
+    <line id="11" fromVert="8" toVert="10"/>
+    <angle id="0" leftLine="1" rightLine="5" radius="97" locked="NO"/>
+    <angle id="1" leftLine="2" rightLine="3" radius="151" locked="NO"/>
+    <angle id="2" leftLine="4" rightLine="2" radius="97" locked="YES"/>
+    <angle id="3" leftLine="3" rightLine="4" radius="125" locked="YES"/>
+    <angle id="4" leftLine="5" rightLine="4" radius="97" locked="YES"/>
+    <angle id="5" leftLine="4" rightLine="9" radius="112" locked="YES"/>
+    <angle id="6" leftLine="8" rightLine="5" radius="100" locked="YES"/>
+    <angle id="7" leftLine="9" rightLine="8" radius="100" locked="YES"/>
+    <angle id="8" leftLine="6" rightLine="7" radius="98" locked="NO"/>
+    <angle id="9" leftLine="8" rightLine="10" radius="95" locked="YES"/>
+    <angle id="10" leftLine="11" rightLine="9" radius="100" locked="NO"/>
+    <angle id="11" leftLine="10" rightLine="11" radius="100" locked="NO"/>
+  </level>
+  <level guid="F160B9EC-BDEB-66AC-54B2-5FA4BDD6F2A3" name="6.4">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 45:99, 60:99, 80:99, 90:99, 95:99, 100:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="851" y="604" type="START"/>
+    <vertex id="1" x="193" y="150"/>
+    <vertex id="2" x="205" y="603"/>
+    <vertex id="3" x="393" y="268"/>
+    <vertex id="4" x="500" y="600"/>
+    <vertex id="5" x="626" y="270"/>
+    <vertex id="6" x="700" y="600"/>
+    <vertex id="7" x="54" y="414" type="CAGE"/>
+    <vertex id="8" x="58" y="602"/>
+    <vertex id="9" x="108" y="100"/>
+    <line id="1" fromVert="1" toVert="2"/>
+    <line id="2" fromVert="2" toVert="8"/>
+    <line id="3" fromVert="1" toVert="3"/>
+    <line id="4" fromVert="2" toVert="3"/>
+    <line id="5" fromVert="2" toVert="4"/>
+    <line id="6" fromVert="3" toVert="5" occupy="CAMPER"/>
+    <line id="7" fromVert="5" toVert="6"/>
+    <line id="8" fromVert="3" toVert="4"/>
+    <line id="9" fromVert="4" toVert="6"/>
+    <line id="11" fromVert="0" toVert="6"/>
+    <line id="12" fromVert="1" toVert="7"/>
+    <line id="13" fromVert="1" toVert="9"/>
+    <angle id="0" leftLine="3" rightLine="1" radius="113" locked="YES"/>
+    <angle id="1" leftLine="2" rightLine="1" radius="100" locked="NO"/>
+    <angle id="2" leftLine="1" rightLine="4" radius="100" locked="YES"/>
+    <angle id="3" leftLine="4" rightLine="3" radius="85" locked="YES"/>
+    <angle id="4" leftLine="8" rightLine="4" radius="94" locked="NO"/>
+    <angle id="5" leftLine="5" rightLine="8" radius="100" locked="YES"/>
+    <angle id="6" leftLine="6" rightLine="8" radius="97" locked="YES"/>
+    <angle id="7" leftLine="8" rightLine="9" radius="78" locked="YES"/>
+    <angle id="8" leftLine="7" rightLine="6" radius="70" locked="NO"/>
+    <angle id="11" leftLine="3" rightLine="6" radius="83" locked="NO"/>
+    <angle id="12" leftLine="4" rightLine="5" radius="100" locked="YES"/>
+    <angle id="13" leftLine="9" rightLine="7" radius="90" locked="YES"/>
+    <angle id="14" leftLine="7" rightLine="11" radius="93" locked="NO"/>
+    <angle id="15" leftLine="12" rightLine="13" radius="94" locked="NO"/>
+    <angle id="16" leftLine="1" rightLine="12" radius="136" locked="NO"/>
+  </level>
+  <level guid="46E0A966-4492-E5E8-FA38-FADEFDABC49E" name="6.5">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="15:99, 45:99, 60:99, 80:99, 90:99, 95:99, 100:99, 135:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="77" y="466" type="START"/>
+    <vertex id="1" x="205" y="273"/>
+    <vertex id="2" x="401" y="272"/>
+    <vertex id="3" x="400" y="500"/>
+    <vertex id="4" x="200" y="500"/>
+    <vertex id="5" x="398" y="620"/>
+    <vertex id="6" x="550" y="500"/>
+    <vertex id="7" x="750" y="500"/>
+    <vertex id="8" x="748" y="272"/>
+    <vertex id="9" x="954" y="610" type="CAGE"/>
+    <vertex id="10" x="748" y="102"/>
+    <vertex id="11" x="749" y="609"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="1" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="3" toVert="5"/>
+    <line id="5" fromVert="2" toVert="3"/>
+    <line id="6" fromVert="2" toVert="8"/>
+    <line id="7" fromVert="3" toVert="6"/>
+    <line id="8" fromVert="6" toVert="8"/>
+    <line id="9" fromVert="6" toVert="7"/>
+    <line id="10" fromVert="7" toVert="8"/>
+    <line id="11" fromVert="8" toVert="10"/>
+    <line id="13" fromVert="7" toVert="11"/>
+    <line id="14" fromVert="11" toVert="9" type="OPEN"/>
+    <angle id="0" leftLine="1" rightLine="2" radius="114" locked="NO"/>
+    <angle id="1" leftLine="3" rightLine="2" radius="108" locked="NO"/>
+    <angle id="2" leftLine="5" rightLine="1" radius="80" locked="YES"/>
+    <angle id="3" leftLine="2" rightLine="5" radius="103" locked="YES"/>
+    <angle id="4" leftLine="4" rightLine="3" radius="104" locked="NO"/>
+    <angle id="5" leftLine="6" rightLine="5" radius="80" locked="YES"/>
+    <angle id="6" leftLine="5" rightLine="7" radius="79" locked="YES"/>
+    <angle id="7" leftLine="7" rightLine="8" radius="65" locked="YES"/>
+    <angle id="8" leftLine="8" rightLine="6" radius="100" locked="YES"/>
+    <angle id="9" leftLine="8" rightLine="9" radius="88" locked="NO"/>
+    <angle id="10" leftLine="9" rightLine="10" radius="94" locked="YES"/>
+    <angle id="11" leftLine="10" rightLine="8" radius="100" locked="YES"/>
+    <angle id="12" leftLine="6" rightLine="11" radius="93" locked="NO"/>
+    <angle id="14" leftLine="13" rightLine="9" radius="94" locked="YES"/>
+  </level>
+  <level guid="A499CF10-7B08-138A-2469-5FA678C7B7C4" name="6.6">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 45:99, 55:99, 80:99, 90:99, 95:99, 100:99, 125:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="52" y="429" type="START"/>
+    <vertex id="1" x="53" y="200"/>
+    <vertex id="2" x="217" y="200"/>
+    <vertex id="3" x="213" y="498"/>
+    <vertex id="4" x="34" y="497"/>
+    <vertex id="5" x="450" y="200"/>
+    <vertex id="6" x="486" y="497"/>
+    <vertex id="7" x="731" y="197"/>
+    <vertex id="8" x="843" y="197"/>
+    <vertex id="9" x="733" y="496"/>
+    <vertex id="10" x="388" y="612" type="CAGE"/>
+    <vertex id="11" x="927" y="498"/>
+    <vertex id="12" x="818" y="91"/>
+    <vertex id="13" x="733" y="612"/>
+    <line id="0" fromVert="0" toVert="1" type="OPEN"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="4"/>
+    <line id="4" fromVert="2" toVert="5"/>
+    <line id="5" fromVert="3" toVert="6"/>
+    <line id="6" fromVert="3" toVert="5"/>
+    <line id="7" fromVert="5" toVert="7"/>
+    <line id="8" fromVert="6" toVert="9"/>
+    <line id="9" fromVert="6" toVert="7" occupy="CAMPER"/>
+    <line id="10" fromVert="7" toVert="9"/>
+    <line id="11" fromVert="7" toVert="12"/>
+    <line id="12" fromVert="7" toVert="8"/>
+    <line id="14" fromVert="9" toVert="11"/>
+    <line id="15" fromVert="9" toVert="13"/>
+    <line id="16" fromVert="13" toVert="10" type="OPEN"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="99" locked="NO"/>
+    <angle id="1" leftLine="3" rightLine="2" radius="123" locked="NO"/>
+    <angle id="2" leftLine="4" rightLine="2" radius="80" locked="YES"/>
+    <angle id="3" leftLine="2" rightLine="6" radius="100" locked="YES"/>
+    <angle id="4" leftLine="6" rightLine="4" radius="100" locked="NO"/>
+    <angle id="5" leftLine="6" rightLine="5" radius="100" locked="YES"/>
+    <angle id="6" leftLine="7" rightLine="6" radius="80" locked="YES"/>
+    <angle id="7" leftLine="9" rightLine="7" radius="100" locked="YES"/>
+    <angle id="8" leftLine="9" rightLine="8" radius="100" locked="YES"/>
+    <angle id="9" leftLine="5" rightLine="9" radius="70" locked="NO"/>
+    <angle id="10" leftLine="10" rightLine="9" radius="100" locked="YES"/>
+    <angle id="11" leftLine="8" rightLine="10" radius="100" locked="YES"/>
+    <angle id="12" leftLine="12" rightLine="10" radius="102" locked="NO"/>
+    <angle id="14" leftLine="14" rightLine="15" radius="108" locked="YES"/>
+  </level>
+  <level guid="2DE59398-9E28-5686-491B-61B020433E25" name="6.7">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="35:99, 45:99, 55:99, 80:99, 90:99, 95:99, 100:99, 125:99, 165:99, 180:99"/>
+    </gamemode>
+    <vertex id="0" x="968" y="577" type="START"/>
+    <vertex id="1" x="205" y="140"/>
+    <vertex id="2" x="201" y="348"/>
+    <vertex id="3" x="200" y="575"/>
+    <vertex id="4" x="441" y="140"/>
+    <vertex id="5" x="393" y="351"/>
+    <vertex id="6" x="450" y="575"/>
+    <vertex id="7" x="576" y="352"/>
+    <vertex id="8" x="700" y="140"/>
+    <vertex id="9" x="812" y="140"/>
+    <vertex id="10" x="700" y="575"/>
+    <vertex id="11" x="58" y="457" type="CAGE"/>
+    <vertex id="12" x="57" y="577"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="2" toVert="3"/>
+    <line id="3" fromVert="3" toVert="12" type="OPEN"/>
+    <line id="4" fromVert="1" toVert="4"/>
+    <line id="5" fromVert="2" toVert="5"/>
+    <line id="6" fromVert="3" toVert="6"/>
+    <line id="7" fromVert="4" toVert="5"/>
+    <line id="8" fromVert="5" toVert="3"/>
+    <line id="9" fromVert="4" toVert="8"/>
+    <line id="10" fromVert="5" toVert="7"/>
+    <line id="11" fromVert="6" toVert="10"/>
+    <line id="12" fromVert="8" toVert="7"/>
+    <line id="13" fromVert="7" toVert="6" occupy="CAMPER"/>
+    <line id="14" fromVert="8" toVert="10"/>
+    <line id="15" fromVert="8" toVert="9"/>
+    <line id="17" fromVert="12" toVert="11" type="OPEN"/>
+    <line id="18" fromVert="0" toVert="10"/>
+    <angle id="0" leftLine="4" rightLine="1" radius="78" locked="NO"/>
+    <angle id="1" leftLine="3" rightLine="2" radius="109" locked="NO"/>
+    <angle id="2" leftLine="1" rightLine="5" radius="78" locked="YES"/>
+    <angle id="3" leftLine="2" rightLine="8" radius="103" locked="YES"/>
+    <angle id="4" leftLine="5" rightLine="2" radius="79" locked="NO"/>
+    <angle id="5" leftLine="5" rightLine="7" radius="70" locked="YES"/>
+    <angle id="6" leftLine="7" rightLine="4" radius="80" locked="YES"/>
+    <angle id="7" leftLine="9" rightLine="7" radius="87" locked="YES"/>
+    <angle id="8" leftLine="7" rightLine="10" radius="81" locked="YES"/>
+    <angle id="9" leftLine="10" rightLine="8" radius="78" locked="NO"/>
+    <angle id="10" leftLine="8" rightLine="6" radius="101" locked="YES"/>
+    <angle id="11" leftLine="8" rightLine="5" radius="80" locked="YES"/>
+    <angle id="12" leftLine="14" rightLine="12" radius="100" locked="YES"/>
+    <angle id="13" leftLine="12" rightLine="9" radius="101" locked="YES"/>
+    <angle id="14" leftLine="13" rightLine="10" radius="88" locked="YES"/>
+    <angle id="15" leftLine="13" rightLine="11" radius="81" locked="NO"/>
+    <angle id="16" leftLine="6" rightLine="13" radius="87" locked="YES"/>
+    <angle id="17" leftLine="10" rightLine="12" radius="74" locked="YES"/>
+    <angle id="18" leftLine="11" rightLine="14" radius="79" locked="YES"/>
+    <angle id="19" leftLine="15" rightLine="14" radius="98" locked="NO"/>
+    <angle id="21" leftLine="12" rightLine="13" radius="72" locked="NO"/>
+    <angle id="22" leftLine="14" rightLine="18" radius="100" locked="NO"/>
+  </level>
+  <level guid="7A9DE465-A15A-9060-9D35-61B7F53D0DD8" name="6.8">
+    <gamemode id="C" name="Conceptual">
+      <buttons onTray="right:99, acute:99, obtuse:99, straight:99, complementary:99, supplementary:99, vertical:99, triangle:99, quadrilateral:99"/>
+    </gamemode>
+    <gamemode id="A" name="Arithmetic">
+      <buttons onTray="30:99, 35:99, 45:99, 55:99, 60:99, 80:99, 90:99, 95:99, 100:99, 120:99, 125:99, 135:99"/>
+    </gamemode>
+    <vertex id="0" x="418" y="586" type="START"/>
+    <vertex id="1" x="121" y="191"/>
+    <vertex id="2" x="30" y="190"/>
+    <vertex id="3" x="125" y="518"/>
+    <vertex id="4" x="221" y="361"/>
+    <vertex id="5" x="323" y="191"/>
+    <vertex id="6" x="383" y="361"/>
+    <vertex id="7" x="550" y="190"/>
+    <vertex id="8" x="552" y="516"/>
+    <vertex id="9" x="667" y="73"/>
+    <vertex id="10" x="664" y="627"/>
+    <vertex id="11" x="959" y="385" type="CAGE"/>
+    <vertex id="12" x="726" y="16"/>
+    <vertex id="13" x="20" y="521"/>
+    <vertex id="14" x="279" y="586"/>
+    <vertex id="15" x="127" y="607"/>
+    <line id="1" fromVert="1" toVert="2" type="OPEN"/>
+    <line id="2" fromVert="1" toVert="3"/>
+    <line id="3" fromVert="1" toVert="4"/>
+    <line id="4" fromVert="1" toVert="5"/>
+    <line id="5" fromVert="3" toVert="4"/>
+    <line id="6" fromVert="3" toVert="8"/>
+    <line id="7" fromVert="3" toVert="13"/>
+    <line id="8" fromVert="5" toVert="7"/>
+    <line id="9" fromVert="4" toVert="6"/>
+    <line id="10" fromVert="6" toVert="7"/>
+    <line id="11" fromVert="6" toVert="8"/>
+    <line id="12" fromVert="8" toVert="7"/>
+    <line id="13" fromVert="8" toVert="10"/>
+    <line id="14" fromVert="7" toVert="9"/>
+    <line id="15" fromVert="9" toVert="12"/>
+    <line id="16" fromVert="9" toVert="11"/>
+    <line id="17" fromVert="5" toVert="4"/>
+    <line id="18" fromVert="9" toVert="10"/>
+    <line id="20" fromVert="0" toVert="14" type="OPEN"/>
+    <line id="21" fromVert="14" toVert="3"/>
+    <line id="22" fromVert="3" toVert="15"/>
+    <angle id="0" leftLine="2" rightLine="1" radius="83" locked="NO"/>
+    <angle id="1" leftLine="7" rightLine="2" radius="85" locked="NO"/>
+    <angle id="2" leftLine="17" rightLine="4" radius="91" locked="YES"/>
+    <angle id="3" leftLine="3" rightLine="17" radius="91" locked="NO"/>
+    <angle id="4" leftLine="4" rightLine="3" radius="100" locked="NO"/>
+    <angle id="5" leftLine="8" rightLine="17" radius="88" locked="YES"/>
+    <angle id="6" leftLine="10" rightLine="8" radius="99" locked="YES"/>
+    <angle id="7" leftLine="17" rightLine="9" radius="84" locked="YES"/>
+    <angle id="8" leftLine="9" rightLine="10" radius="67" locked="NO"/>
+    <angle id="9" leftLine="9" rightLine="5" radius="70" locked="YES"/>
+    <angle id="10" leftLine="5" rightLine="6" radius="82" locked="YES"/>
+    <angle id="11" leftLine="6" rightLine="11" radius="111" locked="YES"/>
+    <angle id="12" leftLine="11" rightLine="9" radius="68" locked="NO"/>
+    <angle id="13" leftLine="3" rightLine="2" radius="101" locked="YES"/>
+    <angle id="14" leftLine="5" rightLine="3" radius="70" locked="YES"/>
+    <angle id="15" leftLine="2" rightLine="5" radius="86" locked="YES"/>
+    <angle id="16" leftLine="10" rightLine="11" radius="68" locked="YES"/>
+    <angle id="17" leftLine="12" rightLine="10" radius="98" locked="YES"/>
+    <angle id="18" leftLine="11" rightLine="12" radius="110" locked="NO"/>
+    <angle id="19" leftLine="12" rightLine="13" radius="73" locked="YES"/>
+    <angle id="20" leftLine="13" rightLine="18" radius="88" locked="NO"/>
+    <angle id="21" leftLine="18" rightLine="14" radius="101" locked="YES"/>
+    <angle id="22" leftLine="14" rightLine="12" radius="62" locked="YES"/>
+    <angle id="24" leftLine="16" rightLine="18" radius="93" locked="YES"/>
+    <angle id="25" leftLine="15" rightLine="16" radius="87" locked="NO"/>
+    <angle id="26" leftLine="6" rightLine="21" radius="100" locked="NO"/>
+    <angle id="27" leftLine="21" rightLine="22" radius="100" locked="YES"/>
+  </level>
+</Levels>

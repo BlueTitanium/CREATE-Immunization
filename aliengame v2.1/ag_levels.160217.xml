@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<levels>
+<levelSet id="1">
+	<level  lvlNumber="1"	defaultBackground="BG_Loops_Day" icon="ico_Loops_Day" goalPercent = "0.66">
+		<round id="1" desc="pre" >
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>			
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="2"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="3"	defaultBackground="BG_Desert1_Day"	icon="ico_Desert1_Day" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="4" desc="post3">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="4"	defaultBackground="BG_Desert1_Night"	icon="ico_Desert1_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+		
+	<level  lvlNumber="5"	defaultBackground="BG_Pads_Day"	icon="ico_Pads_Day">
+		<round id="1" desc="pre">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>	
+			
+	<level  lvlNumber="6"	defaultBackground="BG_Pads_Night"	icon="ico_Pads_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>	
+	
+	<level  lvlNumber="7"	defaultBackground="BG_Desert2_Day"	icon="ico_Desert2_Day" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+		
+	<level  lvlNumber="8"	defaultBackground="BG_Desert2_Night"	icon="ico_Desert2_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="80" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="80" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+			
+	<level  lvlNumber="9"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="80" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+				
+	<level  lvlNumber="10"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="90" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+			
+	<level  lvlNumber="11"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="100" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="100" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+</levelSet>
+
+	
+	
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------                         LEVEL SET #2          --------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<levelSet id="2">
+	<level  lvlNumber="1"	
+		defaultBackground="BG_Loops_Day" 
+		icon="ico_Loops_Day" 
+		goals="percent:66, reactiontime:4000, score:1000">
+		<adaptiveEngine>
+			<adapt on="fallVelocity"
+				type="logToLimit"
+				limitFront="150"
+				limitBack="20"
+				start="40"
+				run="10">
+				<trigger id="0" type="equals" name="correct" threshold="3" direction="+" />
+				<trigger id="1" type="equals" name="wrong" threshold="1" direction="-" />
+			</adapt>
+			<adapt on="fallDelay"
+				type="linear"
+				linearRise="250"
+				limitFront="1000"
+				limitBack="7000"
+				start="5000">
+				<trigger id="0" name="reactionTime" type="lessThan" value="2000" threshold="3" direction="+" />
+				<trigger id="1" name="reactionTime" type="greaterThan" value="7000" threshold="1" direction="-" />				
+			</adapt>
+		</adaptiveEngine>
+		<round id="1" desc="pre" >
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="1" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="1" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="1" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="1" />
+			</wave>			
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="1" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="1" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="1" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="1" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="2"	
+		defaultBackground="BG_Loops_Night"	
+		icon="ico_Loops_Night" 
+		goals="percent:66">
+		<adaptiveEngine>
+			<adapt on="fallVelocity"
+				type="logToLimit"
+				limitFront="200"
+				limitBack="20"
+				start="40"
+				run="5">
+				<trigger id="0" type="equals" name="correct" threshold="3" direction="+" />
+				<trigger id="1" type="equals" name="wrong" threshold="1" direction="-" />
+			</adapt>
+			<adapt on="fallDelay"
+				type="linear"
+				linearRise="500"
+				limitFront="3000"
+				limitBack="7000"
+				start="5000">
+				<trigger id="0" name="reactionTime" type="lessThan" value="3000" threshold="3" direction="+" />
+				<trigger id="1" name="reactionTime" type="greaterThan" value="5000" threshold="1" direction="-" />				
+			</adapt>
+		</adaptiveEngine>
+		<round id="1" desc="pre">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="3" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="3" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="3" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="3" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="3"	
+		defaultBackground="BG_Pads_Night"	
+		icon="ico_Pads_Night" 
+		goalPercent = "0.66" 
+		radiationBlast="true">
+		<adaptiveEngine>
+			<adapt on="fallVelocity"
+				type="logToLimit"
+				limitFront="300"
+				limitBack="20"
+				start="60"
+				run="15">
+				<trigger id="0" type="equals" name="correct" threshold="3" direction="+" />
+				<trigger id="1" type="equals" name="wrong" threshold="1" direction="-" />
+			</adapt>
+			<adapt on="fallDelay"
+				type="linear"
+				linearRise="200"
+				limitFront="1000"
+				limitBack="6000"
+				start="4000">
+				<trigger id="0" name="reactionTime" type="lessThan" value="2000" threshold="3" direction="+" />
+				<trigger id="1" name="reactionTime" type="greaterThan" value="5000" threshold="1" direction="-" />				
+			</adapt>
+		</adaptiveEngine>
+		<round id="1" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>	
+	
+	<level  lvlNumber="4"	
+		defaultBackground="BG_Pads_Day"	
+		icon="ico_Pads_Day"
+		goals="percent:85">
+		<adaptiveEngine>
+			<adapt on="fallVelocity"
+				type="logToLimit"
+				limitFront="200"
+				limitBack="20"
+				start="70"
+				run="10">
+				<trigger id="0" type="equals" name="correct" threshold="3" direction="+" />
+				<trigger id="1" type="equals" name="wrong" threshold="1" direction="-" />
+			</adapt>
+			<adapt on="fallDelay"
+				type="logToLimit"
+				linearRise="250"
+				limitFront="1500"
+				limitBack="5000"
+				start="2500"
+				run="10">
+				<trigger id="0" name="reactionTime" type="lessThan" value="2000" threshold="3" direction="+" />
+				<trigger id="1" name="reactionTime" type="greaterThan" value="5000" threshold="1" direction="-" />				
+			</adapt>
+		</adaptiveEngine>		
+		<round id="1" desc="pre">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="5"	
+		defaultBackground="BG_Asteroids"	
+		icon="ico_Asteroids" 
+		goalPercent = "0.66" 
+		lightning="true">
+		<adaptiveEngine>
+			<adapt on="fallDelay"
+				type="logToLimit"
+				limitFront="1500"
+				limitBack="5000"
+				start="3000"
+				run="5">
+				<trigger id="0" name="reactionTime" type="lessThan" value="3000" threshold="3" direction="+" />
+				<trigger id="1" name="reactionTime" type="greaterThan" value="7000" threshold="1" direction="-" />				
+			</adapt>
+		</adaptiveEngine>
+		<round id="1" desc="pre">
+			<wave fallVelocity="100" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="100" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="6"	
+		defaultBackground="BG_Pads_Night"	
+		icon="ico_Pads_Night" 
+		goalPercent = "0.66" 
+		radiationBlast="true">
+		<adaptiveEngine>
+			<adapt on="fallVelocity"
+				type="logToLimit"
+				limitFront="300"
+				limitBack="20"
+				start="60"
+				run="8">
+				<trigger id="0" type="equals" name="correct" threshold="3" direction="+" />
+				<trigger id="1" type="equals" name="wrong" threshold="1" direction="-" />
+			</adapt>
+			<adapt on="fallDelay"
+				type="linear"
+				linearRise="500"
+				limitFront="2000"
+				limitBack="6000"
+				start="4000">
+				<trigger id="0" name="reactionTime" type="lessThan" value="2000" threshold="3" direction="+" />
+				<trigger id="1" name="reactionTime" type="greaterThan" value="5000" threshold="1" direction="-" />				
+			</adapt>
+		</adaptiveEngine>
+		<round id="1" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="1" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="1" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="1" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="1" />
+			</wave>
+		</round>	
+	</level>
+</levelSet>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------                         LEVEL SET #3          --------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<levelSet id="3">
+	<level  lvlNumber="1"	defaultBackground="BG_Loops_Day" icon="ico_Loops_Day" goalPercent = "0.66">
+		<round id="1" desc="pre" >
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>			
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="2"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="3"	defaultBackground="BG_Desert1_Day"	icon="ico_Desert1_Day" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="4" desc="post3">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="4"	defaultBackground="BG_Desert1_Night"	icon="ico_Desert1_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+		
+	<level  lvlNumber="5"	defaultBackground="BG_Pads_Day"	icon="ico_Pads_Day">
+		<round id="1" desc="pre">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+			
+	<level  lvlNumber="6"	defaultBackground="BG_Pads_Night"	icon="ico_Pads_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>	
+	
+	<level  lvlNumber="7"	defaultBackground="BG_Desert2_Day"	icon="ico_Desert2_Day" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+		
+	<level  lvlNumber="8"	defaultBackground="BG_Desert2_Night"	icon="ico_Desert2_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="80" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="80" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+			
+	<level  lvlNumber="9"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="80" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+				
+	<level  lvlNumber="10"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="90" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+			
+	<level  lvlNumber="11"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="100" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="100" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="12"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>
+	</level>
+</levelSet>
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- -------------------------------------------------------------------                         LEVEL SET #4          --------------------------------------------------------->
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<levelSet id="4">
+	<level  lvlNumber="1"	defaultBackground="BG_Loops_Day" icon="ico_Loops_Day" goalPercent = "0.66">
+		<round id="1" desc="pre" >
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>			
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="2"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="40" fallDelay="5000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+	
+	<level  lvlNumber="3"	defaultBackground="BG_Desert1_Day"	icon="ico_Desert1_Day" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="4" desc="post3">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="4"	defaultBackground="BG_Desert1_Night"	icon="ico_Desert1_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+		
+	<level  lvlNumber="5"	defaultBackground="BG_Pads_Day"	icon="ico_Pads_Day">
+		<round id="1" desc="pre">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+			
+	<level  lvlNumber="6"	defaultBackground="BG_Pads_Night"	icon="ico_Pads_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="60" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>	
+	
+	<level  lvlNumber="7"	defaultBackground="BG_Desert2_Day"	icon="ico_Desert2_Day" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="70" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+		
+	<level  lvlNumber="8"	defaultBackground="BG_Desert2_Night"	icon="ico_Desert2_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="80" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="80" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+			
+	<level  lvlNumber="9"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="80" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+				
+	<level  lvlNumber="10"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="90" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+			
+	<level  lvlNumber="11"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="100" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="100" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="12"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="60" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="60" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>
+	</level>
+
+	<level  lvlNumber="13"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="80" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="80" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="14"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="90" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="6" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="90" fallDelay="2250">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="6" />
+			</wave>
+		</round>
+		<round id="3" desc="post">
+			<wave fallVelocity="90" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="6" />
+			</wave>
+		</round>
+	</level>	
+	
+	<level  lvlNumber="15"	defaultBackground="BG_Desert1_Night"	icon="ico_Desert1_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+		
+	<level  lvlNumber="16"	defaultBackground="BG_Pads_Day"	icon="ico_Pads_Day">
+		<round id="1" desc="pre">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+	</level>	
+			
+	<level  lvlNumber="17"	defaultBackground="BG_Pads_Night"	icon="ico_Pads_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post2">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>	
+	
+	<level  lvlNumber="18"	defaultBackground="BG_Desert2_Day"	icon="ico_Desert2_Day" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+		
+	<level  lvlNumber="19"	defaultBackground="BG_Desert2_Night"	icon="ico_Desert2_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="160" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="160" fallDelay="3500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="160" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+	</level>
+			
+	<level  lvlNumber="20"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="post">
+			<wave fallVelocity="160" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+	</level>
+				
+	<level  lvlNumber="21"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="170" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="170" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+			
+	<level  lvlNumber="22"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="190" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="190" fallDelay="2250">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="190" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="23"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="120" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>
+	</level>
+
+	<level  lvlNumber="24"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="150" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="10" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="150" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="25"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="170" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="170" fallDelay="2250">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="10" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="170" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="10" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="10" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="10" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="10" />
+			</wave>
+		</round>
+	</level>		
+
+	<level  lvlNumber="26"	defaultBackground="BG_Desert1_Night"	icon="ico_Desert1_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>
+	</level>	
+		
+	<level  lvlNumber="27"	defaultBackground="BG_Pads_Day"	icon="ico_Pads_Day">
+		<round id="1" desc="pre">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>	
+			
+	<level  lvlNumber="28"	defaultBackground="BG_Pads_Night"	icon="ico_Pads_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post2">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="7" />
+			</wave>
+		</round>	
+		<round id="2" desc="post2">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="120" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="8" />
+			</wave>
+		</round>
+	</level>	
+	
+	<level  lvlNumber="29"	defaultBackground="BG_Desert2_Day"	icon="ico_Desert2_Day" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="140" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+		
+	<level  lvlNumber="30"	defaultBackground="BG_Desert2_Night"	icon="ico_Desert2_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="160" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="160" fallDelay="3600">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="160" fallDelay="3300">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="160" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>		
+	</level>
+			
+	<level  lvlNumber="31"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="160" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="160" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="160" fallDelay="4000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="8" />
+			</wave>
+		</round>					
+	</level>
+				
+	<level  lvlNumber="32"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="170" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="170" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="170" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+			
+	<level  lvlNumber="33"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="190" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="190" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="190" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="190" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="34"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="6" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="120" fallDelay="2300">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="6" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="120" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="6" />
+			</wave>
+		</round>
+	</level>
+
+	<level  lvlNumber="35"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="150" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="6" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="150" fallDelay="2300">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="6" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="150" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="6" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="36"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="170" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="170" fallDelay="2500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="170" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="170" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="4" />
+			</wave>
+		</round>
+	</level>		
+	
+	<level  lvlNumber="37"	defaultBackground="BG_Desert1_Night"	icon="ico_Desert1_Night" goalPercent = "0.66">
+		<round id="1" desc="pre">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>
+	</level>	
+		
+	<level  lvlNumber="38"	defaultBackground="BG_Pads_Day"	icon="ico_Pads_Day">
+		<round id="1" desc="pre">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="3" desc="post2">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>	
+			
+	<level  lvlNumber="39"	defaultBackground="BG_Pads_Night"	icon="ico_Pads_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="post2">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="7" />
+			</wave>
+		</round>	
+		<round id="2" desc="post2">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="120" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="8" />
+			</wave>
+		</round>
+	</level>	
+	
+	<level  lvlNumber="40"	defaultBackground="BG_Desert2_Day"	icon="ico_Desert2_Day" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="140" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+	</level>
+		
+	<level  lvlNumber="41"	defaultBackground="BG_Desert2_Night"	icon="ico_Desert2_Night" goalPercent = "0.66" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="160" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="160" fallDelay="2600">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="160" fallDelay="2300">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="160" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>		
+	</level>
+			
+	<level  lvlNumber="42"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="160" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="7" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="160" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="8" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="160" fallDelay="3000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="8" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="7" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="7" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="8" />
+			</wave>
+		</round>					
+	</level>
+				
+	<level  lvlNumber="43"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="170" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="2" desc="post">
+			<wave fallVelocity="170" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="5" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="170" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="5" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="5" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="5" />
+			</wave>
+		</round>	
+	</level>
+			
+	<level  lvlNumber="44"	defaultBackground="BG_Asteroids"	icon="ico_Asteroids" goalPercent = "0.66" lightning="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="190" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="190" fallDelay="1600">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="190" fallDelay="1300">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="190" fallDelay="1000">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="4" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="45"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="120" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="6" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="120" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="6" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="120" fallDelay="1000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="6" />
+			</wave>
+		</round>
+	</level>
+
+	<level  lvlNumber="46"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="150" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="6" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="150" fallDelay="1500">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="6" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="150" fallDelay="1000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="6" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="6" />
+				<alien morph="twoEye" color="red" catchItem="food" spawnAmt="6" />
+			</wave>
+		</round>
+	</level>
+	
+	<level  lvlNumber="47"	defaultBackground="BG_Loops_Night"	icon="ico_Loops_Night" goalPercent = "0.66" lightning="true" radiationBlast="true">
+		<round id="1" desc="pre">
+			<wave fallVelocity="170" fallDelay="2000">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>	
+		<round id="2" desc="post">
+			<wave fallVelocity="170" fallDelay="1600">
+				<alien morph="oneEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="3" desc="post2">
+			<wave fallVelocity="170" fallDelay="1300">
+				<alien morph="oneEye" color="blue" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="drink" spawnAmt="4" />
+			</wave>
+		</round>
+		<round id="4" desc="post3">
+			<wave fallVelocity="170" fallDelay="1000">
+				<alien morph="oneEye" color="blue" catchItem="drink" spawnAmt="4" />
+				<alien morph="twoEye" color="blue" catchItem="food" spawnAmt="4" />
+				<alien morph="oneEye" color="red" catchItem="both" spawnAmt="4" />
+				<alien morph="twoEye" color="red" catchItem="both" spawnAmt="4" />
+			</wave>
+		</round>
+	</level>		
+</levelSet>
+</levels>

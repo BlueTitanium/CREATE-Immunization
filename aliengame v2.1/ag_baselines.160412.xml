@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<baselines name="ALIENGAME" version="2.1" build="20160412">
+	<baseline bSet="1">
+		<level id="1" setGoals="percent:90"></level>
+		<level id="2" setGoals="percent:92"></level>
+		<level id="3" setGoals="percent:90"></level>
+		<level id="4" setGoals="percent:88"></level>
+		<level id="5" setGoals="percent:84"></level>
+		<level id="6" setGoals="percent:85"></level>
+		<level id="7" setGoals="percent:81"></level>
+		<level id="8" setGoals="percent:82"></level>
+		<level id="9" setGoals="percent:82"></level>
+		<level id="10" setGoals="percent:82"></level>
+		<level id="11" setGoals="percent:76"></level>
+		<level id="12" setGoals="percent:68"></level>
+		<level id="13" setGoals="percent:68"></level>
+		<level id="14" setGoals="percent:68"></level>
+		<level id="15" setGoals="percent:67"></level>
+		<level id="16" setGoals="percent:87"></level>
+		<level id="17" setGoals="percent:86"></level>
+		<level id="18" setGoals="percent:85"></level>
+		<level id="19" setGoals="percent:83"></level>
+		<level id="20" setGoals="percent:76"></level>
+		<level id="21" setGoals="percent:71"></level>
+		<level id="22" setGoals="percent:72"></level>
+		<level id="23" setGoals="percent:69"></level>
+		<level id="24" setGoals="percent:67"></level>
+		<level id="25" setGoals="percent:69"></level>
+		<level id="26" setGoals="percent:95"></level>
+		<level id="27" setGoals="percent:91"></level>
+		<level id="28" setGoals="percent:86"></level>
+		<level id="29" setGoals="percent:86"></level>
+		<level id="30" setGoals="percent:86"></level>
+		<level id="31" setGoals="percent:82"></level>
+		<level id="32" setGoals="percent:74"></level>
+		<level id="33" setGoals="percent:80"></level>
+		<level id="34" setGoals="percent:76"></level>
+	</baseline>
+	<baseline bSet="2">
+		<level id="1" setGoals="percent:66">
+			<base name="percent" mean="95" stDev="4.76417552374518"></base>
+			<base name="reactiontime" mean="3254.20512820513" stDev="1156.78909462646"></base>
+		</level>
+		<level id="2" setGoals="percent:66">
+			<base name="percent" mean="96.1029411764706" stDev="4.1829006387925"></base>
+			<base name="reactiontime" mean="3202.61764705882" stDev="923.917647343682"></base>
+		</level>
+		<level id="3" setGoals="percent:66">
+			<base name="percent" mean="95.8057142857143" stDev="5.6376331525764"></base>
+			<base name="reactiontime" mean="2547.85714285714" stDev="615.509981897228"></base>
+		</level>
+		<level id="4" setGoals="percent:66">
+			<base name="percent" mean="93.64" stDev="5.95236977029769"></base>
+			<base name="reactiontime" mean="2881.11428571429" stDev="594.669348136799"></base>
+		</level>
+		<level id="5" setGoals="percent:66">
+			<base name="percent" mean="91.8764705882353" stDev="8.14021289363241"></base>
+			<base name="reactiontime" mean="3605.58823529412" stDev="1168.29479772994"></base>
+		</level>
+		<level id="6" setGoals="percent:66">
+			<base name="percent" mean="90.7142857142857" stDev="5.34030968793245"></base>
+			<base name="reactiontime" mean="2381.6" stDev="541.022517743839"></base>
+		</level>
+		<level id="7" setGoals="percent:66">
+			<base name="percent" mean="88.2142857142857" stDev="7.00764888226735"></base>
+			<base name="reactiontime" mean="3150" stDev="886.25773040684"></base>
+		</level>
+		<level id="8" setGoals="percent:66">
+			<base name="percent" mean="88.8636363636364" stDev="7.01813802682993"></base>
+			<base name="reactiontime" mean="2281.06060606061" stDev="477.847578953918"></base>
+		</level>
+		<level id="9" setGoals="percent:66">
+			<base name="percent" mean="88.7903225806452" stDev="6.88812286179187"></base>
+			<base name="reactiontime" mean="2395.29032258065" stDev="438.413670220899"></base>
+		</level>
+		<level id="10" setGoals="percent:66">
+			<base name="percent" mean="83.5483870967742" stDev="7.32501972546795"></base>
+			<base name="reactiontime" mean="3129.22580645161" stDev="719.616412156616"></base>
+		</level>
+		<level id="11" setGoals="percent:66">
+			<base name="percent" mean="77.5" stDev="9.06326967174966"></base>
+			<base name="reactiontime" mean="3491.8275862069" stDev="511.927315499652"></base>
+		</level>
+		<level id="12" setGoals="percent:66">
+			<base name="percent" mean="73.27" stDev="4.86607892845247"></base>
+			<base name="reactiontime" mean="5484.86666666667" stDev="853.86665087194"></base>
+		</level>
+		<level id="13" setGoals="percent:66">
+			<base name="percent" mean="72.6066666666667" stDev="4.75430355560617"></base>
+			<base name="reactiontime" mean="4465.5" stDev="785.146274533474"></base>
+		</level>
+		<level id="14" setGoals="percent:66">
+			<base name="percent" mean="73.5592592592592" stDev="6.80600748543072"></base>
+			<base name="reactiontime" mean="4048.59259259259" stDev="836.081899708362"></base>
+		</level>
+		<level id="15" setGoals="percent:66">
+			<base name="percent" mean="93.4851851851852" stDev="6.00100656324268"></base>
+			<base name="reactiontime" mean="2162.37037037037" stDev="409.808975025433"></base>
+		</level>
+		<level id="16" setGoals="percent:66">
+			<base name="percent" mean="93.1222222222222" stDev="6.79854811046137"></base>
+			<base name="reactiontime" mean="2266.88888888889" stDev="450.701362266321"></base>
+		</level>
+		<level id="17" setGoals="percent:66">
+			<base name="percent" mean="92.8846153846154" stDev="4.56575884669283"></base>
+			<base name="reactiontime" mean="1886.73076923077" stDev="384.974342801419"></base>
+		</level>
+		<level id="18" setGoals="percent:66">
+			<base name="percent" mean="90.3846153846154" stDev="5.64323965875576"></base>
+			<base name="reactiontime" mean="1966.69230769231" stDev="379.584590754764"></base>
+		</level>
+		<level id="19" setGoals="percent:66">
+			<base name="percent" mean="90.5" stDev="7.23098886736787"></base>
+			<base name="reactiontime" mean="1783.88461538462" stDev="227.4831557585"></base>
+		</level>
+		<level id="20" setGoals="percent:66">
+			<base name="percent" mean="82.0192307692308" stDev="6.40387502880993"></base>
+			<base name="reactiontime" mean="1922.30769230769" stDev="294.639816621009"></base>
+		</level>
+		<level id="21" setGoals="percent:66">
+			<base name="percent" mean="76.9230769230769" stDev="6.25730342510623"></base>
+			<base name="reactiontime" mean="2160.03846153846" stDev="310.381246955319"></base>
+		</level>
+		<level id="22" setGoals="percent:66">
+			<base name="percent" mean="78.496" stDev="6.48841788625478"></base>
+			<base name="reactiontime" mean="2437.68" stDev="351.656404273641"></base>
+		</level>
+		<level id="23" setGoals="percent:66">
+			<base name="percent" mean="73.775" stDev="5.2614471475969"></base>
+			<base name="reactiontime" mean="3087.875" stDev="515.571047902016"></base>
+		</level>
+		<level id="24" setGoals="percent:66">
+			<base name="percent" mean="71.1695652173913" stDev="4.48263668174788"></base>
+			<base name="reactiontime" mean="2686.82608695652" stDev="418.219673918114"></base>
+		</level>
+		<level id="25" setGoals="percent:66">
+			<base name="percent" mean="73.2157894736842" stDev="4.37191328036064"></base>
+			<base name="reactiontime" mean="2550.10526315789" stDev="307.841751326309"></base>
+		</level>
+		<level id="26" setGoals="percent:66">
+			<base name="percent" mean="97.85" stDev="2.49593787630174"></base>
+			<base name="reactiontime" mean="1963.94444444444" stDev="306.152494148264"></base>
+		</level>
+		<level id="27" setGoals="percent:66">
+			<base name="percent" mean="95.13125" stDev="4.27390824265863"></base>
+			<base name="reactiontime" mean="1973.5625" stDev="405.242638222255"></base>
+		</level>
+		<level id="28" setGoals="percent:66">
+			<base name="percent" mean="91" stDev="5.10959881008262"></base>
+			<base name="reactiontime" mean="1856.875" stDev="409.02874797093"></base>
+		</level>
+		<level id="29" setGoals="percent:66">
+			<base name="percent" mean="89.74" stDev="3.67225115854453"></base>
+			<base name="reactiontime" mean="1954.53333333333" stDev="437.13578581271"></base>
+		</level>
+		<level id="30" setGoals="percent:66">
+			<base name="percent" mean="90.8076923076923" stDev="5.04124018115643"></base>
+			<base name="reactiontime" mean="1776.84615384615" stDev="309.903976029631"></base>
+		</level>
+		<level id="31" setGoals="percent:66">
+			<base name="percent" mean="87.725" stDev="5.50355945426837"></base>
+			<base name="reactiontime" mean="1634.25" stDev="82.6574255587482"></base>
+		</level>
+		<level id="32" setGoals="percent:66">
+			<base name="percent" mean="81.6333333333333" stDev="7.63762615825981"></base>
+			<base name="reactiontime" mean="2029.33333333333" stDev="502.992379001246"></base>
+		</level>
+		<level id="33" setGoals="percent:66">
+			<base name="percent" mean="86.4" stDev="6.50922422413014"></base>
+			<base name="reactiontime" mean="2324.33333333333" stDev="390.001709397963"></base>
+		</level>
+		<level id="34" setGoals="percent:66">
+		</level>	
+	</baseline>
+</baselines>

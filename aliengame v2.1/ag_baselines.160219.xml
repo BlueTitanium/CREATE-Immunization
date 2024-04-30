@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<baselines name="ALIENGAME" version="2.1" build="20160219">
+	<baseline bSet="1">
+		<level id="1" setGoals="percent:90"></level>
+		<level id="2" setGoals="percent:92"></level>
+		<level id="3" setGoals="percent:90"></level>
+		<level id="4" setGoals="percent:88"></level>
+		<level id="5" setGoals="percent:84"></level>
+		<level id="6" setGoals="percent:85"></level>
+		<level id="7" setGoals="percent:81"></level>
+		<level id="8" setGoals="percent:82"></level>
+		<level id="9" setGoals="percent:82"></level>
+		<level id="10" setGoals="percent:82"></level>
+		<level id="11" setGoals="percent:76"></level>
+		<level id="12" setGoals="percent:68"></level>
+		<level id="13" setGoals="percent:68"></level>
+		<level id="14" setGoals="percent:68"></level>
+		<level id="15" setGoals="percent:67"></level>
+		<level id="16" setGoals="percent:87"></level>
+		<level id="17" setGoals="percent:86"></level>
+		<level id="18" setGoals="percent:85"></level>
+		<level id="19" setGoals="percent:83"></level>
+		<level id="20" setGoals="percent:76"></level>
+		<level id="21" setGoals="percent:71"></level>
+		<level id="22" setGoals="percent:72"></level>
+		<level id="23" setGoals="percent:69"></level>
+		<level id="24" setGoals="percent:67"></level>
+		<level id="25" setGoals="percent:69"></level>
+		<level id="26" setGoals="percent:95"></level>
+		<level id="27" setGoals="percent:91"></level>
+		<level id="28" setGoals="percent:86"></level>
+		<level id="29" setGoals="percent:86"></level>
+		<level id="30" setGoals="percent:86"></level>
+		<level id="31" setGoals="percent:82"></level>
+		<level id="32" setGoals="percent:74"></level>
+		<level id="33" setGoals="percent:80"></level>
+		<level id="34" setGoals="percent:76"></level>
+	</baseline>
+</baselines>

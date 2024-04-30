@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameConfig gameName="ALIENGAME" version="2.1" build="20160223">
+	<importFiles>
+		<loadfile type="xml" filename="ag_levels.160223.xml" /> 
+		<loadfile type="xml" filename="ag_albumList.xml" /> 
+		<loadfile type="txt" filename="ag_params.txt" />
+		<loadfile type="xml" filename="ag_style.xml" />
+		<loadfile type="xml" filename="ag_english.160217.xml" />
+		<loadfile type="xml" filename="ag_gameSettings.160223.xml" />
+		<loadfile type="xml" filename="ag_baselines.160412.xml" />
+	</importFiles>
+</gameConfig>

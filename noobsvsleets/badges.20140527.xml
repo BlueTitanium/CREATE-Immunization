@@ -1,0 +1,1035 @@
+﻿<baubles>
+	<bauble name="Acute Angle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/M1_relief.png"
+				descriptiondisabled="Earned when you have learned the acute angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M1.png"
+				bigImage="Badge_icons/M1_big.png"
+				descriptionenabled="First correct use of acute angle button"
+				message="You learned the acute angle rule!"
+				/>
+			<criteria
+				rule="ACUTE"
+				onCritUsage="1"
+				/>			
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/P1_relief.png"
+				descriptiondisabled="Earned when you have learned the acute angle rule"
+				enabledOnUsage="1"				
+				enabledImage="Badge_icons/P1.png"
+				bigImage="Badge_icons/P1_big.png"
+				descriptionenabled="First correct use of acute angle button"
+				message="You figured out the acute angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="ACUTE"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Obtuse Angle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/M2_relief.png"
+				descriptiondisabled="Earned when you have learned the obtuse angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M2.png"
+				bigImage="Badge_icons/M2_big.png"
+				descriptionenabled="First correct use of obtuse angle button"
+				message="You learned the obtuse angle rule!"
+				/>
+			<criteria
+				rule="OBTUSE"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/P2_relief.png"
+				descriptiondisabled="Earned when you have learned the obtuse angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P2.png"
+				bigImage="Badge_icons/P2_big.png"
+				descriptionenabled="First correct use of obtuse angle button"
+				message="You figured out the obtuse angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="OBTUSE"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Right Angle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/M3_relief.png"
+				descriptiondisabled="Earned when you have learned the right angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M3.png"
+				bigImage="Badge_icons/M3_big.png"
+				descriptionenabled="First correct use of right angle button"
+				message="You learned the right angle rule!"
+				/>
+			<criteria
+				rule="RIGHT"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/P3_relief.png"
+				descriptiondisabled="Earned when you have learned the right angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P3.png"
+				bigImage="Badge_icons/P3_big.png"
+				descriptionenabled="First correct use of right angle button"
+				message="You figured out the right angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="RIGHT"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Straight Angle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/M4_relief.png"
+				descriptiondisabled="Earned when you have learned the straight angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M4.png"
+				bigImage="Badge_icons/M4_big.png"
+				descriptionenabled="First correct use of straight angle button"
+				message="You learned the straight angle rule!"
+				/>
+			<criteria
+				rule="STRAIGHT"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="1"
+				disabledImage="Badge_icons/P4_relief.png"
+				descriptiondisabled="Earned when you have learned the straight angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P4.png"
+				bigImage="Badge_icons/P4_big.png"
+				descriptionenabled="First correct use of straight angle button"
+				message="You figured out the straight angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="STRAIGHT"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+
+	<bauble name="Complementary Angle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="2"
+				disabledImage="Badge_icons/M5_relief.png"
+				descriptiondisabled="Earned when you have learned the complementary angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M5.png"
+				bigImage="Badge_icons/M5_big.png"
+				descriptionenabled="First correct use of complementary angle button"
+				message="You learned the complementary angle rule!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="2"
+				disabledImage="Badge_icons/P5_relief.png"
+				descriptiondisabled="Earned when you have learned the complementary angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P5.png"
+				bigImage="Badge_icons/P5_big.png"
+				descriptionenabled="First correct use of complementary angle button"
+				message="You figured out the complementary angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+
+	<bauble name="Supplementary Angle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="3"
+				disabledImage="Badge_icons/M6_relief.png"
+				descriptiondisabled="Earned when you have learned the supplementary angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M6.png"
+				bigImage="Badge_icons/M6_big.png"
+				descriptionenabled="First correct use of supplementary angle button"
+				message="You learned the supplementary angle rule!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="3"
+				disabledImage="Badge_icons/P6_relief.png"
+				descriptiondisabled="Earned when you have learned the supplementary angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P6.png"
+				bigImage="Badge_icons/P6_big.png"
+				descriptionenabled="First correct use of supplementary angle button"
+				message="You figured out the supplementary angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Vertical Rule">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M7_relief.png"
+				descriptiondisabled="Earned when you have learned the vertical angle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M7.png"
+				bigImage="Badge_icons/M7_big.png"
+				descriptionenabled="First correct use of vertical angle button"
+				message="You learned the vertical angle rule!"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>			
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P7_relief.png"
+				descriptiondisabled="Earned when you have learned the vertical angle rule"
+				enabledOnUsage="1"				
+				enabledImage="Badge_icons/P7.png"
+				bigImage="Badge_icons/P7_big.png"
+				descriptionenabled="First correct use of vertical angle button"
+				message="You figured out the vertical angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Triangle Rule">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M8_relief.png"
+				descriptiondisabled="Earned when you have learned the triangle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M8.png"
+				bigImage="Badge_icons/M8_big.png"
+				descriptionenabled="First correct use of triangle rule button"
+				message="You learned the triangle angle rule!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P8_relief.png"
+				descriptiondisabled="Earned when you have learned the triangle rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P8.png"
+				bigImage="Badge_icons/P8_big.png"
+				descriptionenabled="First correct use of triangle rule button"
+				message="You figured out the triangle angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Quadrilateral Rule">
+		<condition condtype="M">
+			<properties
+				chapter="6"
+				disabledImage="Badge_icons/M9_relief.png"
+				descriptiondisabled="Earned when you have learned the quadrilateral rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M9.png"
+				bigImage="Badge_icons/M9_big.png"
+				descriptionenabled="First correct use of quadrilateral rule button"
+				message="You learned the quadrilateral rule!"
+				/>
+			<criteria
+				rule="QUADRILATERAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="6"
+				disabledImage="Badge_icons/P9_relief.png"
+				descriptiondisabled="Earned when you have learned the quadrilateral rule"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P9.png"
+				bigImage="Badge_icons/P9_big.png"
+				descriptionenabled="First correct use of quadrilateral rule button"
+				message="You figured out the right angle rule faster than most other players!"
+				/>
+			<criteria
+				rule="QUADRILATERAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Supplementary and Complementary Combo">
+		<condition condtype="M">
+			<properties
+				chapter="3"
+				disabledImage="Badge_icons/M10_relief.png"
+				descriptiondisabled="Earned when you have used a supplementary and complementary rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M10.png"
+				bigImage="Badge_icons/M10_big.png"
+				descriptionenabled="First correct use of complementary and supplementary buttons on the same level"
+				message="You used a complementary and supplementary rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="3"
+				disabledImage="Badge_icons/P10_relief.png"
+				descriptiondisabled="Earned when you have used a supplementary and complementary rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P10.png"
+				bigImage="Badge_icons/P10_big.png"
+				descriptionenabled="First correct use of complementary and supplementary buttons on the same level"
+				message="You used a complementary and supplementary rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+		
+	<bauble name="Supplementary and Vertical Combo">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M11_relief.png"
+				descriptiondisabled="Earned when you have used a supplementary and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M11.png"
+				bigImage="Badge_icons/M11_big.png"
+				descriptionenabled="First correct use of supplementary and vertical buttons on the same level"
+				message="You used a supplementary and vertical rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P11_relief.png"
+				descriptiondisabled="Earned when you have used a supplementary and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P11.png"
+				bigImage="Badge_icons/P11_big.png"
+				descriptionenabled="First correct use of supplementary and vertical buttons on the same level"
+				message="You used an supplementary and vertical rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Complementary and Vertical Combo">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M12_relief.png"
+				descriptiondisabled="Earned when you have used a complementary and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M12.png"
+				bigImage="Badge_icons/M12_big.png"
+				descriptionenabled="First correct use of complementary and vertical buttons on the same level"
+				message="You used a complementary and vertical rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P12_relief.png"
+				descriptiondisabled="Earned when you have used a complementary and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P12.png"
+				bigImage="Badge_icons/P12_big.png"
+				descriptionenabled="First correct use of complementary and vertical buttons on the same level"
+				message="You used a complementary and vertical rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Complementary, Supplementary, and Vertical Combo">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M13_relief.png"
+				descriptiondisabled="Earned when you have used a complementary, supplementary, and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M13.png"
+				bigImage="Badge_icons/M13_big.png"
+				descriptionenabled="First correct use of complementary, supplementary, and vertical buttons on the same level"
+				message="You used a complementary, supplementary, and vertical rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P13_relief.png"
+				descriptiondisabled="Earned when you have used a complementary, supplementary, and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P13.png"
+				bigImage="Badge_icons/P13_big.png"
+				descriptionenabled="First correct use of complementary, supplementary, and vertical buttons on the same level"
+				message="You used an complementary, supplementary, and vertical rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+
+	<bauble name="Triangle and Vertical Combo">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M14_relief.png"
+				descriptiondisabled="Earned when you have used a triangle and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M14.png"
+				bigImage="Badge_icons/M14_big.png"
+				descriptionenabled="First correct use of triangle and vertical buttons on the same level"
+				message="You used a triangle and vertical rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P14_relief.png"
+				descriptiondisabled="Earned when you have used a triangle and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P14.png"
+				bigImage="Badge_icons/P14_big.png"
+				descriptionenabled="First correct use of triangle and vertical buttons on the same level"
+				message="You used a triangle and vertical rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Triangle and Complementary Combo">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M15_relief.png"
+				descriptiondisabled="Earned when you have used a triangle and complementary rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M15.png"
+				bigImage="Badge_icons/M15_big.png"
+				descriptionenabled="First correct use of triangle and complementary buttons on the same level"
+				message="You used a complementary and triangle combo-you’re learning!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P15_relief.png"
+				descriptiondisabled="Earned when you have used a triangle and complementary rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P15.png"
+				bigImage="Badge_icons/P15_big.png"
+				descriptionenabled="First correct use of triangle and complementary buttons on the same level"
+				message="You used an complementary and triangle rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Triangle and Supplementary Combo">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M16_relief.png"
+				descriptiondisabled="Earned when you have used a triangle and supplementary rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M16.png"
+				bigImage="Badge_icons/M16_big.png"
+				descriptionenabled="First correct use of triangle and supplementary buttons on the same level"
+				message="You used a supplementary and triangle rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P16_relief.png"
+				descriptiondisabled="Earned when you have used a triangle and supplementary rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P16.png"
+				bigImage="Badge_icons/P16_big.png"
+				descriptionenabled="First correct use of triangle and supplementary buttons on the same level"
+				message="You used a supplementary and triangle rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+
+	<bauble name="Triangle, Complementary, Supplementary, and Vertical Combo">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M17_relief.png"
+				descriptiondisabled="Earned when you have used a triangle, complementary, supplementary, and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/M17.png"
+				bigImage="Badge_icons/M17_big.png"
+				descriptionenabled="First correct use of triangle, complementary, supplementary, and vertical buttons on the same level"
+				message="You used the complementary, supplementary, vertical, and triangle rule combo-you’re learning!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P17_relief.png"
+				descriptiondisabled="Earned when you have used a triangle, complementary, supplementary, and vertical rule combo"
+				enabledOnUsage="1"
+				enabledImage="Badge_icons/P17.png"
+				bigImage="Badge_icons/P17_big.png"
+				descriptionenabled="First correct use of triangle, complementary, supplementary, and vertical buttons on the same level"
+				message="You used an complementary, supplementary, vertical, and triangle rule combo faster than most other players!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Complementary Angle Rule progress">
+		<condition condtype="M">
+			<properties
+				chapter="2"
+				disabledImage="Badge_icons/M18_relief.png"
+				descriptiondisabled="Earned when you have used the complementary angle rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/M18.png"
+				bigImage="Badge_icons/M18_big.png"
+				descriptionenabled="Complementary angle button used correctly 6 times"
+				message="You used the complementary angle rule a bunch of times-you’re really learning!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="2"
+				disabledImage="Badge_icons/P18_relief.png"
+				descriptiondisabled="Earned when you have used the complementary angle rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/P18.png"
+				bigImage="Badge_icons/P18_big.png"
+				descriptionenabled="Complementary angle button used correctly 6 times"
+				message="You used the complementary angle rule correctly more than most other players!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Supplementary Angle Rule progress">
+		<condition condtype="M">
+			<properties
+				chapter="3"
+				disabledImage="Badge_icons/M19_relief.png"
+				descriptiondisabled="Earned when you have used the supplementary angle rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/M19.png"
+				bigImage="Badge_icons/M19_big.png"
+				descriptionenabled="Supplementary angle button used correctly 6 times"
+				message="Great progress! You used the supplementary angle rule correctly a bunch of times "
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="3"
+				disabledImage="Badge_icons/P19_relief.png"
+				descriptiondisabled="Earned when you have used the supplementary angle rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/P19.png"
+				bigImage="Badge_icons/P19_big.png"
+				descriptionenabled="Supplementary angle button used correctly 6 times"
+				message="Nice! Most other players didn’t correctly use the supplementary angle rule as often as you!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+	
+	<bauble name="Vertical Angle Rule progress">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M20_relief.png"
+				descriptiondisabled="Earned when you have used the vertical angle rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/M20.png"
+				bigImage="Badge_icons/M20_big.png"
+				descriptionenabled="Vertical angle button used correctly 6 times"
+				message="You used the vertical angle rule a bunch of  times-you’re really learning!"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P20_relief.png"
+				descriptiondisabled="Earned when you have used the vertical angle rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/P20.png"
+				bigImage="Badge_icons/P20_big.png"
+				descriptionenabled="Vertical angle button used correctly 6 times"
+				message="You used the vertical angle rule correctly more than most other players!"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>		
+	
+	<bauble name="Triangle Rule progress">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M21_relief.png"
+				descriptiondisabled="Earned when you have used the triangle rule a bunch of times"
+				enabledOnUsage="4"
+				enabledImage="Badge_icons/M21.png"
+				bigImage="Badge_icons/M21_big.png"
+				descriptionenabled="Triangle button used correctly 4 times"
+				message="Great progress! You used the triangle rule correctly a bunch of times"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P21_relief.png"
+				descriptiondisabled="Earned when you have used the triangle rule a bunch of times"
+				enabledOnUsage="4"
+				enabledImage="Badge_icons/P21.png"
+				bigImage="Badge_icons/P21_big.png"
+				descriptionenabled="Triangle button used correctly 4 times"
+				message="Nice! Most other players didn’t correctly use the triangle rule as often as you!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+	
+	<bauble name="Quadrilateral Rule progress">
+		<condition condtype="M">
+			<properties
+				chapter="6"
+				disabledImage="Badge_icons/M22_relief.png"
+				descriptiondisabled="Earned when you have used the quadrilateral rule a bunch of times"
+				enabledOnUsage="4"
+				enabledImage="Badge_icons/M22.png"
+				bigImage="Badge_icons/M22_big.png"
+				descriptionenabled="Quadrilateral button used correctly 4 times"
+				message="Great progress! You used the quadrilateral rule correctly a bunch of times!"
+				/>
+			<criteria
+				rule="QUADRILATERAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="6"
+				disabledImage="Badge_icons/P22_relief.png"
+				descriptiondisabled="Earned when you have used the quadrilateral rule a bunch of times"
+				enabledOnUsage="4"
+				enabledImage="Badge_icons/P22.png"
+				bigImage="Badge_icons/P22_big.png"
+				descriptionenabled="Quadrilateral button used correctly 4 times"
+				message="Nice! Most other players didn’t correctly use the quadrilateral rule as often as you!"
+				/>
+			<criteria
+				rule="QUADRILATERAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+	
+	<bauble name="Complementary Angle Rule gold">
+		<condition condtype="M">
+			<properties
+				chapter="2"
+				disabledImage="Badge_icons/M23_relief.png"
+				descriptiondisabled="Earned when you have mastered the complementary angle rule"
+				enabledOnUsage="12"
+				enabledImage="Badge_icons/M23.png"
+				bigImage="Badge_icons/M23_big.png"
+				descriptionenabled="Complementary angle button used correctly 12 times throughout the whole game"
+				message="Gold Complementary Badge: You have mastered the complementary angle rule!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="2"
+				disabledImage="Badge_icons/P23_relief.png"
+				descriptiondisabled="Earned when you have mastered the complementary angle rule"
+				enabledOnUsage="12"
+				enabledImage="Badge_icons/P23.png"
+				bigImage="Badge_icons/P23_big.png"
+				descriptionenabled="Complementary angle button used correctly 12 times throughout the whole game"
+				message="Gold Complementary Leader: You rank among the best players who used the complementary angle rule!"
+				/>
+			<criteria
+				rule="COMPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>
+	
+	<bauble name="Supplementary Angle Rule gold">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M24_relief.png"
+				descriptiondisabled="Earned when you have mastered the supplementary angle rule"
+				enabledOnUsage="12"
+				enabledImage="Badge_icons/M24.png"
+				bigImage="Badge_icons/M24_big.png"
+				descriptionenabled="Supplementary angle button used correctly 12 times throughout the whole game"
+				message="Gold Supplementary Badge: You have mastered the supplementary angle rule"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P24_relief.png"
+				descriptiondisabled="Earned when you have mastered the supplementary angle rule"
+				enabledOnUsage="12"
+				enabledImage="Badge_icons/P24.png"
+				bigImage="Badge_icons/P24_big.png"
+				descriptionenabled="Supplementary angle button used correctly 12 times throughout the whole game"
+				message="Gold Supplementary Leader: You rank among the best players who used the supplementary angle rule!"
+				/>
+			<criteria
+				rule="SUPPLEMENTARY"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+	
+	<bauble name="Vertical Angle Rule gold">
+		<condition condtype="M">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/M25_relief.png"
+				descriptiondisabled="Earned when you have mastered the vertical angle rule"
+				enabledOnUsage="12"
+				enabledImage="Badge_icons/M25.png"
+				bigImage="Badge_icons/M25_big.png"
+				descriptionenabled="Vertical angle button used correctly 12 times"
+				message="Gold Vertical Badge: You have mastered the vertical angle rule"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="4"
+				disabledImage="Badge_icons/P25_relief.png"
+				descriptiondisabled="Earned when you have mastered the vertical angle rule"
+				enabledOnUsage="12"
+				enabledImage="Badge_icons/P25.png"
+				bigImage="Badge_icons/P25_big.png"
+				descriptionenabled="Vertical angle button used correctly 12 times"
+				message="Gold Vertical Leader: You rank among the best players who used the vertical angle rule!"
+				/>
+			<criteria
+				rule="VERTICAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>		
+	
+	<bauble name="Triangle Rule gold">
+		<condition condtype="M">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/M26_relief.png"
+				descriptiondisabled="Earned when you have mastered the triangle rule"
+				enabledOnUsage="8"
+				enabledImage="Badge_icons/M26.png"
+				bigImage="Badge_icons/M26_big.png"
+				descriptionenabled="Triangle rule button used correctly 8 times throughout the whole game"
+				message="Gold Triangle Badge: You have mastered the triangle rule."
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="5"
+				disabledImage="Badge_icons/P26_relief.png"
+				descriptiondisabled="Earned when you have mastered the triangle rule"
+				enabledOnUsage="8"
+				enabledImage="Badge_icons/P26.png"
+				bigImage="Badge_icons/P26_big.png"
+				descriptionenabled="Triangle rule button used correctly 8 times throughout the whole game"
+				message="Gold Triangle Leader: You rank among the best players who used the triangle rule!"
+				/>
+			<criteria
+				rule="TRIANGLE"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+	
+	<bauble name="Quadrilateral Rule gold">
+		<condition condtype="M">
+			<properties
+				chapter="6"
+				disabledImage="Badge_icons/M27_relief.png"
+				descriptiondisabled="Earned when you have used the quadrilateral rule a bunch of times"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/M27.png"
+				bigImage="Badge_icons/M27_big.png"
+				descriptionenabled="Quadrilateral button used correctly 6 times"
+				message="Gold Quadrilateral Badge: You have mastered the quadrilateral rule."
+				/>
+			<criteria
+				rule="QUADRILATERAL"
+				onCritUsage="1"
+				/>
+		</condition>
+		<condition condtype="P">
+			<properties
+				chapter="6"
+				disabledImage="Badge_icons/P27_relief.png"
+				descriptiondisabled="Earned when you have mastered the quadrilateral rule"
+				enabledOnUsage="6"
+				enabledImage="Badge_icons/P27.png"
+				bigImage="Badge_icons/P27_big.png"
+				descriptionenabled="Quadrilateral button used correctly 6 times"
+				message="Gold Quadrilateral Leader: You rank among the best players who used the quadrilateral rule!"
+				/>
+			<criteria
+				rule="QUADRILATERAL"
+				onCritUsage="1"
+				/>
+		</condition>
+	</bauble>	
+	
+</baubles>

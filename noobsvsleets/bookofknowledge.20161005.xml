@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book build_date="20130830">
+	<sequence>
+		<page order="0.1" type="username" />
+		<page order="1.01" type="pageMessage" message="Welcome to the Book of Knowledge!" animation="none" />
+		<page order="1.02" type="pageMessage" message="Click and drag to turn the pages..." animation="swipe" />
+		<page order="1.03" type="pageMessage" message="Each new chapter starts with a tutorial" animation="startmovie" />  
+		<page order="1.04" type="pageMessage" message="Use these controls to play, pause, and stop the tutorial." animation="swipeBottom" />  
+		<page order="1.05" type="pageMessage" message="Click to play unlocked levels." animation="startlevel" levelNum="1" /> 
+		<page order="1.06" type="pageMessage" message="Click on the level to continue." animation="none" />
+		<page order="1.07" type="pageMessage" message="You unlocked this level!" animation="startlevel" levelNum="2" /> 
+		<page order="1.08" type="pageMessage" message="Free the Noob to unlock more levels." animation="startlevel" levelNum="3" />  
+		<page order="2" type="movie" filename="Movies/01_RIGHT.flv" lockNumber="1.0" autoPause="true" bookmark="1" />
+		<page order="3" type="chain" chainname="chapter_01" />
+		<page order="4" type="movie" filename="Movies/02_COMPLEMENTARY.flv" lockNumber="2.0" autoPause="true" bookmark="2" />
+		<page order="5" type="chain" chainname="chapter_02" />
+		<page order="6" type="movie" filename="Movies/03_SUPPLEMENTARY.flv" lockNumber="3.0" autoPause="true" bookmark="3" />
+		<page order="7" type="chain" chainname="chapter_03" />
+		<page order="8" type="movie" filename="Movies/04_VERTICAL.flv" lockNumber="4.0" autoPause="true" bookmark="4" />
+		<page order="9" type="chain" chainname="chapter_04" />			
+		<page order="10" type="movie" filename="Movies/05_TRIANGLE.flv" lockNumber="5.0" autoPause="true" bookmark="5" />
+		<page order="11" type="chain" chainname="chapter_05" />
+		<page order="12" type="movie" filename="Movies/06_QUADRILATERAL.flv" lockNumber="6.0" autoPause="true" bookmark="6" />
+		<page order="13" type="chain" chainname="chapter_06" />
+		<page order="14" type="badges" />
+	</sequence>
+
+</book>

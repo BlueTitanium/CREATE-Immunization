@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameConfig gameName="BLASTFISH" version="0.3" build="20151022">
+	<importFiles>
+            <loadfile type="xml" filename="gameSettings.20151022.xml" />
+            <loadfile type="xml" filename="albumList.xml" /> 
+            <loadfile type="xml" filename="style.xml" />
+	</importFiles>
+        <importFiles gameSet="1" gameDesc="regular">
+            <loadfile type="xml" filename="ll_levels.150414.xml" />
+            <loadfile type="xml" filename="english.xml" /> 
+        </importFiles>
+        <importFiles gameSet="2" gameDesc="secondSet">
+            <loadfile type="xml" filename="ll_levels2.xml" /> 
+            <loadfile type="xml" filename="english_set2.20150506.xml" />
+        </importFiles>
+</gameConfig>

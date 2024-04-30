@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tutorials language="english">
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -----------------------------------------------------------------  LEVEL 1  ------------------------------------------------------------------------ -->
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<level lvlNumber="1" onAction="start">
+	<page id="1">
+		<elem type="txt" styleName="h1">Light Lanes!</elem>
+		<elem type="txt" styleName="h2" topMargin="50">Your goal is to hit the target...</elem>
+		<elem type="album">
+			<albumItem name="tut_target" />
+		</elem>	
+		<elem type="txt" styleName="h2" topMargin="50">...with the light beam.</elem>
+		<elem type="album">
+			<albumItem name="cannon" />
+			<albumItem name="light" yOffset="10" />
+		</elem>				
+	</page>
+	<page id="2">
+		<elem type="txt" styleName="h2">In order to reach the target, you will need to move the mirrors around so you can guide the light beam.</elem>
+		<elem type="album" topMargin="50">
+			<albumItem name="mirror" />
+		</elem>
+		<elem type="txt" styleName="h2" topMargin="50">You can pick up and move mirrors.</elem>		
+	</page>
+	<page id="3">
+		<elem type="txt" styleName="h2" topMargin="50">Press the GO button to start the light beam.</elem>
+		<elem type="album" topMargin="50">
+			<albumItem name="go_btn" />
+		</elem>		
+	</page>
+
+</level>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------  LEVEL 2  ------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------  FIRST CONNECTION----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<level lvlNumber="2" onAction="help">
+	<page id="1">
+		<elem type="txt" styleName="h2" topMargin="150">...hint...</elem>
+		<elem type="txt" styleName="h2" topMargin="50">Some objects are connected.</elem>
+		<elem type="album">
+			<albumItem name="connection" />
+		</elem>
+		
+	</page>
+</level>
+
+</Tutorials>
